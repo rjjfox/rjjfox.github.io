@@ -7,6 +7,8 @@
 - Design for this page
 - Build it from scratch or make do with this nicely minimalist theme - maybe start with this. Get the CV on here and then go from there.
 
+### Using Github Pages
+
 You can use the [editor on GitHub](https://github.com/rorycox/rorycox.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
