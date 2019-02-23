@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to Ryan's lovely fancy Github pages website
+
+### Things to work out
+
+- How to get a custom domain going
+- Whether to bother with GSuite
+- Design for this page
+- Build it from scratch or make do with this nicely minimalist theme - maybe start with this. Get the CV on here and then go from there.
 
 You can use the [editor on GitHub](https://github.com/rorycox/rorycox.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
