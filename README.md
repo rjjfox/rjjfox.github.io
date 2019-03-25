@@ -1,5 +1,13 @@
 # Welcome to Ryan's lovely fancy Github pages website
 
+### Profile
+
+A digital analytics and experimentation professional with 4+ years experience both agency and in-house with a strong mathematics and statistics focus. Currently available on a short-term project basis.
+
+### Education
+**2009-2013: Masters in Mathematics (First class with honours) from the University of Sheffield**
+Modules studied include: Statistical Modelling, Practical and Applied Statistics, Bayesian Statistics, Linear Models, Time Series, Functional Analysis, Analytic Number Theory, Complex Analysis, Applicable Analysis, Medical Statistics, Advanced Operations Research, Financial Mathematics, Stochastic Processes and Finance, and more
+
 ### Things to do
 
 - Work out how to get a custom domain going
@@ -8,8 +16,6 @@
 - Build it from scratch or make do with this nicely minimalist theme - maybe start with this. Get the CV on here and then go from there.
 
 ### Using Github Pages
-
-You can use the [editor on GitHub](https://github.com/rorycox/rorycox.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
