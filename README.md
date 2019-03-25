@@ -6,6 +6,7 @@ A digital analytics and experimentation professional with 4+ years experience bo
 
 ### Education
 **2009-2013: Masters in Mathematics (First class with honours) from the University of Sheffield**
+
 Modules studied include: Statistical Modelling, Practical and Applied Statistics, Bayesian Statistics, Linear Models, Time Series, Functional Analysis, Analytic Number Theory, Complex Analysis, Applicable Analysis, Medical Statistics, Advanced Operations Research, Financial Mathematics, Stochastic Processes and Finance, and more
 
 ### Things to do
