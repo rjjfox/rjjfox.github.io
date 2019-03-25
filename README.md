@@ -1,4 +1,4 @@
-## Welcome to Ryan's lovely fancy Github pages website
+# Welcome to Ryan's lovely fancy Github pages website
 
 ### Things to do
 
