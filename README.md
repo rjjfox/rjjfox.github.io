@@ -1,13 +1,51 @@
-# Welcome to Ryan's lovely fancy Github pages website
+# Ryan Fox
 
-### Profile
+[LinkedIn profile](https://www.linkedin.com/in/ryan-fox-70889380/)
+
+## Profile
 
 A digital analytics and experimentation professional with 4+ years experience both agency and in-house with a strong mathematics and statistics focus. Currently available on a short-term project basis.
 
-### Education
+---
+
+## Education
 **2009-2013: Masters in Mathematics (First class with honours) from the University of Sheffield**
 
-Modules studied include: Statistical Modelling, Practical and Applied Statistics, Bayesian Statistics, Linear Models, Time Series, Functional Analysis, Analytic Number Theory, Complex Analysis, Applicable Analysis, Medical Statistics, Advanced Operations Research, Financial Mathematics, Stochastic Processes and Finance, and more
+<details>
+<summary>Some of the modules studied</summary>
+ Statistical Modelling, Practical and Applied Statistics, Bayesian Statistics, Linear Models, Time Series, Functional Analysis, Complex Analysis, Applicable Analysis, Medical Statistics, Advanced Operations Research, Financial Mathematics, Stochastic Processes and Finance, and more
+</details>
+
+<br>
+
+---
+
+## Work Experience
+
+### Eurostar
+#### Digital Optimisation Manager (contract) <span style="float: right"> Oct 2017 &ndash; Mar 2019 &middot; 18 mos</span>
+
+Returning the team after time abroad, 
+
+#### Digital Optimisation Manager (contract) <span style="float: right"> Oct 2015 &ndash; Jul 2016 &middot; 9 mos</span>
+
+Initially a three month contract to help kickstart the Optimisation programme and drive a test a learn culture. After showing the value of experimentation, the team expanded to two managers and one junior.
+
+First test focused on pushing Eurostar's key USPs driving significant uplift in conversion rate and revenue with a projected £15m incremental revenue.
+
+### Maxymiser
+
+#### Senior Analyst <span style="float: right"> Dec 2014 &ndash; Jul 2015 &middot; 7 mos</span>
+
+Manage Customer Experience Optimisation (CXO) strategies for The Economist, Channel4, Time Out, Jobsite, IT Jobs, Interflora, E.ON and Which? magazine.
+
+#### Digital Optimisation Analyst <span style="float: right"> Oct 2013 &ndash; Dec 2014 &middot; 1 yr 3 mos</span>
+
+An analyst within the Media & Services vertical, providing direction and guidance for campaign creation from both a technical and strategic standpoint. Able to translate business requirements into effective specifications, with a view to delivering insightful results, aligned against client-specific KPIs.
+
+---
+
+# Other
 
 ### Things to do
 
