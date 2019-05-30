@@ -8,14 +8,17 @@ Currently looking for short-term contracts working remotely.
 
 [Find my background and experience here](aboutme.md)
 
+---
+
 # Other
 
 ### Things to do
 
-- Work out how to get a custom domain going
-- Decide whether to bother with GSuite
-- Design for this page
-- Build it from scratch or make do with this nicely minimalist theme - maybe start with this. Get the CV on here and then go from there.
+- [ ] Work out how to get a custom domain going
+- [ ] Decide whether to bother with GSuite
+- [ ] Design for this page
+- [ ] Build it from scratch or make do with this nicely minimalist theme - maybe start with this. 
+- [x] Get the CV on here and then go from there.
 
 ### Using Github Pages
 
