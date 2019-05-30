@@ -4,7 +4,7 @@
 
 ## Profile
 
-A digital analytics and experimentation professional with 4+ years experience both agency and in-house with a strong mathematics and statistics focus. 
+A digital analytics and experimentation professional with 4+ years experience both agency and in-house with a strong mathematics and statistics focus.
 
 Currently looking for short-term contracts working remotely.
 
