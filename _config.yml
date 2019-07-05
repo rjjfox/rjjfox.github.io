@@ -1,1 +1,27 @@
-theme: jekyll-theme-slate
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: R Fox Data
+email: ryan@rfoxoptimisation.co.uk
+description: Data related personal development projects. # this appears in Google
+baseurl: "/data" # the subpath of your site, e.g. /blog
+url: "http://rfoxoptimisation.github.io" # the base hostname & protocol for your site
+github_username: rfoxoptimisation
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Third-party services
+# just leave someone empty to disable it
+# google_analytics: 
+disqus_shortname:
+
+# used this for post_excerpt at index_page
+excerpt_separator: <!--description-->

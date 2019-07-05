@@ -1,5 +1,3 @@
-There's nothing much here other than a few links to other things I'm working on.
+# Data project repository
 
-More information is provided there.
-
-[R Fox Data](/data)
+A simple repository of data analytics projects.
