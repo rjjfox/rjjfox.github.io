@@ -9,7 +9,7 @@
 title: R Fox Data
 email: ryan@rfoxoptimisation.co.uk
 description: Data related personal development projects. # this appears in Google
-baseurl: "/data" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxoptimisation.github.io" # the base hostname & protocol for your site
 github_username: rfoxoptimisation
 
