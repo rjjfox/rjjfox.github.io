@@ -27,4 +27,6 @@ It also works from the run application.
 
 The code is barely 15 lines not including the dictionary which can be any length. Required is a dictionary, some if statements and some amazing pyperclip functions. To make it run from the command line or Run application requires a Batch file and potentially editing the PATH variable. As I said, it's simple yet very satisfying to see it work and I'll be looking forward to further applications.
 
+<script src="https://gist.github.com/rfoxoptimisation/84c64356f4f95a0e94290b548ab182da.js"></script>
+
 Now whether this is an actual application is debatable as I don't know if it will be used but the book is certainly now getting into the applicable and more applications should be forthcoming.
