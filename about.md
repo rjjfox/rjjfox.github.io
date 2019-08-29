@@ -6,6 +6,10 @@ permalink: /about/
 
 # Ryan Fox
 
+![Me ><]({{site.baseurl}}/assets/img/desertpic.jpg)
+
+Hi, I'm Ryan Fox, an experienced data analyst and website optimiser and Python hobbyist.
+
 [LinkedIn profile](https://www.linkedin.com/in/ryan-fox-70889380/)
 
 I'm currently taking some time off working to travel with my partner around Latin America. We plan to be away for some time and I plan on using some of the extra time relaxing, relaxing with a good course on statistics, data science, python or any other data related or more general programming related thing.
