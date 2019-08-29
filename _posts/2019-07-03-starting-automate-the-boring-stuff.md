@@ -7,11 +7,13 @@ location: Samaipata, Bolivia
 location-link: Samaipata
 ---
 
+![Al Swiegart's book, Automate the Boring Stuff with Python >](http://automatetheboringstuff.com/images/automate_cover_medium.png){: height="150px"}
+
 I've recently started working through this book in a course on Udemy run by the author himself, for free.
 
-<!--description-->
+Al Sweigart appears to be making every effort to making his book available to everyone, by making it avaiable online for free, and also by offering vouchers for free access to his Udemy course in which he runs through each chapter in his highly praised book.
 
-![Al Swiegart's book, Automate the Boring Stuff with Python >](http://automatetheboringstuff.com/images/automate_cover_medium.png)
+<!--description-->
 
 Al Sweigart appears to be making every effort to making his book available to everyone, by making it avaiable online for free, and also by offering vouchers for free access to his Udemy course in which he runs through each chapter in his highly praised book.
 
