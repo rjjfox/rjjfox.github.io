@@ -8,7 +8,8 @@
 # Site settings
 title: R Fox Data
 email: ryan@rfoxoptimisation.co.uk
-description: Data related personal development projects. # this appears in Google
+description:
+  <A personal data blog for Ryan Fox.> # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxoptimisation.github.io" # the base hostname & protocol for your site
 github_username: rfoxoptimisation

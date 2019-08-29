@@ -176,6 +176,12 @@ input#menu-toggle {
   }
 }
 
+.site-header img {
+  @include media-query($on-laptop){
+    float: left;
+  }
+}
+
 .post {
   @extend .dont-break-out;
 }
