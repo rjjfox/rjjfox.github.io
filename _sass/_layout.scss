@@ -176,9 +176,12 @@ input#menu-toggle {
   }
 }
 
+/* Ryan addition */
 .site-header img {
   @include media-query($on-laptop){
     float: left;
+    position:absolute;
+    left:5%;
   }
 }
 
