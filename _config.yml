@@ -26,3 +26,8 @@ disqus_shortname:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+# To enable projects as a new format of posts
+collections:
+  projects:
+    output: true
