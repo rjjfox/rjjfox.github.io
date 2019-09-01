@@ -2,7 +2,7 @@
 layout: post
 title:  "Working through 'Automate the Boring Stuff with Python' by Al Sweigart"
 date: 2019-07-03 20:00:00 +0600
-categories: programming python
+categories: python
 location: Samaipata, Bolivia
 location-link: Samaipata
 ---

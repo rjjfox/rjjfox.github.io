@@ -2,7 +2,7 @@
 layout: post
 title:  "An actual application of what I've learnt"
 date: 2019-07-12 16:00:00 +0600
-categories: programming python
+categories: python
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 ---

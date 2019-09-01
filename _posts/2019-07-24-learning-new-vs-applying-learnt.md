@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning new vs. applying 'learnt'"
 date: 2019-07-24 18:00:00 +0600
-categories: programming python
+categories: general
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 ---

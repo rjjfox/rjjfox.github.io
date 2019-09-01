@@ -2,7 +2,7 @@
 layout: post
 title:  "The Power of Habit"
 date: 2019-07-04 15:00:00 +0600
-categories: general
+categories: book-reviews
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 ---
