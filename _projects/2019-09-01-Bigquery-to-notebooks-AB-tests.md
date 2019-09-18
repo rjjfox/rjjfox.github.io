@@ -11,8 +11,8 @@ Whilst I was at Eurostar, our success metric tracking for AB tests came via Goog
 
 Why we didn't use a testing platform for our analysis is because the tool used changed a few times while I was there as our technical needs changed i.e. moving to react, client-side to server side. Therefore this meant that we wanted to ensure that our implementation was testing tool agnostic.
 
-Todos:
-- Explain why we didn't use a testing platform for it's stats engine
-- Screenshots of the bigquery integration
-- Add gists of the code
-- Brief explanation or links for setting up the bigquery integration
+<!-- TODO Explain why we used BigQuery and our own significance calculator instead of a testing platform -->
+<!-- TODO Explain how this is the first real project -->
+<!-- TODO Photo of the BigQuery implementation and a short explanation of how to do this -->
+<!-- TODO Small snippet of the code and photo of the graphs -->
+<!-- TODO Small explanation of the tests used -->
