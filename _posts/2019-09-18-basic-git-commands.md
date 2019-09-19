@@ -72,9 +72,17 @@ Now, to finish the link to Github, create a repository on [Github](https://githu
 
 These getting started steps you'll only need to do this the one time. When I first set this up on laptop, I wondered whether I'd have to set up the link again the next time I turned on my computer. But it will still be there and you can use `git status` mentioned below to check.
 
-Once you've made the link between your laptop and Github, you can focus on the everyday commands.
-
 ## Everyday git
+
+Now you've got your folder on Github and your computer, here are the everyday commands you'll need to keep your repository up-to-date.
+
+### Status check
+
+```dcl
+git status
+```
+
+This is your sanity check and harmless command. You can't break anything with this command and it doesn't do anything other than give you a status update. This will tell you what has been modified, deleted or added. I will usually run this in the CLI to before doing any commits or pushes as this will tell you what's to be updated
 
 ### Pushing vs pulling
 
@@ -84,13 +92,6 @@ An example: I usually write posts for this blog using VSCode. I save these into 
 
 The only case usually where I might make edits in Github are if I get prompted to add a readme or I make a small copy change. In this case I'll then need to 'pull' the content from Github when I'm working from the command line again. You'll be prompted from git if you need to make a pull request the next time you try to push.
 
-### Status check
-
-```dcl
-git status
-```
-
-This is your sanity check and harmless command. You can't break anything with this command and it doesn't do anything other than give you a status update. This will tell you what has been modified, deleted or added. I will usually run this in the CLI to before doing any commits or pushes as this will tell you what's to be updated
 
 ### Add, commit and push
 
