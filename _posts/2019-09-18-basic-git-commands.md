@@ -2,7 +2,7 @@
 layout: post
 title:  "7 basic git commands to get you started"
 date: 2019-09-18 18:00:00 +0700
-categories: general
+categories: guides
 location: Huaraz, Peru
 location-link: Huaraz
 ---
