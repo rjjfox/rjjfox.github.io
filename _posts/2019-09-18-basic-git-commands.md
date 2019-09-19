@@ -25,73 +25,109 @@ git push
 git pull
 ```
 
-This is it. All you'll need to get you started if you're simply trying to maintain a basic respository.
+This is it. All you'll need to get you started if you're simply trying to maintain a basic respository. Keep reading for more detail on what these functions do 
 
 ## Downloading and using git
 
-First you'll need to **download git** to your machine to be able to use it. You can do that [here](https://git-scm.com/downloads).
+To **download git** to your machine, go [here](https://git-scm.com/downloads).
 
-**Using git** is done from your command line or CLI. Normally opened by simply searching 'cmd'. Most likely you can open a terminal from your text editor as well. Both Jupyter Labs/Notebook and Visual Studio code have a CLI.
+**Using git** is done from your command line or CLI. Most likely you can open a terminal from your text editor as well. Both Jupyter Labs/Notebook and Visual Studio code have a CLI.
 
-You can check that git has installed correctly by typing in `git --version` into the command line. You should see something like `git version 2.18.0.windows.1`
+You can check that git has installed correctly by typing in `git --version` into the command line. This should return the version number installed.
 
 ## Getting started
 
-There are two ways to get started.
+There are two ways first make the connection through git between Github and your computer
 
 1. You create a folder on Github and clone it to your computer
-2. You already have a folder on your computer and want to link it to Github or will create a new one from your computer
+2. You create the folder on your computer or use an existing one
 
 For both of these steps, the first thing you'll need to do is navigate your folder directory via the command line. This is essentially pointing the CLI at your desired location. Learning how to do this is a key skill for any would-be programmer.
 
-### Creating the folder/repository on Github
+### Option One: Creating the folder/repository on Github
 
-For those who have created a repository already on Github, you will need to navigate to the parent folder where you want your repository to appear.
+For those who have created a repository already on Github, you'll need to **clone** the folder to your computer. First, navigate to the parent folder where you want your repository to appear.
 
-For example, if you named your repository 'test_repo' on Github and you want it to appear in 'C:\Users\ryanf\Documents>' then you would make this your directory in the CLI (using `cd C:\Users\ryanf\Documents>`, cd stands for change directory) and the folder 'test_repo' would appear in here with the below commands.
+For example, if you named your repository 'test_repo' on Github and you want it to appear in 'C:\Users\ryanf\Documents>' then you would make this your directory in the CLI using `cd C:\Users\ryanf\Documents>`.
 
-To have the folder appear, you simple need to grab the clone URL from your repository on Github. Then use the following command.
+Now you'll need to grab the clone URL from your repository on Github. Then use the following command:
 
 ```dcl
 git clone https://github.com/rfoxoptimisation/rfoxoptimisation.github.io.git
 ```
 
-You'll see the folder appear in your files and you can access and keep them updated using the instructions in the next section. If you make a mistake, you can always delete this folder from your computer and it will not delete the files from your Github account.
+You should see your repository appear as a folder in your files.
 
-### You already have a folder on your computer
+### Option Two: You already have a folder on your computer
 
 In this case, you'll simply need to walk the directory tree until the directory is the folder you want to link to Github. For example, if I want to link my 'test_repo' folder then I should have `C:\Users\ryanf\Documents>\test_repo` in the command line before I start using git commands.
 
-Once you've done this, you use the following to create this as a repository in your Github account.
+Once you've navigated to here, use:
 
 ```dcl
 git init
 ```
 
-You'll only need to do this the one time. I remember wondering when I set it up whether I'd have to set up the link again the next time I turned on my computer. How could the link still be there? But it is there. And you can use 'git status' mentioned below to quickly check if you're unsure.
+Now, to finish the link to Github, create a repository on [Github](https://github.com/) and follow the instructions for 'Push an existing repository…'.
 
-## Pushing and pulling
+These getting started steps you'll only need to do this the one time. When I first set this up on laptop, I wondered whether I'd have to set up the link again the next time I turned on my computer. But it will still be there and you can use `git status` mentioned below to check.
+
+Once you've made the link between your laptop and Github, you can focus on the everyday commands.
+
+## Everyday git
+
+### Pushing vs pulling
 
 For me, I'm almost solely pushing files to Github and rarely pulling them. What this means is that I am more regularly creating files in the linked folder on my laptop and sending them to Github rather than doing it the other way round.
 
-An example: I usually write posts for this blog using VSCode. I save these into a linked folder on my laptop and then use the below commands to send this to Github. 
+An example: I usually write posts for this blog using VSCode. I save these into a linked folder on my laptop and then use the below commands to send this to Github.
 
-The only case usually where I might make edits in Github are if I maybe get prompted to add a readme or if I make a small copy change there. In this case I'll then need to 'pull' the content from Github when I'm working from the command line again. You'll likely get a prompt from git telling you that you are one commit behind if you haven't made a pull request the next time you try to push.
+The only case usually where I might make edits in Github are if I get prompted to add a readme or I make a small copy change. In this case I'll then need to 'pull' the content from Github when I'm working from the command line again. You'll be prompted from git if you need to make a pull request the next time you try to push.
 
-Without further ado, here are those commands that will get you using git and feeling like a pro.
+### Status check
 
 ```dcl
 git status
 ```
 
-This is your sanity check and harmless command. You can't break anything with this command and it doesn't do anything other than give you a status update.
+This is your sanity check and harmless command. You can't break anything with this command and it doesn't do anything other than give you a status update. This will tell you what has been modified, deleted or added. I will usually run this in the CLI to before doing any commits or pushes as this will tell you what's to be updated
+
+### Add, commit and push
+
+These, along with `git status` are the three commands you'll find yourself using every single time you use git.
+
+Once you've made changes to your project and you are happy to add this to the repository formally, use the following.
 
 ```dcl
 git add .
+```
+
+Using the full stop at the end adds all the changes you've made to any files in the folder. If you use `git status` before and after adding the files, you'll see that the files move from 'Changes not staged for commit' to 'Changes to be commited'. This is the next step.
+
+```dcl
 git commit -m "Message here"
+```
+
+This is the second step in pushing your change to Github. Write a commit message so you can see what changes you made to your files. Warning, if you forget the `-m "[message]"` then you're going to find yourself in a weird Vim situation. [Here](https://medium.com/rightindem-design-team/how-to-never-get-stuck-in-vim-again-edaee4d632bd) is an article I enjoyed about how to get out of this.
+
+```dcl
 git push
 ```
+
+This final command will push your changes to Github. All in all a very satifying process.
+
+### Pull
+
+This is for those times mentioned above when the repository you have on your computer is behind the latest commits.
 
 ```dcl
 git pull
 ```
+
+Running this command will bring you up to date and if you're working on a larger project, you will find yourself needing this often along with many other commands out of scope for this post.
+
+## Feel like a pro
+
+That's it! These commands will take you far and you'll find them coming to you very easily after a few commits and pushes. Actually using the command line for a legitimate reason felt like a big step into the programming world and I hope this will help anyone going forward as well.
+
+There's no need to use Github desktop when it's this simple and it looks far more professional to use git from the CLI.
