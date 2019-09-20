@@ -1,0 +1,3 @@
+I"'<p>Whilst I was at Eurostar, our success metric tracking for AB tests came via Google Analytics. Often we needed to use BigQuery to pull out greater granularity in the data. Once we had the data, we’d parse that into Jupyter Labs/Notebooks and run the appropriate hypothesis tests there.</p>
+
+:ET

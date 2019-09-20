@@ -25,7 +25,7 @@ git push
 git pull
 ```
 
-This is it. All you'll need to get you started if you're simply trying to maintain a basic respository. Keep reading for more detail on what these functions do 
+This is it. All you'll need to get you started if you're simply trying to maintain a basic respository. Keep reading for more detail on what these functions do.
 
 ## Downloading and using git
 
@@ -91,7 +91,6 @@ For me, I'm almost solely pushing files to Github and rarely pulling them. What 
 An example: I usually write posts for this blog using VSCode. I save these into a linked folder on my laptop and then use the below commands to send this to Github.
 
 The only case usually where I might make edits in Github are if I get prompted to add a readme or I make a small copy change. In this case I'll then need to 'pull' the content from Github when I'm working from the command line again. You'll be prompted from git if you need to make a pull request the next time you try to push.
-
 
 ### Add, commit and push
 
