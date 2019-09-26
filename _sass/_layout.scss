@@ -169,7 +169,7 @@ input#menu-toggle {
   text-align:right;
   @include media-query($on-laptop){
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   nav a {
     font-weight:400;
@@ -268,6 +268,22 @@ p.readmore {
 .article-next {
 
 }
+
+
+/* intro section on homepage - Ryan addition*/
+.intro img {
+  @media screen and (max-width: $on-palm) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: $on-palm) {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 
 /* author info */
 

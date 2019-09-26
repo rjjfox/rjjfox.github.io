@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "End of summer learning update"
-date: 2019-09-20 13:00:00 +0600
 categories: python
 location: London, UK
 location-link: london
 ---
 
 I'm heading back home for a few weeks after 4 months in South America and I wanted to provide an update on how my learning is progressing.
+
+<!--description-->
 
 ## Things I've learnt
 
