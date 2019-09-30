@@ -18,6 +18,7 @@ github_username: rfoxoptimisation
 markdown: kramdown
 kramdown:
   input: GFM
+  parse_block_html: true
 
 # Third-party services
 # just leave someone empty to disable it

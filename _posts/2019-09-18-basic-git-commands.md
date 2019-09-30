@@ -9,7 +9,7 @@ location-link: Huaraz
 
 ![Git logo >](https://miro.medium.com/max/910/1*-l3Qrum9oPMiiM0yW7v_Ng.png){: height="100px"}
 
-Getting started in git is surprisingly easy and provides a quick and simple way to ensure your scripts are saved online. It's also a quick way to feel like a pro using the command line interface (CLI). In this post are the 7 commands you need to manage a simple repository.
+Getting started in git takes 10 minutes and provides a quick and simple way to ensure your scripts are saved online and gain version control. It's also makes you feel like a pro using the command line interface (CLI). In this post are the 7 commands you need to manage a simple repository.
 
 <!--description-->
 
@@ -26,6 +26,8 @@ git pull
 ```
 
 This is it. All you'll need to get you started if you're simply trying to maintain a basic respository. Keep reading for more detail on what these functions do.
+
+{% include toc.html %}
 
 ## Downloading and using git
 
@@ -126,8 +128,15 @@ git pull
 
 Running this command will bring you up to date and if you're working on a larger project, you will find yourself needing this often along with many other commands out of scope for this post.
 
-## Feel like a pro
+## Conclusion
 
 That's it! These commands will take you far and you'll find them coming to you very easily after a few commits and pushes. Actually using the command line for a legitimate reason felt like a big step into the programming world and I hope this will help anyone going forward as well.
+
+You now know how to:
+
+* Initialise and clone a repository to Github
+* Check the status of your repository
+* Keep your repository updated using add, commit and push
+* Pull the latest version of the repository from Github
 
 There's no need to use Github desktop when it's this simple and it looks far more professional to use git from the CLI.

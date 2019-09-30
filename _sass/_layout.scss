@@ -137,7 +137,7 @@ input#menu-toggle {
   right:5%;
 
   @include media-query($on-laptop) {
-    top: 67px;
+    top: 35px;
 
     @include media-query(400px) {
       top: 13px;
@@ -169,7 +169,7 @@ input#menu-toggle {
   text-align:right;
   @include media-query($on-laptop){
     text-align: center;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
   }
   nav a {
     font-weight:400;
@@ -226,15 +226,15 @@ p.readmore {
 .article_meta {
 
 }
-
-.article-content a {
-  // border-bottom:1px dotted red;
-  text-decoration:none;
-}
-.article-content a:hover {
-  color:red;
-  border-bottom:1px dotted red;
-}
+// 30/09/19 - Commented out as prefer standard link highlighting 
+// .article-content a {
+//   // border-bottom:1px dotted red;
+//   text-decoration:none;
+// }
+// .article-content a:hover {
+//   color:red;
+//   border-bottom:1px dotted red;
+// }
 
 .article-footer {
 
