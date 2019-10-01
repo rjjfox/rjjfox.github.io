@@ -139,9 +139,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  /* font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; */
-  /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: sans-serif, Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+  font-family:  sans-serif,  Calibri,  'Gill Sans',  'Gill Sans MT',  'Trebuchet MS';
   color: #222; }
 
 
@@ -158,7 +156,7 @@ h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h2.logo {
+h2.logo, h2.post_title {
   margin-top: 0;
   border-bottom: none;
 }
