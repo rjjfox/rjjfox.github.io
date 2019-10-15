@@ -14,7 +14,7 @@ permalink: /projects/
     <header class="post_header">
 
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <h4>Uses: {{post.uses}}</h4>
+        <h4>Uses: {{post.languages}}</h4>
         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
     </header>
     <div class="post_excerpt">
@@ -57,6 +57,5 @@ permalink: /projects/
             </a>
         </p>
     </footer>
-    <hr />
 </article>
 {% endfor %}
