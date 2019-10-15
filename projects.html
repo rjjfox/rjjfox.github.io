@@ -14,7 +14,7 @@ permalink: /projects/
     <header class="post_header">
 
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <h4>Uses: {{post.languages}}</h4>
+        <h4 style="margin-top: 0px;">Uses: {{post.languages}}</h4>
         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
     </header>
     <div class="post_excerpt">
@@ -35,22 +35,6 @@ permalink: /projects/
             <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
         </span>
         {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        -->
-
-        <!--
-        {% if post.author %}
-        <span class="author_meta">
-          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-          <span>David Lin</span>
-        </span>
-        {% endif %}
-        -->
 
         <p class="readmore">
             <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Learn more
