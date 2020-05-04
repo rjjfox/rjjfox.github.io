@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Matplotlib graph: deaths per day in the UK due to Covid-19"
-categories: book-reviews
+categories: python
 location: London, UK
 location-link: london
 ---
