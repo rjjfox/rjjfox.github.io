@@ -3,8 +3,8 @@ layout: post
 title:  "T-shaped people"
 date: 2019-09-20 14:00:00 +0600
 categories: general
-location: Toronto, Canada
-location-link: toronto
+location: London, UK
+location-link: london
 ---
 
 A T-shaped person is someone who is capable in many things and an expert in at least one. This is a phrase I learnt about recently and I like to think it justifies the meandering way that I go around in my passion to learn.
