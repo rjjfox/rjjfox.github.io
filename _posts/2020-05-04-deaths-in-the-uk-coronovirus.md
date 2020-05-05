@@ -16,6 +16,4 @@ The graph shows the downward trend in the number of deaths recorded and hopefull
 
 Click the image to open fully.
 
-[![Daily Deaths graph ><]({{site.baseurl}}/assets/img/Daily deaths in the UK.png)]({{site.baseurl}}/assets/img/Daily deaths in the UK.png)
-
-
+[![Daily Deaths graph ><]({{site.baseurl}}/assets/img/Daily deaths in the UK.png)]({{site.baseurl}}/assets/img/Daily deaths in the UK (larger).png){:target="_blank"} 
