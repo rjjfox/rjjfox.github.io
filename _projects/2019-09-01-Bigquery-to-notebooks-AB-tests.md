@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "End-to-end AB test calculator in Jupityer Notebooks"
+title:  "End-to-end AB test calculator in Jupyter Notebooks"
 languages: Python and BigQuery 
 date: 2019-09-01 15:00:00 +0700
 ---
