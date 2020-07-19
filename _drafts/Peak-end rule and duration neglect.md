@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Peak-end rule and duration neglect"
-categories: book-reviews
+categories: general
 location: Bali, Indonesia
 location-link: indonesia
 ---

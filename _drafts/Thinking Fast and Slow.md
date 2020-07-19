@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thinking Fast and Slow review"
-categories: book-reviews
+categories: books
 location: Bali, Indonesia
 location-link: indonesia
 ---
