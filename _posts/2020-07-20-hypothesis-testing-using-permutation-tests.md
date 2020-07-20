@@ -6,11 +6,11 @@ location: London, UK
 location-link: london
 ---
 
-![Assessing statistical significance >]({{site.baseurl}}/assets/img/Assess-Statistical-Significance.jpg){: height="300px"}
-
 There are many statistical methods for rejecting or failing to reject a null hypothesis. I want to run through **Permutation tests** and when you might use this method.
 
 A lot of statistical methods require making bold assumptions about the data and knowledge of their parameters. Permutation testing does away with only a couple of simple assumptions necessary and it's non-parametric.
+
+![Assessing statistical significance ><]({{site.baseurl}}/assets/img/Assess-Statistical-Significance.jpg){: height="250px"}
 
 <!--description-->
 
