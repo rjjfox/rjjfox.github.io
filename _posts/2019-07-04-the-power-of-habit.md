@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Power of Habit"
+title:  "The Power of Habit by Charles Duhigg"
 date: 2019-07-04 15:00:00 +0600
 categories: books
 location: Santa Cruz de la Sierra, Bolivia
