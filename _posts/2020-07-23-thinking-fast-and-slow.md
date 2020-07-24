@@ -29,4 +29,4 @@ I actually read this book sometime last year but have not written up a review be
 - The Anchoring Effect - we are all influenced by numbers in many incredible and subconscious ways (this effect astounded me)
 - The Halo Effect - if we like someone, we are more likely to think better of them in many ways that we actually have no reason to
 
-This really only scratches the surface of some of the incredible things in the book. I read *Thinking Fast and Slow* as an eBook and I will purchasing the paperback now that I'm home so that I can flick through it and be reminded of the incredible cognitive biases our minds come up with.
+This really only scratches the surface of some of the incredible things in the book. I read *Thinking Fast and Slow* as an eBook and will be purchasing the paperback now that I'm home so that I can flick through it and be reminded of the incredible cognitive biases our minds come up with.

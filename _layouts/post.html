@@ -21,18 +21,6 @@ layout: default
 
   <footer class="article-footer">
 
-    <div class="post-categories">
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-        <a href="{{site.baseurl}}/{{category|slugize}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-    </div>
-
   <!--<hr/>-->
 
   <!-- {% include author.html %} -->
