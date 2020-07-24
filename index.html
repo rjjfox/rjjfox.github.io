@@ -30,7 +30,7 @@ title: Home
       I love to read. Take a look at what I've been reading recently here.
     </p>
 
-    {% include goodreads-widgets/last-12-read.html %}
+    {% include goodreads-widgets/last-6-read.html %}
 
     <p class="readmore">
       <a href="{{ "/reading-activity" | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>See more
@@ -55,7 +55,13 @@ title: Home
       <header class="post_header">
         
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
+        <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
+        <div class="post_categories">
+          <i class="fas fa-tags"></i>
+          {% for category in post.categories %}
+          <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
+          {% endfor %}
+        </div>
       </header>
       <div class="post_excerpt">
         <p>
@@ -75,22 +81,6 @@ title: Home
           <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank" >{{ post.location }}</a>
         </span>
         {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        -->
-
-        <!--
-        {% if post.author %}
-        <span class="author_meta">
-          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-          <span>David Lin</span>
-        </span>
-        {% endif %}
-        -->
 
         <p class="readmore">
           <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read post

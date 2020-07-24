@@ -8,15 +8,17 @@ location-link: london
 
 ![Thinking Fast and Slow book cover >](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg){: height="300px"}
 
-5 stars. Highly recommended.
+5 stars.
 
-This book took me around 4-5 months to finish. I read it while reading other books at the same time and came back to it when I felt able to truly absorb it's rich content. It is absolutely jam-packed full of insights into the mind and the way we think. It is the amalglamation of a life's work for Daniel Kahneman, a nobel laureate. Much of the work is from his partnership working with Amos Tversky.
+This book took me around 4-5 months to finish, yet only because I wanted to ensure I read it when I could absorb the rich content it offered. It is absolutely slammed full of insights into the way we think.
 
-**I loved it.** It is well worth the read. I came away from each chapter with a better understanding for the way the mind works that I had to sit and think about for a while.
+I came away from each chapter feeling I had gained a new insight into and awareness of biases that we are all subjected to. Having knowledge of these gives us a better chance to not be swayed by them in the future.
+
+I loved it and would recommend it to anyone wanting to have more awareness of the way we think.
 
 <!--description-->
 
-Even having read *The Undoing Project* by Michael Lewis previously, which covers the relationship of Kahneman and Tversky and explains many of the their findings, I was blown away by the amount of content in this book.
+The book is the amalglammation of a life's work by Daniel Kahneman, who received the Nobel Prize for his work. Kahneman achieved something incredible by just managing to fit so much of his life's work into one incredibly engaging book. Much of the book actually covers work that came out of the fruitful lifelong partnership of Kahneman and fellow Israeli Amos Tversky. Another book I would highly recommend is Michael Lewis' *The Undoing Project*. My favourite book by Michael Lewis, it covers the relationship of Kahneman and Tversky and also some of the work that came out of their joint research.
 
 I actually read this book sometime last year but have not written up a review because I wanted to try and describe some of the heuristics, cognitive biases, effects and general things that Kahneman and Tversky discovered and demonstrated. However, each one essentially gets its own chapter in the book and I won't be able to explain any of them half as well. I will just name some of the ones that stuck with me to give a flavour for the sorts of things covered in the book.
 

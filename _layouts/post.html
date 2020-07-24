@@ -3,9 +3,16 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="artilce_header">
-    <h1 class="artilce_title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="artilce_meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  <header class="article_header">
+    <h1 class="article_title" itemprop="name headline">{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    <div class="post_categories">
+      <i class="fas fa-tags"></i>
+      {% for category in page.categories %}
+      <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
+      {% endfor %}
+    </div>
   </header>
 
   <div class="article-content" itemprop="articleBody">
@@ -14,12 +21,25 @@ layout: default
 
   <footer class="article-footer">
 
+    <div class="post-categories">
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/{{category|slugize}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+
   <!--<hr/>-->
 
-  {% include author.html %}
+  <!-- {% include author.html %} -->
 
   </footer>
-
-  {% include dq.html %}
+  {% if page.comments %}
+    {% include dq.html %}
+  {% endif %}
 
 </article>

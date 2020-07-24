@@ -204,6 +204,32 @@ input#menu-toggle {
 .post_date {
   color:#888;
   font-size:1.4rem;
+  display: inline-block;
+}
+
+// 24/07/2020 - Adding categories
+.post_categories { 
+  margin-left: 0.5rem;
+  display: inline-block;
+  color: #999 !important;
+  a {
+    background-color: #f6f6f6;
+    padding: .25em .4em;
+    font-weight: 600;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    color: #999 !important;
+  }
+  a:hover{
+    background-color: #ddd;
+  }
+}
+
+.post_meta p.readmore {
+  float: right;
 }
 
 p.readmore {

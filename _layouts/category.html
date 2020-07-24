@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<h1>{{ page.categories | capitalize }}</h1>
+
+{{ content }}
+
+<hr />
+
+<!-- <div>
+    <h1>
+        Recent posts filed under #{{ page.categories }}
+    </h1>
+</div> -->
+
+<div class="post-list">
+
+    {% for post in site.categories[page.categories] %}
+
+
+    <article class="post_card post">
+        <header class="post_header">
+
+            <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+            <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
+        </header>
+        <div class="post_excerpt">
+            <p>
+                {% if post.description %}
+                {{ post.description}}
+                {% else %}
+                {{ post.excerpt }}
+                {% endif %}
+            </p>
+        </div>
+        <footer class="post_meta">
+
+
+            {% if post.location %}
+            <span class="author-location">
+                <div data-icon="ei-location"></div>
+                <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
+            </span>
+            {% endif %}
+            <!--
+        {% for category in post.categories %}
+        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
+          <data data-icon="ei-archive"></data>
+          {{category}}</a>
+        {% endfor %}
+        -->
+
+            <!--
+        {% if post.author %}
+        <span class="author_meta">
+          <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
+          <span>David Lin</span>
+        </span>
+        {% endif %}
+        -->
+
+            <p class="readmore">
+                <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read post
+                </a>
+            </p>
+        </footer>
+        <hr />
+    </article>
+    {% endfor %}
+
+</div>
+
+</div>

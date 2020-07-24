@@ -4,10 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
-Feel free to contact me if you want to discuss any of the stuff I'm talking about on here or for whatever reason.
+I'm available for collaborations on projects, contract work and for just talking about data.
 
-I'll also very happily work remotely to help you with optimising your website and data analysis.
+Feel free to contact me.
 
-- [LinkedIn profile](https://www.linkedin.com/in/ryan-fox-70889380/)
+- [LinkedIn profile](https://www.linkedin.com/in/ryan-fox7/)
 - +44 77067 94177
-- ryan@rfoxoptimisation.co.uk
+- ryanfox212@gmail.com

@@ -7,11 +7,10 @@
 
 # Site settings
 title: R Fox Data
-email: ryan@rfoxoptimisation.co.uk
-description:
-  <A personal data blog for Ryan Fox.> # this appears in Google
+email: ryanfox212@gmail.com
+description: A personal data blog for Ryan Fox. # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rfoxoptimisation.github.io" # the base hostname & protocol for your site
+url: "http://rfoxdata.co.uk" # the base hostname & protocol for your site
 github_username: rfoxoptimisation
 
 # Build settings
@@ -20,15 +19,24 @@ kramdown:
   input: GFM
   parse_block_html: true
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      comments: true
+
 # Third-party services
 # just leave someone empty to disable it
 # google_analytics: 
-disqus_shortname:
+disqus_shortname: rfoxdata-co-uk
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
 
-# To enable projects as a new format of posts
+# To enable projects as a new format of posts pages
 collections:
   projects:
     output: true
+  
