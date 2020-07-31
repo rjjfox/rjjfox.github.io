@@ -10,7 +10,7 @@ Using the wealth of data coming in to play with some of Python's visualisation m
 
 Click the image to open fully.
 
-[![Daily Deaths graph ><]({{site.baseurl}}/assets/img/Daily deaths in the UK.png)]({{site.baseurl}}/assets/img/Daily deaths in the UK (larger).png){:target="_blank"}
+![Daily Deaths graph ><]({{site.baseurl}}/assets/img/Daily deaths in the UK (larger).png)
 
 <!--description-->
 
