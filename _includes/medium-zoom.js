@@ -1,0 +1,1 @@
+import mediumZoom from 'medium-zoom'
