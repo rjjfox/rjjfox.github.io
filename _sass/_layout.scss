@@ -323,6 +323,7 @@ p.readmore {
   @media (max-width: $on-laptop) {
     display:inline-block;
     text-align:center;
+    width: 100%;
   }
 }
 
@@ -392,7 +393,6 @@ body.custom-background {
 }
 
 .category-name {
-  padding-top:20px;
   text-transform:lowercase;
   font-variant:small-caps;
   h2 {

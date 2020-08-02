@@ -4,10 +4,9 @@ title:  "Analysing my Goodreads data"
 categories: [books, python]
 location: London, UK
 location-link: london
-skills: [data cleaning, data manipulation, data analysis, programming, api, data viz]
 ---
 
-I have been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.
+I've been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.
 
 Here I'll through some of the things I found out.
 
