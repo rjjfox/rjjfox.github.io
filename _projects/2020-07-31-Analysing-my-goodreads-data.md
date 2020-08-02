@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: project
 title:  "Analysing my Goodreads data"
-categories: [books, python]
 languages: Python
-location: London, UK
-location-link: london
 skills: [data cleaning, data manipulation, data analysis, programming, api, data viz]
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Travel website built through Jekyll"
 languages: HTML, CSS and Liquid 
 ---

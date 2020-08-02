@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="article_header">
+        <h1 class="article_title" itemprop="name headline">{{ page.title }}</h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}"
+            itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </header>
+
+    <div class="article-content" itemprop="articleBody">
+        {{ page.content }}
+    </div>
+
+    <footer class="article-footer">
+
+        <!--<hr/>-->
+
+        <!-- {% include author.html %} -->
+
+    </footer>
+    {% if page.comments %}
+    {% include dq.html %}
+    {% endif %}
+
+</article>
