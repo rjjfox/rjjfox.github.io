@@ -1,6 +1,18 @@
-_site
-.sass-cache
+# Jekyll
+_site/
+.sass-cache/
 .jekyll-metadata
-.jekyll-cache
+.jekyll-cache/
+
+# VS Code
+.vscode/*
 .vscode
-.vscode(1)
+.vscode (1)/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
