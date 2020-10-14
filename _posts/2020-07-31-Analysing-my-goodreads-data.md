@@ -6,9 +6,13 @@ location: London, UK
 location-link: london
 ---
 
-I've been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.
+![Slugsize breakdown >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}
 
-Here I'll through some of the things I found out.
+I've been curious to analyse my reading behaviour for a while.
+
+Do I read more now than I used to? What's the balance between fiction and non-fiction? Do I read more non-fiction now than before?
+
+For the last 7 years, I've been rating books and lining up future reads using Goodreads giving me a good size database to trawl through. Here I'll go through some of the things I found out.
 
 <!--description-->
 
@@ -137,9 +141,9 @@ We've so far had only had a small number of let-downs. However, there are books 
 
 I thoroughly enjoyed this project and only wish I could have had a couple of extra data points to play with, mostly the reading time for books. Looking back over the time I've spent on this, I would split the time spent as follows:
 
-- Data cleaning and manipulation - 10%
-- Calling the Google Books API - 75%
-- Data analysis and storytelling - 15%
+- Data cleaning and manipulation - 20%
+- Calling the Google Books API - 60%
+- Data analysis and storytelling - 20%
 
 Requesting extra information from the API was a new experience for me and it took quite some time. Handling HTTP 429 ('Too many requests') errors and working around getting some blank rows, creating a cache to not send the same requests multiple times all took me time to work around.
 
