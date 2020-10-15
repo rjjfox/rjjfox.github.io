@@ -228,6 +228,20 @@ input#menu-toggle {
   }
 }
 
+.project_skills {
+  margin-left: 0.5rem;
+  display: inline-block;
+  color: #999 !important;
+
+  span {
+    background-color: #f6f6f6;
+    padding: .25em .4em;
+    font-weight: 600;
+    border-radius: .25rem;
+    color: #999 !important;
+  }
+}
+
 .post_meta p.readmore {
   float: right;
 }

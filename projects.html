@@ -8,14 +8,20 @@ permalink: /projects/
     I've worked on a number of projects over the years. You can learn more about them here.
 </p>
 
-{% for post in site.projects %}
+{% for post in site.projects reversed %}
 <hr/>
 <article class="post_card post">
     <header class="post_header">
 
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <h4 style="margin-top: 0px;">Uses: {{post.languages}}</h4>
-        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
+        <!-- <h4 style="margin-top: 0px;">Uses: {{post.languages}}</h4> -->
+        <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
+        <div class="project_skills">
+            <i class="fas fa-tags"></i>
+            {% for skill in post.skills %}
+            <span>{{ skill }}</span>
+            {% endfor %}
+        </div>
     </header>
     <div class="post_excerpt">
         <p>
