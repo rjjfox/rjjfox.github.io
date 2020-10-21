@@ -2,7 +2,7 @@
 layout: project
 title:  "Analysing my Goodreads data"
 languages: Python
-skills: [data cleaning, feature engineering, storytelling, api, data viz]
+skills: [python, data cleaning, feature engineering, storytelling, api, data viz]
 ---
 
 I have been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.

@@ -242,7 +242,7 @@ input#menu-toggle {
   }
 }
 
-.post_meta p.readmore {
+.post_meta p.readmore:not(.project) {
   float: right;
 }
 

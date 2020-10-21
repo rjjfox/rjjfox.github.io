@@ -6,11 +6,11 @@ location: Paris, France
 location-link: paris
 ---
 
-Finally built an app on Heroku but it takes forever to load when you share it? It doesn't give the best first impression when people have to wait 5 seconds before the page even appears to start loading.
+Finally built an app on Heroku but it takes forever to load when you share it? It doesn't give the best first impression when people have to wait a while before the page even appears to start loading.
 
 ![Slugsize breakdown >](https://blog.behrouze.com/wp-content/uploads/2018/10/heroku-logotype-horizontal-purple.png){: width="50%"}
 
-This was my experience with my first Heroku-hosted app, which [calculates sample sizes for AB tests](https://abtestsamplesize.herokuapp.com/). The app was built through Python using the Streamlit library but before anyone could see the app I'd spent so long creating, testing on local servers, they had to sit through 5+ seconds of page load.
+This was my experience with my first Heroku-hosted app, which [calculates sample sizes for AB tests](https://abtestsamplesize.herokuapp.com/). The app was built through Python using the Streamlit library but before anyone could see the app I'd spent so long creating, testing on local servers, they had to sit through extra page load times unnecessarily.
 
 The problem was the slug size of my Heroku app.
 
@@ -19,6 +19,8 @@ The problem was the slug size of my Heroku app.
 > Slugs on Heroku consist of your application and all its dependencies
 
 The recommended Slug size for apps is 300MB (with the max. 500MB) and somehow I exceeded this despite my app consisting of only a few python scripts.
+
+*Note: In this post I am not talking about the load time after your Heroku app sleeps. This happens when you have the free Heroku subscription. Under this subscription, your app will sleep after 30 minutes of inactivity and take 5 or so seconds to wake up initially.*
 
 ## Check which files are taking up space
 
