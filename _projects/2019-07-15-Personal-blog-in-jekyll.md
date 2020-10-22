@@ -2,7 +2,7 @@
 layout: project
 title:  "Personal blog built through Jekyll"
 languages: HTML, CSS and Liquid
-skills: [html, css, liquid]
+skills: [html, css, liquid, storytelling]
 ---
 
 ![Site image >]({{site.baseurl}}\assets\img\blog_overview_smaller.jpg){: width="50%"}
