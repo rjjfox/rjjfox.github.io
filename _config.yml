@@ -11,7 +11,7 @@ email: ryanfox212@gmail.com
 description: A personal data blog for Ryan Fox. # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxdata.co.uk" # the base hostname & protocol for your site
-github_username: rfoxoptimisation
+github_username: rjjfox
 
 # Build settings
 markdown: kramdown
