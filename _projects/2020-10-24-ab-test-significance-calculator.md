@@ -5,23 +5,23 @@ languages: Python, CLI
 skills: [python, statistics, streamlit, cli, heroku, data viz]
 ---
 
-<!-- ![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"} -->
-
 > Statistical analysis is more than a set of computations
 
-This is one of the "Ten simple rules for effective statistical practice" outlined by a group of senior statisticians ([read more](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961)). As said by David Spiegelhalter in his book The Art of Statistics:
+This is one of the "Ten simple rules for effective statistical practice" outlined by a group of senior statisticians ([read more](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004961){:target="_blank"}). As British Statistician David Spiegelhalter says in his book The Art of Statistics:
 
 > Do not just plug into formulae or run procedures in software, without knowing why you are doing so.
 
-It is possible to run AB tests without understanding the logic behind it. It's possible to test a hypothesis and find a significance calculator online to spit out an answer to tell you if the result is significant or not.
+Being a firm believer in this myself, I decided to create an app myself using Statistical models that I believe in.
 
-However, doing this without an understanding of the assumptions being made and the pitfalls of your testing approach, you can easily find yourself presenting false or misleading results.
-
-I have always tried to use my own calculators for judging test results and I decided to create this as an app to better illustrate the different approaches to my colleagues and share a calculator with my team.
-
-[Try the app out](http://testcalculator.rfoxdata.co.uk/).
+![Image demo ><]({{site.baseurl}}/assets/img/testcalculator.gif){: width="75%"}
 
 <!--description-->
+
+[Try the app out](http://testcalculator.rfoxdata.co.uk/){:target="_blank"} or see the gif above.
+
+It is possible to run AB tests without understanding the logic behind it. There are loads of online calculators to tell you if your test result is significant or not. Doing this without an understanding of the assumptions being made and the pitfalls of your testing approach, however could potentially lead to false or misleading results.
+
+I have always used my own calculators and taken a keen interest in the statistics behind AB testing. I decided to create an app to share with my colleagues and help illustrate the different approaches to testing.
 
 ## Frequentist vs. Bayesian
 
@@ -63,7 +63,7 @@ I normally analyse my tests in a Jupyter Notebook, checking for any sign of foul
 
 I decided to use Streamlit to move the significance calculations to an app. I chose Streamlit over Dash simply for it's ease. Having already created plots in Matplotlib and Seaborn, creating a Streamlit app took no time at all and it was a simple step to put this onto Heroku.
 
-[Github repository](https://github.com/rjjfox/abtestcalculator)
+[Github repository](https://github.com/rjjfox/abtestcalculator){:target="_blank"}
 
 <!-- TODO: Bayes factor inclusion -->
 <!-- TODO: Explain some of the logic behind the Bayesian approach -->
