@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An actual application of what I've learnt"
+title:  "A Basic Command Line Application"
 date: 2019-07-12 16:00:00 +0600
 categories: python
 location: Santa Cruz de la Sierra, Bolivia
