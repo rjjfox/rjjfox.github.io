@@ -1,8 +1,9 @@
 ---
-layout: project
-title: "AB test calculator - Frequentist and Bayesian"
-languages: Python, CLI
-skills: [python, statistics, streamlit, cli, heroku, data viz]
+layout: post
+title: "Creating an AB test calculator with both Frequentist and Bayesian approaches"
+categories: [python, statistics]
+location: London, UK
+location-link: london
 ---
 
 > Statistical analysis is more than a set of computations
@@ -64,7 +65,3 @@ I normally analyse my tests in a Jupyter Notebook, checking for any sign of foul
 I decided to use Streamlit to move the significance calculations to an app. I chose Streamlit over Dash simply for it's ease. Having already created plots in Matplotlib and Seaborn, creating a Streamlit app took no time at all and it was a simple step to put this onto Heroku.
 
 [Github repository](https://github.com/rjjfox/abtestcalculator){:target="\_blank"}
-
-<!-- TODO: Bayes factor inclusion -->
-<!-- TODO: Explain some of the logic behind the Bayesian approach -->
-<!-- TODO: Explain some of the logic behind the Frequentist approach -->
