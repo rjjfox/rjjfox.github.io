@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "AB test sample size app"
+title: "AB test sample size app"
 languages: Python, CLI
 skills: [python, statistics, streamlit, cli, heroku, data viz]
 ---
@@ -9,7 +9,7 @@ skills: [python, statistics, streamlit, cli, heroku, data viz]
 
 Frequently having to calculate sample sizes for AB tests, I decided to create my own application for this, originally in a Jupyter Notebook and later as an app hosted on Heroku and built using the Streamlit framework.
 
-[Try the app out](http://samplesize.rfoxdata.co.uk/).
+[Try the app out](https://abtestsamplesize.herokuapp.com/).
 
 Creating an app and hosting it on Heroku allowed me to quickly calculate sample sizes through a tool of my own making without having to fire up Python first.
 
@@ -31,9 +31,9 @@ Therefore the graphical output I chose displays precision/MDE vs. runtime. Examp
 
 This works for multiple scenarios when testing:
 
-* Standard optimisation test - We want to test a new feature/design and need to understand whether we have enough traffic to test the change. The graphical output of runtimes vs. MDE quickly allows us to consider whether we might be able to drive enough of an impact through the change to allow us to run the test in a reasonable amount of time.
+- Standard optimisation test - We want to test a new feature/design and need to understand whether we have enough traffic to test the change. The graphical output of runtimes vs. MDE quickly allows us to consider whether we might be able to drive enough of an impact through the change to allow us to run the test in a reasonable amount of time.
 
-* Do no harm tests - Maybe the team need to make a change for functional reasons and they want to ensure they are not having too significant an impact on KPIs. In this scenario, the lower the MDE the better. The trade-off is the time it takes to run the test.
+- Do no harm tests - Maybe the team need to make a change for functional reasons and they want to ensure they are not having too significant an impact on KPIs. In this scenario, the lower the MDE the better. The trade-off is the time it takes to run the test.
 
 ## Hosting the app on Heroku
 
