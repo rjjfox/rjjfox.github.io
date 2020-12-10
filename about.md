@@ -50,6 +50,8 @@ On a non-professional front, I'm a keen traveller having taken a couple of years
 
 I'm also an avid reader, averaging around 2 books a week in 2020. I love to read and read mostly fiction as I discovered when I [analysed my reading activity]({% post_url 2020-07-31-Analysing-my-goodreads-data %}). I enjoy reading books about maths, statistics, data science and software engineering, recommending [The Art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics), [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), [Factfulness](https://www.goodreads.com/book/show/34890015-factfulness) and many many others.
 
+I currently live in Lyon, France with my girlfriend Laura having only moved here recently at the start of 2021. I'm originally from London where I have lived most of my life other than 4 years at university in Sheffield and a few years travelling.
+
 ## What are you working on now?
 
 I'm currently looking for a data science position in product analytics. While looking, I'm improving my Data Engineering knowledge which I see as one of the gaps in my knowledge currently. I'm also working as a Digital Consultant for Saint Francis Hospice to help them get more donations through their site during the Covid-19 pandemic.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Analysing my Goodreads data"
+title: "Analysing my Goodreads data"
 categories: [books, python]
 location: London, UK
 location-link: london
@@ -36,23 +36,32 @@ With this, we can start analysing the data.
 
 ### Top level numbers
 
-The dataset contains 808 books. Books are split between four shelves which are mutually exclusive: 'to-read', 'read', 'currently-reading' and 'abandoned' (a shelf I added to Goodreads standard three).
+#### The dataset contains 808 books.
 
-    read                    586
-    to-read                 214
-    currently-reading       5
-    abandoned               3
-    Name: Exclusive Shelf, dtype: int64
+Books are split between three shelves which are mutually exclusive: 'to-read', 'read' and 'currently-reading'.
 
-Fiction makes up 76% of the books listed on all shelves but only 57% of the 'read' shelf. Maybe I'm too unrealistic when it comes to my non-fiction reading.
+```python
+  read 615
+  to-read 209
+  currently-reading 5
+  Name: Exclusive Shelf, dtype: int64
+```
 
-My average rating for books I've read is 4.29 stars out of 5. Comparing this to the Goodreads average rating for the same set of books, we get 4.10. Maybe not a significant difference but it supports the feeling I have that in general I'm quite generous with my ratings.
+#### 75% of the books I've added are fiction
 
-The mean average number of pages per book is 388 pages. The median sits at 347 suggesting a potential bias added by some outliers, one potential outlier being Edward Gibbon's 3760 page, 6 volume history of the 'Decline and Fall of the Roman Empire'.
+I'm quite surprised at this to be honest. I thought it would be higher. I did not think non-fiction makes up such a percentage of the books I read.
 
-Again, looking at books I've read, the mean is 354 pages and median 335. A pattern is forming maybe suggesting a gap between what I'd like to have read and what I have actually read.
+#### My average rating for books read is 4.29 stars out of 5
 
-The mean publication year for the books on my shelves is 1969 which the median being 2001. Again there are some notable outliers, namely:
+Comparing this to the Goodreads average rating for the same set of books, we get 4.10. Maybe not a significant difference but it supports the feeling I have that in general I'm quite generous with my ratings.
+
+#### Mean average number of pages per book is 388 pages
+
+The median sits at 347 suggesting a potential bias added by some outliers, one potential outlier being Edward Gibbon's 3760 page, 6 volume history of the 'Decline and Fall of the Roman Empire' (which I've not yet read). Looking at just books I've read, the mean is 354 pages.
+
+#### The mean publication year for the books on my shelves is 1969 which the median being 2001
+
+We have some notable outliers, namely:
 
 - 'The Iliad' by Homer (750BCE)
 - 'The Art of War' by Sun Tzu (500BCE)
@@ -66,14 +75,11 @@ Now onto some visualisations.
 
 ### Reading habits over time
 
-Unfortunately, one feature I would have liked to extract from Goodreads was the full reading time. When a book moves onto the 'Currently-reading' shelf, this date is logged. Using this with 'Date Read' we would have been able to calculate a reading time for each book. No doubt this information would have correlated closely with the number of pages in the book, but whether the book was fiction or non-fiction may also have had an impact.
-
 Let's first plot the number of books read per month over time.
-<!-- TODO: Books over time with genre stack -->
 
 ![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read.png)
 
-First month of lockdown kicked off with a bang here with me reading 15 books, the highest tally over the past 5 years. There's also a general trend here of reading more and also more non-fiction books being read as time goes on.
+The first month of lockdown kicked off with a bang here with me reading 15 books, the highest tally over the past 5 years. There's also a general trend here of reading more and also more non-fiction books being read as time goes on.
 
 This is even clearer if we look at books read on a yearly basis.
 
@@ -123,7 +129,7 @@ This is a simple calculation of the rating I gave minus to contemplation time. H
 
 $$Let down score = Rating^{1.2} - Contemplation Time$$
 
-The threshold before a book is declared a let down is 0. Anything below this is classified as a let down. The bump given to the rating means that a 5* rating can bring back a book from the brink of being a let down up until 7 or so years have passed.
+The threshold before a book is declared a let down is 0. Anything below this is classified as a let down. The bump given to the rating means that a 5\* rating can bring back a book from the brink of being a let down up until 7 or so years have passed.
 
 Without further ado, here are the let-downs with a `let_down_score < 0`.
 
