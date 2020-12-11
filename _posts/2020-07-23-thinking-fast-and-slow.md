@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thinking Fast and Slow by Daniel Kahneman"
+title: "Book Review: Thinking Fast and Slow by Daniel Kahneman"
 categories: books
 location: London, UK
 location-link: london
@@ -18,7 +18,7 @@ I loved it and would recommend it to anyone wanting to have more awareness of th
 
 <!--description-->
 
-The book is the amalglammation of a life's work by Daniel Kahneman, who received the Nobel Prize for his work. Kahneman achieved something incredible by just managing to fit so much of his life's work into one incredibly engaging book. Much of the book actually covers work that came out of the fruitful lifelong partnership of Kahneman and fellow Israeli Amos Tversky. Another book I would highly recommend is Michael Lewis' *The Undoing Project*. My favourite book by Michael Lewis, it covers the relationship of Kahneman and Tversky and also some of the work that came out of their joint research.
+The book is the amalglammation of a life's work by Daniel Kahneman, who received the Nobel Prize for his work. Kahneman achieved something incredible by just managing to fit so much of his life's work into one incredibly engaging book. Much of the book actually covers work that came out of the fruitful lifelong partnership of Kahneman and fellow Israeli Amos Tversky. Another book I would highly recommend is Michael Lewis' _The Undoing Project_. My favourite book by Michael Lewis, it covers the relationship of Kahneman and Tversky and also some of the work that came out of their joint research.
 
 I actually read this book sometime last year but have not written up a review because I wanted to try and describe some of the heuristics, cognitive biases, effects and general things that Kahneman and Tversky discovered and demonstrated. However, each one essentially gets its own chapter in the book and I won't be able to explain any of them half as well. I will just name some of the ones that stuck with me to give a flavour for the sorts of things covered in the book.
 
@@ -29,4 +29,4 @@ I actually read this book sometime last year but have not written up a review be
 - The Anchoring Effect - we are all influenced by numbers in many incredible and subconscious ways (this effect astounded me)
 - The Halo Effect - if we like someone, we are more likely to think better of them in many ways that we actually have no reason to
 
-This really only scratches the surface of some of the incredible things in the book. I read *Thinking Fast and Slow* as an eBook and will be purchasing the paperback now that I'm home so that I can flick through it and be reminded of the incredible cognitive biases our minds come up with.
+This really only scratches the surface of some of the incredible things in the book. I read _Thinking Fast and Slow_ as an eBook and will be purchasing the paperback now that I'm home so that I can flick through it and be reminded of the incredible cognitive biases our minds come up with.

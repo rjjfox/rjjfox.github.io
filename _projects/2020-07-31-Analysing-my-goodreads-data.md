@@ -1,8 +1,9 @@
 ---
 layout: project
-title:  "Analysing my Goodreads data"
+title: "Analysing my Goodreads data"
 languages: Python
-skills: [python, data cleaning, feature engineering, storytelling, api, data viz]
+skills:
+  [python, data cleaning, feature engineering, storytelling, api, data viz]
 ---
 
 I have been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.
@@ -31,23 +32,32 @@ With this, we can start analysing the data.
 
 ### Top level numbers
 
-The dataset contains 808 books. Books are split between four shelves which are mutually exclusive: 'to-read', 'read', 'currently-reading' and 'abandoned' (a shelf I added to Goodreads standard three).
+#### The dataset contains 808 books.
 
-    read                    586
-    to-read                 214
-    currently-reading       5
-    abandoned               3
-    Name: Exclusive Shelf, dtype: int64
+Books are split between three shelves which are mutually exclusive: 'to-read', 'read' and 'currently-reading'.
 
-Fiction makes up 76% of the books listed on all shelves but only 57% of the 'read' shelf. Maybe I'm too unrealistic when it comes to my non-fiction reading.
+```python
+  read 615
+  to-read 209
+  currently-reading 5
+  Name: Exclusive Shelf, dtype: int64
+```
 
-My average rating for books I've read is 4.29 stars out of 5. Comparing this to the Goodreads average rating for the same set of books, we get 4.10. Maybe not a significant difference but it supports the feeling I have that in general I'm quite generous with my ratings.
+#### 75% of the books I've added are fiction
 
-The mean average number of pages per book is 388 pages. The median sits at 347 suggesting a potential bias added by some outliers, one potential outlier being Edward Gibbon's 3760 page, 6 volume history of the 'Decline and Fall of the Roman Empire'.
+I'm quite surprised at this to be honest. I thought it would be higher. I did not think non-fiction makes up such a percentage of the books I read.
 
-Again, looking at books I've read, the mean is 354 pages and median 335. A pattern is forming maybe suggesting a gap between what I'd like to have read and what I have actually read.
+#### My average rating for books read is 4.29 stars out of 5
 
-The mean publication year for the books on my shelves is 1969 which the median being 2001. Again there are some notable outliers, namely:
+Comparing this to the Goodreads average rating for the same set of books, we get 4.10. Maybe not a significant difference but it supports the feeling I have that in general I'm quite generous with my ratings.
+
+#### Mean average number of pages per book is 388 pages
+
+The median sits at 347 suggesting a potential bias added by some outliers, one potential outlier being Edward Gibbon's 3760 page, 6 volume history of the 'Decline and Fall of the Roman Empire' (which I've not yet read). Looking at just books I've read, the mean is 354 pages.
+
+#### The mean publication year for the books on my shelves is 1969 which the median being 2001
+
+We have some notable outliers, namely:
 
 - 'The Iliad' by Homer (750BCE)
 - 'The Art of War' by Sun Tzu (500BCE)
@@ -61,10 +71,7 @@ Now onto some visualisations.
 
 ### Reading habits over time
 
-Unfortunately, one feature I would have liked to extract from Goodreads was the full reading time. When a book moves onto the 'Currently-reading' shelf, this date is logged. Using this with 'Date Read' we would have been able to calculate a reading time for each book. No doubt this information would have correlated closely with the number of pages in the book, but whether the book was fiction or non-fiction may also have had an impact.
-
 Let's first plot the number of books read per month over time.
-<!-- TODO: Books over time with genre stack -->
 
 ![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read.png)
 
@@ -118,7 +125,7 @@ This is a simple calculation of the rating I gave minus to contemplation time. H
 
 $$Let down score = Rating^{1.2} - Contemplation Time$$
 
-The threshold before a book is declared a let down is 0. Anything below this is classified as a let down. The bump given to the rating means that a 5* rating can bring back a book from the brink of being a let down up until 7 or so years have passed.
+The threshold before a book is declared a let down is 0. Anything below this is classified as a let down. The bump given to the rating means that a 5\* rating can bring back a book from the brink of being a let down up until 7 or so years have passed.
 
 Without further ado, here are the let-downs with a `let_down_score < 0`.
 
@@ -143,3 +150,7 @@ I thoroughly enjoyed this project and only wish I could have had a couple of ext
 Requesting extra information from the API was a new experience for me and it took quite some time. Handling HTTP 429 ('Too many requests') errors and working around getting some blank rows, creating a cache to not send the same requests multiple times all took me time to work around.
 
 There is no action to take from this data but I have enjoyed analysing the different features and understanding my reading habits a little further. It will not influence the way I read whatsoever, but I enjoyed embedding my python skills a bit further.
+
+## Recommended next read
+
+In [another post]({% post_url 2020-12-11-Am-I-predictable-in-how-I-rate-books %}), I dedided to see how possible it is to predict what rating I give to books using this dataset

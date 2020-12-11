@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Power of Habit by Charles Duhigg"
+title: "Book Review: The Power of Habit by Charles Duhigg"
 date: 2019-07-04 15:00:00 +0600
 categories: books
 location: Santa Cruz de la Sierra, Bolivia
@@ -87,7 +87,7 @@ Willpower is not finite. Studies were done by researchers testing humans ability
 
 I just want to mention that I found the book insightful and easy to read. The book is split into three sections referring to habits in three different settings, in everyday people, businesses/organisations and then societies. I was less interested in the section on businesses and so skipped the last two sections of that chapter but found the book on the whole great and would recommend it as a useful book to read for anyone.
 
-Another book I've seen mentioned alongisde this one is the ['The Willpower Instinct'](https://www.goodreads.com/book/show/10865206-the-willpower-instinct){:target="_blank"} which I've marked 'Want to Read' on  Goodreads.
+Another book I've seen mentioned alongisde this one is the ['The Willpower Instinct'](https://www.goodreads.com/book/show/10865206-the-willpower-instinct){:target="\_blank"} which I've marked 'Want to Read' on Goodreads.
 
 A link to the author's website for the 'The Power of Habit' can be found [here][1].
 

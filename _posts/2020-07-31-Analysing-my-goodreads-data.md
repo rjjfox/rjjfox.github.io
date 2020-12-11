@@ -154,3 +154,7 @@ I thoroughly enjoyed this project and only wish I could have had a couple of ext
 Requesting extra information from the API was a new experience for me and it took quite some time. Handling HTTP 429 ('Too many requests') errors and working around getting some blank rows, creating a cache to not send the same requests multiple times all took me time to work around.
 
 There is no action to take from this data but I have enjoyed analysing the different features and understanding my reading habits a little further. It will not influence the way I read whatsoever, but I enjoyed embedding my python skills a bit further.
+
+## Recommended next read
+
+In [another post]({% post_url 2020-12-11-Am-I-predictable-in-how-I-rate-books %}), I dedided to see how possible it is to predict what rating I give to books using this dataset
