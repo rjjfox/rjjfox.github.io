@@ -6,7 +6,7 @@ location: London, UK
 location-link: london
 ---
 
-![Slugsize breakdown >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}
+![Goodreads logo >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}
 
 I've been curious to analyse my reading behaviour for a while.
 
