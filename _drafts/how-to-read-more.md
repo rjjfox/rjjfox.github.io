@@ -6,7 +6,7 @@ location: London, UK
 location-link: london
 ---
 
-The title for this post is a bit click-bait and also a bit of a brag but I love talking about reading and often see articles of this type and feel I have something to add.
+The title for this post is click-baity and also a bit of a brag but I love talking about reading and often see articles of this type and feel I have something to add.
 
 I love talking about reading. I'm not talking about reading specific books but the actual hobby of reading books in general. I love talking about the routine of reading, how good it feels to pick up a new book, to see your library grow. I love talking about that late night Rubicon point where you decide you're going all in to finish a book even if it means going to bed hours later than planned.
 
