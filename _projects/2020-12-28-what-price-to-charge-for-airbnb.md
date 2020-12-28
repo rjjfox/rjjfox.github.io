@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: project
 title: "What price should you charge for your Airbnb?"
-categories: [general, python]
-location: London, UK
-location-link: london
+languages: Python
+skills: [python, statistics, machine-learning, data-cleaning, data viz]
 ---
 
 Maybe you have a place that you're fortunate enough to be able to potentially put on Airbnb but you're not sure if it's worth the hassle. With Airbnb making host listing data publicly available, we can break down the nightly prices to understand what factors influence how much you can charge.
