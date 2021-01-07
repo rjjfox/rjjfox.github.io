@@ -348,9 +348,14 @@ p.readmore {
 }
 
 /* footer */
-
 .footer {
-  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .icon {
+  padding-right: 2px;
 }
 
 .left {

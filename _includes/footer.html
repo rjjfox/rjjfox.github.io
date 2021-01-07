@@ -1,11 +1,20 @@
 <footer class="site-footer">
   <div class="container">
-    <div class="footer">
-      <section class="small-font">
+    <div class="footer small-font">
+      <small class="copyright">
+        &copy; Copyright {{ 'now' | date: "%Y" }}, R Fox Data
+      </small>
+      <small class="social-links">
+        {% if site.email %}
+        {% include icon-email.html email=site.email %}
+        {% endif %}
+        {% if site.linkedin_username %}
+        {% include icon-linkedin.html username=site.linkedin_username %}
+        {% endif %}
         {% if site.github_username %}
         {% include icon-github.html username=site.github_username %}
         {% endif %}
-      </section>
+      </small>
     </div>
   </div>
 </footer>

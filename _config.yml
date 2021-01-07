@@ -12,6 +12,7 @@ description: A personal data blog for Ryan Fox. # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxdata.co.uk" # the base hostname & protocol for your site
 github_username: rjjfox
+linkedin_username: rjjfox
 
 # Build settings
 markdown: kramdown
@@ -20,8 +21,7 @@ kramdown:
   parse_block_html: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
@@ -29,7 +29,7 @@ defaults:
 
 # Third-party services
 # just leave someone empty to disable it
-# google_analytics: 
+# google_analytics:
 disqus_shortname: rfoxdata-co-uk
 
 # used this for post_excerpt at index_page
@@ -39,4 +39,3 @@ excerpt_separator: <!--description-->
 collections:
   projects:
     output: true
-  
