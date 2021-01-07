@@ -10,13 +10,15 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
       Welcome to my blog!
     </h1>
     <p>
-      Hi, I’m Ryan Fox, a product data scientist with over 7+ years experience of optimising products through experimentation and AB testing.
+      Hi, I’m Ryan Fox, a product data scientist with over 7+ years experience of optimising products through
+      experimentation and AB testing.
     </p>
     <p>
-      Learning is a hobby of mine. I love discovering new tools and languages for drawing insights from data. 
-    </p>  
+      Learning is a hobby of mine. I love discovering new tools and languages for drawing insights from data.
+    </p>
     <p>
-      Here I'll be documenting my learning journey and sharing programs and graphs built with new tools, packages, or languages. Enjoy!
+      Here I'll be documenting my learning journey and sharing programs and graphs built with new tools, packages, or
+      languages. Enjoy!
     </p>
   </div>
 
@@ -44,15 +46,15 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
       Recent posts
     </h1>
   </div>
-  
+
   <div class="post-list">
 
-    {% for post in site.posts limit:5%}
+    {% for post in site.posts limit:10%}
 
-    
+
     <article class="post_card post">
       <header class="post_header">
-        
+
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
         <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
         <div class="post_categories">
@@ -68,16 +70,16 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
-        </p> 
+          {% endif %}
+        </p>
       </div>
-    <footer class="post_meta">
+      <footer class="post_meta">
 
 
         {% if post.location %}
         <span class="author-location">
           <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank" >{{ post.location }}</a>
+          <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
         </span>
         {% endif %}
 
@@ -86,11 +88,12 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
           </a>
         </p>
       </footer>
-      <hr/>
+      <hr />
     </article>
     {% endfor %}
 
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> More posts  </a></div>
+    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> More posts </a>
+    </div>
   </div>
 
 </div>
