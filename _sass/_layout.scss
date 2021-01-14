@@ -51,16 +51,16 @@ body {
   animation: blinking_underscore_frame 1.5s infinite ease;
 }
 
-.logo {
+.site-title {
   margin-bottom: 12.5px;
   font-weight: $font-weight-bold;
 }
-.logo a {
+.site-title a {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.logo a:hover {
+.site-title a:hover {
   color: #222;
   background-image: -webkit-linear-gradient(bottom, #222, #222);
   background-image: linear-gradient(to top, #222, #222);
@@ -175,20 +175,8 @@ input#menu-toggle {
   }
 }
 
-/* Ryan addition */
-.site-header img {
-  @include media-query($on-laptop) {
-    float: left;
-    position: absolute;
-    left: 5%;
-  }
-}
-
 .post {
   @extend .dont-break-out;
-}
-
-.post-list {
 }
 
 .post_header {
@@ -263,18 +251,6 @@ p.readmore {
   margin-bottom: 2rem;
 }
 
-.article_meta {
-}
-// 30/09/19 - Commented out as prefer standard link highlighting
-// .article-content a {
-//   // border-bottom:1px dotted red;
-//   text-decoration:none;
-// }
-// .article-content a:hover {
-//   color:red;
-//   border-bottom:1px dotted red;
-// }
-
 .article-footer {
   margin-top: 2rem;
   padding: 2rem 0;
@@ -289,18 +265,6 @@ p.readmore {
     text-decoration: underline;
     margin-left: 8px;
   }
-}
-
-.article_share {
-}
-
-.article_share .location {
-}
-
-.artilce-prev {
-}
-
-.article-next {
 }
 
 /* intro section on homepage - Ryan addition*/
