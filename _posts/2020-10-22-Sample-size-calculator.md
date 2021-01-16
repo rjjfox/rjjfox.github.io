@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating an AB test sample size app"
-categories: [statistics, python]
+categories: [statistics, python, web-dev]
 location: London, UK
 location-link: london
 ---

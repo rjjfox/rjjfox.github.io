@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating an AB test calculator with both Frequentist and Bayesian approaches"
-categories: [python, statistics]
+categories: [python, statistics, web-dev]
 location: London, UK
 location-link: london
 ---
