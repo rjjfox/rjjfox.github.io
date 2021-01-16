@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.categories | capitalize }}</h1>
+<h1>{{ page.title }}</h1>
 
 {{ content }}
 
@@ -24,6 +24,12 @@ layout: default
 
             <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
             <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
+            <div class="post_categories">
+                <i class="fas fa-tags"></i>
+                {% for category in post.categories %}
+                <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
+                {% endfor %}
+            </div>
         </header>
         <div class="post_excerpt">
             <p>
