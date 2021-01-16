@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Want to read more? Six tips to help you enjoy more books"
-categories: books
+categories: [general, books]
 location: London, UK
 location-link: london
 ---

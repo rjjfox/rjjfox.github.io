@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker images vs. containers - how I explained it to myself"
-categories: general
+categories: [web-dev]
 location: London, UK
 location-link: london
 ---

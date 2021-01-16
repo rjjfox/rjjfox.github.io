@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Reduce your Heroku slug size"
-categories: general
+title: "Reduce your Heroku slug size"
+categories: [web-dev]
 location: Paris, France
 location-link: paris
 ---
@@ -20,11 +20,11 @@ The problem was the slug size of my Heroku app.
 
 The recommended Slug size for apps is 300MB (with the max. 500MB) and somehow I exceeded this despite my app consisting of only a few python scripts.
 
-*Note: In this post I am not talking about the load time after your Heroku app sleeps. This happens when you have the free Heroku subscription. Under this subscription, your app will sleep after 30 minutes of inactivity and take 5 or so seconds to wake up initially.*
+_Note: In this post I am not talking about the load time after your Heroku app sleeps. This happens when you have the free Heroku subscription. Under this subscription, your app will sleep after 30 minutes of inactivity and take 5 or so seconds to wake up initially._
 
 ## Check which files are taking up space
 
-*Note: this article assumes you have the Heroku CLI installed. If you dont, follow the details on the [Heroku devcenter](https://devcenter.heroku.com/articles/heroku-cli).*
+_Note: this article assumes you have the Heroku CLI installed. If you dont, follow the details on the [Heroku devcenter](https://devcenter.heroku.com/articles/heroku-cli)._
 
 The first and most simple step in understanding why your slugsize is so large is to check which files are taking up space. We use Heroku bash for this.
 
@@ -72,7 +72,7 @@ The same way you can create a .gitignore file, you can create one for your Herok
 
 For a different Heroku app, I created a REAMME.md for the Github repository where the app files were held. In this, I had included an image to help explain the purpose of the repository. It's also quite common to use a gif for this purpose. These can be big files.
 
-Heroku doesn't need these files but Github does. Therefore you wouldn't want to ignore these in your .gitignore file but this is where you can use your *.slugignore*. The .slugignore works in exactly the same way as your .gitignore, exclude any files from your Heroku slug that are not needed in the app.
+Heroku doesn't need these files but Github does. Therefore you wouldn't want to ignore these in your .gitignore file but this is where you can use your _.slugignore_. The .slugignore works in exactly the same way as your .gitignore, exclude any files from your Heroku slug that are not needed in the app.
 
 ### Store assets somewhere else
 
