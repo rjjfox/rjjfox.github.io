@@ -2,7 +2,7 @@
 layout: project
 title: "AB test calculator - Frequentist and Bayesian"
 languages: Python, CLI
-skills: [python, statistics, streamlit, cli, heroku, data viz]
+skills: [python, statistics, streamlit, cli, deployment, data viz]
 ---
 
 > Statistical analysis is more than a set of computations

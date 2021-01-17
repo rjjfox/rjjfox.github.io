@@ -2,7 +2,7 @@
 layout: project
 title: "AB test sample size app"
 languages: Python, CLI
-skills: [python, statistics, streamlit, cli, heroku, data viz]
+skills: [python, statistics, streamlit, cli, deployment, data viz]
 ---
 
 ![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"}
