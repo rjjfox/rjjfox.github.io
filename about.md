@@ -11,9 +11,9 @@ Hi, I'm Ryan Fox, a product data scientist with over 7+ years experience of opti
 I'm passionate about finding insights in data and driving real change. Experimentation programs that I've led have been forecasted to deliver millions of pounds worth of incremental revenue.
 
 <div align="center">
-<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](https://www.linkedin.com/in/rjjfox/) | <i class="fas fa-phone"></i> +447706794177
+<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](mailto:ryanfox212@gmail.com) | <i class="fas fa-phone"></i> +447706794177
 <br>
-<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fab fa-kaggle"></i> [Kaggle](https://www.kaggle.com/ryanfox212) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
+<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
 </div>
 
 ## My background
@@ -57,7 +57,7 @@ I currently live in Lyon, France with my girlfriend Laura having only moved here
 I'm currently looking for a data science position in product analytics. While looking, I'm improving my Data Engineering knowledge which I see as one of the gaps in my knowledge currently. I'm also working as a Digital Consultant for Saint Francis Hospice to help them get more donations through their site during the Covid-19 pandemic.
 
 <div align="center">
-<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](https://www.linkedin.com/in/rjjfox/) | <i class="fas fa-phone"></i> +447706794177
+<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](mailto:ryanfox212@gmail.com) | <i class="fas fa-phone"></i> +447706794177
 <br>
-<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fab fa-kaggle"></i> [Kaggle](https://www.kaggle.com/ryanfox212) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
+<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
 </div>
