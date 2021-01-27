@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What price should you charge for your Airbnb?"
-categories: [general, python]
+categories: [general, python, machine-learning]
 location: London, UK
 location-link: london
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Am I predictable in how I rate books?"
-categories: [books, python]
+categories: [books, python, machine-learning]
 location: London, UK
 location-link: london
 ---
