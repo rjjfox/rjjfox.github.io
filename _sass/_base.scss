@@ -306,16 +306,17 @@ a {
   color: #07c;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 p.readmore a:hover {
-  color: #b1b1b1;
+  color: #0070ff;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #07c;
-  text-decoration: underline;
+  color: #0070ff;
   cursor: pointer;
 }
 

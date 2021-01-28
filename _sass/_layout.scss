@@ -57,18 +57,11 @@ body {
 }
 .site-title a {
   -webkit-transition: 0.4s;
-  transition: 0.4s;
+  transition: all 0.4s;
 }
 
 .site-title a:hover {
-  color: #222;
-  background-image: -webkit-linear-gradient(bottom, #222, #222);
-  background-image: linear-gradient(to top, #222, #222);
-  text-shadow: -1px -1px 0 #fdfdfd, 1px -1px 0 #fdfdfd, -1px 1px 0 #fdfdfd,
-    1px 1px 0 #fdfdfd;
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 96%;
+  color: #0070ff;
 }
 
 .nav {
