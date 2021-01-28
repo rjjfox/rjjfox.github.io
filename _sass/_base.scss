@@ -39,17 +39,9 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1270px;
   margin: 0 auto;
   padding: 10px 10px;
-  box-sizing: border-box;
-  /* for test only */
-  border: 1px dashed #eeeeee;
-}
-.column,
-.columns {
-  width: 100%;
-  float: right;
   box-sizing: border-box;
 }
 
@@ -57,7 +49,7 @@
 @media (min-width: 401px) {
   .container {
     width: 100%;
-    padding: 32px 32px;
+    padding: 0 32px;
   }
 }
 
@@ -65,8 +57,18 @@
 @media (min-width: 781px) {
   .container {
     width: 90%;
-    padding-top: 50px;
   }
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: right;
+  box-sizing: border-box;
+}
+
+/* For devices larger than 780px */
+@media (min-width: 781px) {
   .column,
   .columns {
     margin-right: 4%;
@@ -200,7 +202,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: sans-serif, Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS";
+  font-family: $base-font-family;
   color: #222;
 }
 
@@ -303,7 +305,7 @@ p.readmore a,
 }
 
 a {
-  color: #07c;
+  color: #17181e;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 0.35s;
