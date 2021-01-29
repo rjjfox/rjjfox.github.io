@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "A Basic Command Line Application"
+title: "A Basic Command Line Application"
 date: 2019-07-12 16:00:00 +0600
 categories: python
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
+image: /assets/img/ColourLookup.gif
 ---
 
 Continuing with Al Sweigert's 'Automate the boring stuff with Python' book and course, I completed the first section 'Python Programming Basics'. I found this section slow but, naturally, quite important. At the end of it came the first truly exciting part which is covered in the Apendix in the book. It came in the first 'Chapter Project' of the book, where you are given a project that will demonstrate the concepts learnt in the chapter. The example given is a (insecure) password locker.
