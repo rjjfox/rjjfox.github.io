@@ -1,4 +1,5 @@
-/* layout */
+/* Layout
+—————————————————————————————————————————————————— */
 * {
   box-sizing: border-box;
 }
@@ -43,17 +44,6 @@ body {
       border-bottom: 1px dotted;
     }
   }
-}
-
-/* Effects
-—————————————————————————————————————————————————— */
-
-.blinking_underscore {
-  -webkit-animation: blinking_underscore_frame 1.5s infinite ease;
-  -moz-animation: blinking_underscore_frame 1.5s infinite ease;
-  -ms-animation: blinking_underscore_frame 1.5s infinite ease;
-  -o-animation: blinking_underscore_frame 1.5s infinite ease;
-  animation: blinking_underscore_frame 1.5s infinite ease;
 }
 
 /* Site Navigation
@@ -346,14 +336,8 @@ p.readmore {
   text-align: right;
 }
 
-.post_meta {
-  .author_meta {
-    img {
-      height: 24px;
-      width: 24px;
-    }
-  }
-}
+/* Article Display
+—————————————————————————————————————————————————— */
 
 .article_title {
   margin-bottom: 1rem !important;
@@ -379,37 +363,9 @@ p.readmore {
   }
 }
 
-/* author info */
+/* Footer
+—————————————————————————————————————————————————— */
 
-.author {
-  @media (max-width: $on-laptop) {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-  }
-}
-
-.authorimage {
-  @media (min-width: $on-laptop+1) {
-    float: left;
-  }
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  border-radius: 5%;
-  -webkit-background-size: cover !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  margin-right: 10px;
-}
-
-.authorinfo {
-  .bio {
-    color: #999;
-  }
-}
-
-/* footer */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -420,29 +376,8 @@ p.readmore {
   padding-right: 2px;
 }
 
-.left {
-  text-align: center;
-
-  @media (min-width: $on-laptop) {
-    text-align: left;
-  }
-}
-
-.right {
-  text-align: center;
-
-  @media (min-width: $on-laptop) {
-    text-align: right;
-  }
-}
-
-/* icon */
-
-.icon {
-  vertical-align: bottom;
-}
-
-/* Archive page */
+/* Archive or all posts Page
+—————————————————————————————————————————————————— */
 
 .archive_list {
   margin-left: 5%;
@@ -475,93 +410,40 @@ div.post_title span.date {
   text-align: right;
 }
 
-/* others */
+/* Other
+—————————————————————————————————————————————————— */
 
 .small-font {
   font-size: $small-font-size;
 }
 
-/* ------------------------------------
- * frames
- * ------------------------------------ */
+/* Author Info
+—————————————————————————————————————————————————— */
 
-@keyframes "blinking_underscore_frame" {
-  0% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  50% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  100% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
+.author {
+  @media (max-width: $on-laptop) {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
   }
 }
 
-@-moz-keyframes blinking_underscore_frame {
-  0% {
-    filter: alpha(opacity=0);
-    opacity: 0;
+.authorimage {
+  @media (min-width: $on-laptop+1) {
+    float: left;
   }
-  50% {
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  100% {
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 5%;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  margin-right: 10px;
 }
 
-@-webkit-keyframes "blinking_underscore_frame" {
-  0% {
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  50% {
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  100% {
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-}
-
-@-ms-keyframes "blinking_underscore_frame" {
-  0% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  50% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  100% {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-}
-
-@-o-keyframes "blinking_underscore_frame" {
-  0% {
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  50% {
-    filter: alpha(opacity=100);
-    opacity: 1;
-  }
-  100% {
-    filter: alpha(opacity=0);
-    opacity: 0;
+.authorinfo {
+  .bio {
+    color: #999;
   }
 }
