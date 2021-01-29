@@ -55,7 +55,7 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
       <div class="post__inner">
 
         {% if post.image %}
-        <div class="image__wrap">
+        <div class="image-wrap">
           <a href="{{ post.url | prepend: site.baseurl }}" class="post__image">
             <img src="{{ post.image }}" alt="{{ post.title }}">
           </a>
@@ -72,18 +72,19 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
               {{ post.content | strip_html | truncatewords:25 }}
             </p>
           </div>
-          <div class="post_meta">
+          <div class="post_meta small-font">
             <time class="post_date">{{ post.date | date: "%d %b %Y" }}</time>
-            <div class="post_categories">
-              <i class="fas fa-tags"></i>
-              {% for category in post.categories %}
-              <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
-              {% endfor %}
-            </div>
+
+            <i class="fas fa-tags"></i>
+            {% for category in post.categories %}
+            <span class="post_categories">
+              <a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a>
+            </span>
+            {% endfor %}
+
           </div>
         </div>
 
-        <hr />
       </div>
     </article>
     {% endfor %}
