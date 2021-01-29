@@ -6,22 +6,8 @@
   bottom: 0;
   padding-bottom: 0rem;
   width: 100%;
-
-  /* footer style */
   color: #99999a;
   background-color: #fff;
-
-  .left {
-    a {
-      color: #666;
-      border-bottom: 1px dotted;
-      text-decoration: none;
-    }
-    a:hover {
-      color: red;
-      border-bottom: 1px dotted;
-    }
-  }
 
   .footer {
     display: flex;
@@ -29,8 +15,17 @@
     align-items: center;
     min-height: 100px;
   }
+}
 
-  .icon {
-    padding-right: 2px;
+.social__item {
+  display: inline-block;
+  margin: 0 2px;
+
+  .social__link {
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    font-size: 2.1rem;
+    line-height: 1;
   }
 }

@@ -26,15 +26,10 @@
 :: 2-Base Styles
     2.1-Base
 :: 3-Modules
-    3.1-Scroll Button Top
-    3.2-Header
-    3.3-Search
-    3.4-Pagination
-    3.5-Footer
-    3.6-Gallery
-    3.7-Social
-    3.8-Hero
-    3.9-Contact
+    3.1-Header
+    3.2-Pagination
+    3.3-Footer
+    3.4-Hero
 :: 4-Layouts
     4.1-Home Page
     4.2-Post Page
@@ -59,8 +54,9 @@
 :: 3-Modules
 ======================= */
 @import "3-modules/header";
-@import "3-modules/hero";
+@import "3-modules/pagination";
 @import "3-modules/footer";
+@import "3-modules/hero";
 
 /* =======================
 :: 4-Layouts
