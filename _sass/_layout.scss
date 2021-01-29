@@ -23,6 +23,9 @@ body {
   padding-bottom: 140px;
 }
 
+/* Footer
+—————————————————————————————————————————————————— */
+
 .site-footer {
   position: absolute;
   bottom: 0;
@@ -31,7 +34,7 @@ body {
 
   /* footer style */
   color: #99999a;
-  background-color: #fafafb;
+  background-color: #fff;
 
   .left {
     a {
@@ -43,6 +46,17 @@ body {
       color: red;
       border-bottom: 1px dotted;
     }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  .icon {
+    padding-right: 2px;
   }
 }
 
@@ -361,19 +375,6 @@ p.readmore {
     text-decoration: underline;
     margin-left: 8px;
   }
-}
-
-/* Footer
-—————————————————————————————————————————————————— */
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer .icon {
-  padding-right: 2px;
 }
 
 /* Archive or all posts Page
