@@ -22,24 +22,6 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
         languages. Enjoy!
       </p>
     </div>
-
-    <hr>
-    <div class="currently-reading">
-      <h1>Reading activity</h1>
-
-      <p>
-        I love to read. Take a look at what I'm currently reading.
-      </p>
-
-      {% include goodreads-widgets/currently-reading.html %}
-      <br style="clear: both">
-
-      <p class="readmore">
-        <a href="{{ "/reading-activity" | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>See more
-        </a>
-      </p>
-
-    </div>
   </div>
 
 </div>
@@ -49,7 +31,7 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
 
   <div class="post-list">
 
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:12 %}
 
     <article class="post_card post">
       <div class="post__inner">
