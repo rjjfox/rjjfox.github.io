@@ -14,11 +14,13 @@ $font-weight-light: 100;
 $font-weight-normal: 400;
 $font-weight-bold: 600;
 
+$light-grey-border: 10px solid #f9f9fc;
+
 $spacing-unit: 30px;
 
 $text-color: #111;
 $background-color: #fdfdfd;
-$brand-color: #2a7ae2;
+$link-hover: #0070ff;
 
 $grey-color: #828282;
 $grey-color-light: #b1b1b1;
@@ -58,8 +60,7 @@ $on-laptop: 780px;
 
 @import "normalize", "base", "layout", "color", "syntax-highlighting";
 
-/* Entering Ryan's actual CSS territory here */
-
+/* markdown control placement of images */
 img[alt*=">"] {
   float: right;
   margin-left: 10px;

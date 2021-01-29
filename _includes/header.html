@@ -1,31 +1,44 @@
 <header class="header">
   <div class="container">
+
     <div class="topnav">
       <h2 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
-      <div class="nav">
-        <div class="site-nav">
-          <nav>
-            <ul class="page-link">
-              <li><a href="{{ "/archive" | prepend: site.baseurl }}">All posts</a></li>
-              <li><a href="{{ "/projects" | prepend: site.baseurl }}">Projects</a></li>
-              <li><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-              <li><a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
-            </ul>
-          </nav>
+
+      <nav class="main-nav" id="main-nav">
+        <div class="main-nav__box">
+
+          <div class="nav__icon-close" onclick="openMenu()">
+            <i class="material-icons">close</i>
+          </div>
+
+          <div class="nav__title">Menu</div>
+
         </div>
-        <label for="menu-toggle" class="menu-icon">
-          <!--div data-icon="ei-navicon"></div-->
-          <svg viewBox="0 0 18 15">
-            <path fill="#424242"
+        <ul class="nav__list">
+          <li class="nav__item"><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+          <li class="nav__item"><a href="{{ "/archive" | prepend: site.baseurl }}">All posts</a></li>
+          <li class="nav__item"><a href="{{ "/projects" | prepend: site.baseurl }}">Projects</a></li>
+          <li class="nav__item"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
+          <li class="nav__item"><a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-buttons">
+        <!-- <i class="menu-icon material-icons" onclick="openMenu()">menu</i> -->
+        <div class="menu-icon" onclick="openMenu()">
+          <svg viewBox=" 0 0 18 15">
+            <path
               d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
-            <path fill="#424242"
+            <path
               d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
-            <path fill="#424242"
+            <path
               d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
           </svg>
-        </label>
-        <input type="checkbox" id="menu-toggle">
+        </div>
       </div>
     </div>
+
   </div>
+
+  <div class="header__overlay" id="header__overlay" onclick="openMenu()"></div>
 </header>
