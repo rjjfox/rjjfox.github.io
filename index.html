@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "R Fox Data - A personal data blog for Ryan Fox"
+pagination: {enabled: true}
 ---
 
 <div class="hero">
@@ -31,7 +32,7 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
 
   <div class="post-list">
 
-    {% for post in site.posts limit:12 %}
+    {% for post in paginator.posts %}
 
     <article class="post_card post">
       <div class="post__inner">
@@ -71,13 +72,38 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
     </article>
     {% endfor %}
 
-    <div class="pagination older-post">
-      <a href="./archive">
-        <data data-icon="ei-arrow-right"></data>
-        More posts
+  </div>
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    <div class="pagination__list">
+      {% if paginator.previous_page %}
+      <a class="pagination__previous"
+        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="fas fa-chevron-left"></i> Prev
       </a>
+      {% else %}
+      <span class="pagination__previous disabled">
+        <i class="fas fa-chevron-left"></i> Prev
+      </span>
+
+      {% endif %}
+
+      <div class="pagination__count">
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+      </div>
+
+      {% if paginator.next_page %}
+      <a class="pagination__next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        Next <i class="fas fa-chevron-right"></i>
+      </a>
+      {% else %}
+      <span class="pagination__next disabled">
+        Next <i class="fas fa-chevron-right"></i>
+      </span>
+      {% endif %}
     </div>
   </div>
+  {% endif %}
 
 </div>
 </div>
