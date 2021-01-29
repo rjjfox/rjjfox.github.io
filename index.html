@@ -2,98 +2,100 @@
 layout: default
 title: "R Fox Data - A personal data blog for Ryan Fox"
 ---
+<div class="container">
 
-<div class="home">
-  <div class="intro" style="overflow: hidden">
-    <img src="{{site.baseurl}}/assets/img/desertcircle.png" height="300px">
-    <h1>
-      Welcome to my blog!
-    </h1>
-    <p>
-      Hi, I’m Ryan Fox, a product data scientist with over 7+ years experience of optimising products through
-      experimentation and AB testing.
-    </p>
-    <p>
-      Learning is a hobby of mine. I love discovering new tools and languages for drawing insights from data.
-    </p>
-    <p>
-      Here I'll be documenting my learning journey and sharing programs and graphs built with new tools, packages, or
-      languages. Enjoy!
-    </p>
-  </div>
-
-  <hr>
-  <div class="currently-reading">
-    <h1>Reading activity</h1>
-
-    <p>
-      I love to read. Take a look at what I'm currently reading.
-    </p>
-
-    {% include goodreads-widgets/currently-reading.html %}
-    <br style="clear: both">
-
-    <p class="readmore">
-      <a href="{{ "/reading-activity" | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>See more
-      </a>
-    </p>
-
-  </div>
-
-  <hr>
-  <div>
-    <h1>
-      Recent posts
-    </h1>
-  </div>
-
-  <div class="post-list">
-
-    {% for post in site.posts limit:10%}
-
-
-    <article class="post_card post">
-      <header class="post_header">
-
-        <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-        <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
-        <div class="post_categories">
-          <i class="fas fa-tags"></i>
-          {% for category in post.categories %}
-          <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
-          {% endfor %}
-        </div>
-      </header>
-      <div class="post_excerpt">
-        <p>
-          {% if post.description %}
-          {{ post.description}}
-          {% else %}
-          {{ post.excerpt }}
-          {% endif %}
-        </p>
-      </div>
-      <footer class="post_meta">
-
-
-        {% if post.location %}
-        <span class="author-location">
-          <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
-        </span>
-        {% endif %}
-
-        <p class="readmore">
-          <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read post
-          </a>
-        </p>
-      </footer>
-      <hr />
-    </article>
-    {% endfor %}
-
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> More posts </a>
+  <div class="home">
+    <div class="intro" style="overflow: hidden">
+      <img src="{{site.baseurl}}/assets/img/desertcircle.png" height="300px">
+      <h1>
+        Welcome to my blog!
+      </h1>
+      <p>
+        Hi, I’m Ryan Fox, a product data scientist with over 7+ years experience of optimising products through
+        experimentation and AB testing.
+      </p>
+      <p>
+        Learning is a hobby of mine. I love discovering new tools and languages for drawing insights from data.
+      </p>
+      <p>
+        Here I'll be documenting my learning journey and sharing programs and graphs built with new tools, packages, or
+        languages. Enjoy!
+      </p>
     </div>
-  </div>
 
+    <hr>
+    <div class="currently-reading">
+      <h1>Reading activity</h1>
+
+      <p>
+        I love to read. Take a look at what I'm currently reading.
+      </p>
+
+      {% include goodreads-widgets/currently-reading.html %}
+      <br style="clear: both">
+
+      <p class="readmore">
+        <a href="{{ "/reading-activity" | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>See more
+        </a>
+      </p>
+
+    </div>
+
+    <hr>
+    <div>
+      <h1>
+        Recent posts
+      </h1>
+    </div>
+
+    <div class="post-list">
+
+      {% for post in site.posts limit:10%}
+
+
+      <article class="post_card post">
+        <header class="post_header">
+
+          <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+          <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
+          <div class="post_categories">
+            <i class="fas fa-tags"></i>
+            {% for category in post.categories %}
+            <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
+            {% endfor %}
+          </div>
+        </header>
+        <div class="post_excerpt">
+          <p>
+            {% if post.description %}
+            {{ post.description}}
+            {% else %}
+            {{ post.excerpt }}
+            {% endif %}
+          </p>
+        </div>
+        <footer class="post_meta">
+
+
+          {% if post.location %}
+          <span class="author-location">
+            <div data-icon="ei-location"></div>
+            <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
+          </span>
+          {% endif %}
+
+          <p class="readmore">
+            <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read post
+            </a>
+          </p>
+        </footer>
+        <hr />
+      </article>
+      {% endfor %}
+
+      <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> More posts </a>
+      </div>
+    </div>
+
+  </div>
 </div>

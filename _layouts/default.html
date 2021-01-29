@@ -5,16 +5,12 @@
 <body>
   {% include body_scripts.html %}
   {% include header.html %}
-  <div class="page-content">
-    <div class="container">
-      <div class="nine columns" style="z-index:100; margin: 0 auto; float: inherit;">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </div>
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
     </div>
-    {% include footer.html %}
-  </div>
+  </main>
+  {% include footer.html %}
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/medium-zoom.min.js"></script>
   <script src="/assets/js/my-medium-zoom.js"></script>

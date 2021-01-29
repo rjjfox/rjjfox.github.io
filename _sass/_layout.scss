@@ -17,9 +17,8 @@ body {
 
 .page-content {
   min-height: 100%;
-  box-sizing: border-box;
   height: auto;
-  padding-bottom: 140px; /*等于或略大于footer的高度*/
+  padding-bottom: 140px;
 }
 
 .site-footer {
@@ -218,40 +217,20 @@ body {
   }
 }
 
-// NOT LOOKED AT YET
-// .main-nav .menu-icon {
-//   display: none;
-//   position: absolute;
-//   right: 5%;
-
-//   @include media-query($on-laptop) {
-//     top: 35px;
-
-//     @include media-query(400px) {
-//       top: 13px;
-//     }
-
-//     display: block;
-//     text-align: center;
-
-//     &:hover {
-//       > svg {
-//         path {
-//           fill: $grey-color;
-//         }
-//       }
-//     }
-
-//     > svg {
-//       width: 18px;
-//       height: 15px;
-
-//       path {
-//         fill: $grey-color-dark;
-//       }
-//     }
-//   }
-// }
+/* Homepage Intro
+—————————————————————————————————————————————————— */
+.intro img {
+  @media screen and (max-width: $on-palm) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (min-width: $on-palm) {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
 
 /* Post Display
 —————————————————————————————————————————————————— */
@@ -344,20 +323,6 @@ p.readmore {
   .share-link {
     text-decoration: underline;
     margin-left: 8px;
-  }
-}
-
-/* intro section on homepage - Ryan addition*/
-.intro img {
-  @media screen and (max-width: $on-palm) {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  @media screen and (min-width: $on-palm) {
-    float: right;
-    padding-left: 10px;
-    padding-bottom: 10px;
   }
 }
 
