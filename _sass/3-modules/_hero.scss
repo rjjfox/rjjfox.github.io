@@ -1,0 +1,69 @@
+/* Hero
+—————————————————————————————————————————————————— */
+
+.hero {
+  margin-bottom: 5rem;
+  padding: 6rem 0 7rem;
+  background-color: #fff;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.hero__left,
+.hero__right {
+  width: 50%;
+}
+
+.hero__title,
+.hero__job {
+  font-size: 5rem;
+}
+
+.hero__title {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero__job {
+  margin-top: 0;
+}
+
+.hero__description {
+  font-size: 2rem;
+}
+
+.hero__image {
+  position: relative;
+  z-index: 10;
+  width: 370px;
+  height: 470px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: $on-laptop) {
+  .hero__inner {
+    flex-direction: column;
+  }
+
+  .hero__left,
+  .hero__right {
+    width: 100%;
+  }
+
+  .hero__title,
+  .hero__job {
+    font-size: 3.3rem;
+  }
+
+  .hero__description {
+    font-size: 1.6rem;
+  }
+
+  .hero__right {
+    order: -1;
+  }
+}

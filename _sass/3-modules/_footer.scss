@@ -1,0 +1,36 @@
+/* Footer
+—————————————————————————————————————————————————— */
+
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0rem;
+  width: 100%;
+
+  /* footer style */
+  color: #99999a;
+  background-color: #fff;
+
+  .left {
+    a {
+      color: #666;
+      border-bottom: 1px dotted;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      border-bottom: 1px dotted;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  .icon {
+    padding-right: 2px;
+  }
+}

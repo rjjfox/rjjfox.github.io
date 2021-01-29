@@ -2,49 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@charset "utf-8";
-
-// Our variables
-$base-font-family: "Inter", Helvetica Neue, Helvetica, Arial, sans-serif;
-$base-font-size: 16px;
-$base-font-weight: 400;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.5;
-$font-weight-light: 100;
-$font-weight-normal: 400;
-$font-weight-bold: 600;
-
-$light-grey-border: 10px solid #f9f9fc;
-
-$spacing-unit: 30px;
-
-$text-color: #111;
-$background-color: #fdfdfd;
-$link-hover: #0070ff;
-
-$grey-color: #828282;
-$grey-color-light: #b1b1b1;
-$grey-color-dark: darken($grey-color, 25%);
-
-// Width of the content area
-$content-width: 800px;
-
-$on-palm: 550px;
-$on-laptop: 780px;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .div {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-// This is what @include media-query translates to
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/
 
 .dont-break-out {
   /* Careful, this breaks the word wherever it is without a hyphen */
@@ -58,22 +18,51 @@ $on-laptop: 780px;
   hyphens: auto;
 }
 
-@import "normalize", "base", "layout", "color", "syntax-highlighting";
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
+:: 1-Tools and Libs
+    1.1-Normalize
+    1.2-Syntax Highlighting
+    1.3-Color
+:: 2-Base Styles
+    2.1-Base
+:: 3-Modules
+    3.1-Scroll Button Top
+    3.2-Header
+    3.3-Search
+    3.4-Pagination
+    3.5-Footer
+    3.6-Gallery
+    3.7-Social
+    3.8-Hero
+    3.9-Contact
+:: 4-Layouts
+    4.1-Home Page
+    4.2-Post Page
+    4.3-Tags Page
+<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-/* markdown control placement of images */
-img[alt*=">"] {
-  float: right;
-  margin-left: 10px;
-}
+@import "0-settings/variables";
 
-img[alt*="<"] {
-  float: left;
-  margin-right: 10px;
-}
+/* =======================
+:: 1-Tools and Libs
+======================= */
+@import "1-tools/normalize";
+@import "1-tools/syntax-highlighting";
+@import "1-tools/color";
 
-img[alt*="><"] {
-  display: block;
-  max-width: 100%;
-  margin: auto;
-  float: none !important;
-}
+/* =======================
+:: 2-Base Styles
+======================= */
+@import "2-base/base";
+
+/* =======================
+:: 3-Modules
+======================= */
+@import "3-modules/header";
+@import "3-modules/hero";
+@import "3-modules/footer";
+
+/* =======================
+:: 4-Layouts
+======================= */
+@import "4-layouts/layout";
