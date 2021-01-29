@@ -7,9 +7,12 @@
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- evil icon - for github icon and others -->
+  <!-- https://evil-icons.io/ -->
   <link rel="stylesheet" href="{{"/assets/evil-icons.min.css" | prepend:site.baseurl }}">
   <script src="{{"/assets/evil-icons.min.js" | prepend:site.baseurl }}"></script>
+
+  <!-- material theme icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- favicon for all touchpoints -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/favicon/apple-touch-icon.png">
