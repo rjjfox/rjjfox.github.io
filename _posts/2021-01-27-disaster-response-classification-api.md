@@ -4,6 +4,7 @@ title: "Disaster Response Classification API"
 categories: [python, web-dev, machine-learning]
 location: London, UK
 location-link: london
+image: [/assets/img/disaster-hero.jpg]
 ---
 
 Taking a dataset from Appen containing 30,000 messages received during disasters in the last few decades, I created a machine learning pipeline to categorise messages into topics to allow aid orgainisations find relevant messages and prioritise accordingly.

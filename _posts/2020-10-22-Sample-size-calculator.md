@@ -4,6 +4,7 @@ title: "Creating an AB test sample size app"
 categories: [statistics, python, web-dev]
 location: London, UK
 location-link: london
+image: /assets/img/samplesize-demofull.gif
 ---
 
 ![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"}

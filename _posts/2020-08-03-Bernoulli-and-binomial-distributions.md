@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "The difference between Binomial and Bernoulli distributions"
+title: "The difference between Binomial and Bernoulli distributions"
 categories: statistics
 location: London, UK
 location-link: london
+image: https://upload.wikimedia.org/wikipedia/commons/1/19/Jakob_Bernoulli.jpg
 ---
 
 ![Jacob Bernoulli >](https://upload.wikimedia.org/wikipedia/commons/1/19/Jakob_Bernoulli.jpg){: height='200px'}
@@ -12,7 +13,7 @@ Until only recently I believed there were Bernoulli trials and a Binomial distri
 
 It turns out I was completely right other than in my belief that there is no such thing as a Bernoulli **distribution**.
 
-*Note: guy in painting is Jacob Bernoulli (1654-1705) who derived each of the distributions and of course the trials too.*
+_Note: guy in painting is Jacob Bernoulli (1654-1705) who derived each of the distributions and of course the trials too._
 
 <!--description-->
 

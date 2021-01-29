@@ -4,6 +4,7 @@ title: "Want to read more? Six tips to help you enjoy more books"
 categories: [general, books]
 location: London, UK
 location-link: london
+image: https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 ---
 
 I love talking about reading. I'm not talking about reading specific books but the actual hobby of reading. I love to discuss people's reading routines, to talk about how good it feels to pick up a new book, to see your library grow. I love talking about that late night Rubicon point where you decide you're going all in to finish a book even if it means going to bed hours later than planned.

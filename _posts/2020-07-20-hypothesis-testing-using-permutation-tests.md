@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Hypothesis testing using permutation tests"
+title: "Hypothesis testing using permutation tests"
 categories: [statistics]
 location: London, UK
 location-link: london
+image: /assets/img/Assess-Statistical-Significance.jpg
 ---
 
 There are many statistical methods for rejecting or failing to reject a null hypothesis. I want to run through **Permutation tests** and when you might use this method.
@@ -34,13 +35,13 @@ data_A = scs.bernoulli(0.2).rvs(10000, random_state=42)
 data_B = scs.bernoulli(0.22).rvs(10000, random_state=42)
 ```
 
-This gives us 
+This gives us
 
 - A's conversion rate: 19.62%
 - B's conversion rate: 21.40%
 - Difference: 1.78% absolute or 9.07% relative
 
-How do we test the significance of this *1.78%* increase with a permutation test?
+How do we test the significance of this _1.78%_ increase with a permutation test?
 
 ### Null Hypothesis
 
@@ -66,21 +67,21 @@ To create a single permutation, we can use the following function.
 def permutation_sample(A, B):
     """
     Create random permutations of two datasets and return new permuted datasets
-    
+
     Parameters:
     A (array): dataset for control
     B (array): dataset for variant
-    
+
     Returns:
     permuted_A, permuted_B
     """
     data = np.concatenate([A, B])
-    
+
     permuted_data = np.random.permutation(data)
-    
+
     permuted_A = permuted_data[:len(A)]
     permuted_B = permuted_data[len(B):]
-    
+
     return permuted_A, permuted_B
 ```
 
@@ -89,9 +90,9 @@ To create multiple permutations and calculate our test statistic, we use the fol
 ```python
 def draw_permutation_replicates(A, B, func, size=1):
     """
-    Creates an array of permutation replicates from the given datasets 
+    Creates an array of permutation replicates from the given datasets
     by permuting them 'size' times.
-    
+
     Parameters:
     A (array): dataset to compare against B
     B (array)
@@ -101,19 +102,19 @@ def draw_permutation_replicates(A, B, func, size=1):
 
     Returns: array of permutation replicates
     """
-    
+
     # Initialise an empty numpy array
     perm_replicates = np.empty(size)
-    
+
     for i in range(size):
         perm_A, perm_B = permutation_sample(A, B)
-        
+
         perm_replicates[i] = func(perm_A, perm_B)
-        
+
     return perm_replicates
 ```
 
-*draw_permutation_replicates* requires a function to produce the permutation replicate. In this case, our test statistic is the difference of the two means, so we create a simple function for this.
+_draw_permutation_replicates_ requires a function to produce the permutation replicate. In this case, our test statistic is the difference of the two means, so we create a simple function for this.
 
 ```python
 def diff_of_means(data_1, data_2):
@@ -132,7 +133,7 @@ We have finally got our permutations. We decided to create 10,000 permutations. 
 
 The final step here is to work out how the original difference of the means of 1.78% compares to the permutation replicates. This means calculating the p-value. It's calculated as the percentage of permutations that had a higher difference in their means compared to our empirical difference of the means.
 
-*Note: The empirical difference of the means is the statistically accurate way of stating the difference of the means calculated from the data, not through theory or other means.*
+_Note: The empirical difference of the means is the statistically accurate way of stating the difference of the means calculated from the data, not through theory or other means._
 
 We calculate this with the following code.
 

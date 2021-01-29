@@ -4,6 +4,7 @@ title: "Am I predictable in how I rate books?"
 categories: [books, python, machine-learning]
 location: London, UK
 location-link: london
+image: https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png
 ---
 
 ![Goodreads logo >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}

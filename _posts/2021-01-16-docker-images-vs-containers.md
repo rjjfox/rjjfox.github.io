@@ -4,6 +4,7 @@ title: "Docker images vs. containers - how I explained it to myself"
 categories: [web-dev]
 location: London, UK
 location-link: london
+image: https://pbs.twimg.com/profile_images/1273307847103635465/lfVWBmiW_400x400.png
 ---
 
 I used Docker and containers recently as a way to simplify deploying web apps on cloud platforms such as Google Cloud Platform. I kind of hacked my way through it, cutting and pasting bits and pieces from Dockerfiles I'd seen lying around on the web. I got it to work but it didn't feel great.
