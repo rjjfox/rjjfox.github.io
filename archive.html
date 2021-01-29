@@ -3,32 +3,34 @@ layout: default
 title: All posts
 ---
 
-<div>
+<div class="container">
 
-  <h1>All posts</h1>
+  <div>
 
-  <section class="archive_list">
-    {% for category in site.categories %}
+    <h1>All posts</h1>
 
-    <div class="category-name">
-      <h2>{{ category | first }}</h2>
-    </div>
-    {% for post in category.last %}
+    <section class="archive_list">
+      {% for category in site.categories %}
 
-    <div class="post_title">
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
-      <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
-    </div>
+      <div class="category-name">
+        <h2>{{ category | first }}</h2>
+      </div>
+      {% for post in category.last %}
 
-    {% endfor %}
+      <div class="post_title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+        <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
+      </div>
 
-    {% endfor %}
+      {% endfor %}
 
-  </section>
+      {% endfor %}
 
-  <footer class="article-footer" mar>
-    {% include author.html %}
-  </footer>
+    </section>
+
+    <footer class="article-footer" mar>
+      {% include author.html %}
+    </footer>
+  </div>
+
 </div>
-
-
