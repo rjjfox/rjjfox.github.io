@@ -2,9 +2,9 @@
 layout: default
 title: "R Fox Data - A personal data blog for Ryan Fox"
 ---
-<div class="container">
 
-  <div class="home">
+<div class="hero">
+  <div class="container">
     <div class="intro" style="overflow: hidden">
       <img src="{{site.baseurl}}/assets/img/desertcircle.png" height="300px">
       <h1>
@@ -40,62 +40,61 @@ title: "R Fox Data - A personal data blog for Ryan Fox"
       </p>
 
     </div>
-
-    <hr>
-    <div>
-      <h1>
-        Recent posts
-      </h1>
-    </div>
-
-    <div class="post-list">
-
-      {% for post in site.posts limit:10%}
-
-
-      <article class="post_card post">
-        <header class="post_header">
-
-          <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-          <time class="post_date">{{ post.date | date: "%d %B %Y" }}</time>
-          <div class="post_categories">
-            <i class="fas fa-tags"></i>
-            {% for category in post.categories %}
-            <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
-            {% endfor %}
-          </div>
-        </header>
-        <div class="post_excerpt">
-          <p>
-            {% if post.description %}
-            {{ post.description}}
-            {% else %}
-            {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
-        <footer class="post_meta">
-
-
-          {% if post.location %}
-          <span class="author-location">
-            <div data-icon="ei-location"></div>
-            <a href=https://www.google.com/maps/place/{{post.location-link}} target="_blank">{{ post.location }}</a>
-          </span>
-          {% endif %}
-
-          <p class="readmore">
-            <a href="{{ post.url | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>Read post
-            </a>
-          </p>
-        </footer>
-        <hr />
-      </article>
-      {% endfor %}
-
-      <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> More posts </a>
-      </div>
-    </div>
-
   </div>
+
+</div>
+
+
+<div class="container">
+
+  <div class="post-list">
+
+    {% for post in site.posts limit:10 %}
+
+    <article class="post_card post">
+      <div class="post__inner">
+
+        {% if post.image %}
+        <div class="image__wrap">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post__image">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+          </a>
+        </div>
+        {% endif %}
+
+        <div class="post__content">
+          <header class="post_header">
+
+            <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          </header>
+          <div class="post_excerpt">
+            <p>
+              {{ post.content | strip_html | truncatewords:25 }}
+            </p>
+          </div>
+          <div class="post_meta">
+            <time class="post_date">{{ post.date | date: "%d %b %Y" }}</time>
+            <div class="post_categories">
+              <i class="fas fa-tags"></i>
+              {% for category in post.categories %}
+              <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <hr />
+      </div>
+    </article>
+    {% endfor %}
+
+    <div class="pagination older-post">
+      <a href="./archive">
+        <data data-icon="ei-arrow-right"></data>
+        More posts
+      </a>
+    </div>
+  </div>
+
+</div>
 </div>

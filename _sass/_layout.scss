@@ -13,6 +13,7 @@ body {
   min-height: 100%;
   height: auto;
   border: $light-grey-border;
+  background-color: #f9f9fc;
 }
 
 .page-content {
@@ -62,7 +63,6 @@ body {
   border-bottom: 1px solid #ededf3;
   background: #fff;
   transition: all 0.4s;
-  margin-bottom: 3em;
 }
 
 .topnav {
@@ -219,6 +219,13 @@ body {
 
 /* Homepage Intro
 —————————————————————————————————————————————————— */
+
+.hero {
+  padding: 4em 0;
+  background-color: #fff;
+  margin-bottom: 7em;
+}
+
 .intro img {
   @media screen and (max-width: $on-palm) {
     display: block;
@@ -234,6 +241,26 @@ body {
 
 /* Post Display
 —————————————————————————————————————————————————— */
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.post__inner {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.image__wrap {
+  background-color: #fff;
+  padding: 15px 15px 0 15px;
+}
+
+.post__content {
+  background-color: #fff;
+  padding: 25px;
+}
 
 .post {
   @extend .dont-break-out;
