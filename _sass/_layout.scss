@@ -329,17 +329,12 @@ body {
 }
 
 .project_skills {
-  margin-left: 0.5rem;
-  display: inline-block;
+  background-color: #f6f6f6;
+  padding: 0.25em 0.4em;
+  margin-left: 0.25em;
+  font-weight: 600;
+  border-radius: 0.25rem;
   color: #999 !important;
-
-  span {
-    background-color: #f6f6f6;
-    padding: 0.25em 0.4em;
-    font-weight: 600;
-    border-radius: 0.25rem;
-    color: #999 !important;
-  }
 }
 
 .post_meta p.readmore:not(.project) {
