@@ -29,7 +29,7 @@ pagination: {enabled: true}
 </div>
 
 
-<div class="container">
+<div class="container animate">
 
   <div class="post-list">
 
@@ -41,7 +41,11 @@ pagination: {enabled: true}
         {% if post.image %}
         <div class="image-wrap">
           <a href="{{ post.url | prepend: site.baseurl }}" class="post__image">
-            <img src="{{ post.image }}" alt="{{ post.title }}">
+            {% if post.image contains "http" %}
+            <img class="lazy" data-src="{{ post.image }}" alt="{{ post.title }}">
+            {% else %}
+            <img class="lazy" data-src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+            {% endif %}
           </a>
         </div>
         {% endif %}
