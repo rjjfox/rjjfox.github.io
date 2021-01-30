@@ -1,56 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
+#-------------------------------
+# General Site Settings
 title: R Fox Data
 email: ryanfox212@gmail.com
 description: A personal data blog for Ryan Fox. # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxdata.co.uk" # the base hostname & protocol for your site
+blog-theme: light
+
+#-------------------------------
+# Social Settings
 github_username: rjjfox
 linkedin_username: rjjfox
 
-# Build settings
+#-------------------------------
+# Author Settings
+author:
+  name: Ryan Fox
+  image: "/assets/img/desertpic.jpeg"
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hi, I'm <span class="hero__name">Ryan Fox</span>.
+  hero__job: Data Scientist
+  hero__description: I spend a lot of time with numbers
+  hero__button__text: Read about my past
+  hero__button__link: "/about"
+  hero__image: "/assets/img/desertpic.jpeg"
+
+#-------------------------------
+# Build Settings
 markdown: kramdown
 kramdown:
   input: GFM
   parse_block_html: true
+plugins:
+  - jekyll-paginate
 
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      comments: true
-
-# Enable pagination https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
-plugins: [jekyll-paginate-v2]
-pagination:
-  # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
-
-  # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: ["posts"]
-
-  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 9
-
-  # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: "/page/:num/"
-
-  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: "posts"
-
-  sort_field: "date"
-  sort_reverse: true
-
-  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
-  # Without file extension
-  indexpage: "index"
+paginate: 9
+paginate_path: "/page/:num"
 
 # Third-party services
 # just leave someone empty to disable it
