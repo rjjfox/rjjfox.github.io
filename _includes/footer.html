@@ -1,34 +1,24 @@
-<footer class="site-footer">
+<!-- begin footer -->
+<footer class="footer">
   <div class="container">
-    <div class="footer small-font">
-      <small class="copyright">
-        &copy; Copyright {{ 'now' | date: "%Y" }}, R Fox Data
-      </small>
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item">
-            {% if site.email %}
-            <a class="social__link" href="mailto:{{ site.email }}">
-              <i class="fas fa-envelope"></i>
-            </a>
-            {% endif %}
-          </li>
-          <li class="social__item">
-            {% if site.linkedin_username %}
-            <a class="social__link" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            {% endif %}
-          </li>
-          <li class="social__item">
-            {% if site.github_username %}
-            <a class="social__link" href="https://github.com/{{ include.site.github_username }}">
-              <i class="fab fa-github"></i>
-            </a>
-            {% endif %}
-          </li>
-        </ul>
+    <div class="row">
+      <div class="col col-12 col-m-12">
+
+        <div class="footer__inner">
+
+          <div class="footer__head">
+            <div class="row">
+              {% include footer-widgets/widget-recent-posts.html %}
+              {% include footer-widgets/widget-recent-projects.html %}
+            </div>
+          </div>
+        </div>
+
+        {% include social-link.html %}
+
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a>.</div>
       </div>
     </div>
   </div>
 </footer>
+<!-- end footer -->

@@ -37,9 +37,9 @@
             <h1 class="hero__title">{{ site.hero.hero__title }}</h1>
             <h2 class="hero__job">{{ site.hero.hero__job }}</h2>
             <p class="hero__description">{{ site.hero.hero__description }}</p>
-            <a class="hero__button" href="{{ site.hero.hero__button__link | relative_url }}"><span
-                class="button-arrow"><i
-                  class="ion ion-ios-arrow-forward"></i></span><span>{{ site.hero.hero__button__text }}</span></a>
+            <a class="hero__button" href="{{ site.hero.hero__button__link | relative_url }}">
+              <span class="button-arrow">
+                <i class="fas fa-chevron-right"></i></span><span>{{ site.hero.hero__button__text }}</span></a>
 
             {% endif %}
           </div>

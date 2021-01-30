@@ -4,6 +4,7 @@ title: "Personal blog built through Jekyll"
 languages: HTML, CSS and Liquid
 skills: [html, css, liquid, storytelling]
 image: \assets\img\blog_overview_smaller.jpg
+date: 2019-07-15
 ---
 
 ![Site image >]({{site.baseurl}}\assets\img\blog_overview_smaller.jpg){: width="50%"}

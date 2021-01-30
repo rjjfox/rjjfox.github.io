@@ -30,6 +30,15 @@ hero:
   hero__image: "/assets/img/desertpic.jpeg"
 
 #-------------------------------
+# Social Links (Footer)
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+  - { icon: "fas fa-envelope", link: "mailto:ryanfox212@gmail.com" }
+  - { icon: "fab fa-github", link: "https://github.com/rjjfox" }
+  - { icon: "fab fa-linkedin-in", link: "https://www.linkedin.com/in/rjjfox" }
+
+#-------------------------------
 # Build Settings
 markdown: kramdown
 kramdown:
@@ -49,7 +58,9 @@ disqus_shortname: rfoxdata-co-uk
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
 
-# To enable projects as a new format of posts pages
+#-------------------------------
+# Collection Settings
 collections:
   projects:
     output: true
+    sort_by: date
