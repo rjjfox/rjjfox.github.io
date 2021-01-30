@@ -4,32 +4,16 @@ layout: default
 
 {% include hero.html %}
 
+<!-- begin post -->
 <div class="container">
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="post animate">
 
-    <header class="article_header">
-      <h1 class="article_title" itemprop="name headline">{{ page.title }}</h1>
-      <time datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      <div class="post_categories">
-        <i class="fas fa-tags"></i>
-        {% for category in page.categories %}
-        <span><a href="{{"/category/" | append: category | prepend: site.baseurl }}">{{ category }}</a></span>
-        {% endfor %}
-      </div>
-    </header>
-
-    <div class="article-content" itemprop="articleBody">
-      {{ page.content }}
+    <div class="post__content">
+      {{ content }}
     </div>
 
-    <footer class="article-footer">
-
-    </footer>
-    {% if page.comments %}
-    <!-- {% include dq.html %} -->
-    {% endif %}
+    {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
 
   </article>
-
 </div>
+<!-- end post -->

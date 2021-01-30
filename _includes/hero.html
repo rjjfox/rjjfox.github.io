@@ -23,6 +23,12 @@
                 <a href="{{ site.baseurl }}/category/{{ category }}" class="article__tag">{{ category }}</a>
                 {% endfor %}
               </div>
+              {% elsif page.skills.size >= 1 %}
+              <div class="article-tags__box">
+                {% for skill in page.skills %}
+                <span class="article__tag">{{ skill }}</span>
+                {% endfor %}
+              </div>
               {% endif %}
             </div>
 
