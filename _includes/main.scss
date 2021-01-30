@@ -29,9 +29,8 @@
     3.3-Footer
     3.4-Hero
 :: 4-Layouts
-    4.1-Home Page
-    4.2-Post Page
-    4.3-Tags Page
+    4.1-Layout
+    4.2-Article
 <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 @import "0-settings/variables";
@@ -63,3 +62,4 @@
 :: 4-Layouts
 ======================= */
 @import "4-layouts/layout";
+@import "4-layouts/article";
