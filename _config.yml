@@ -50,6 +50,9 @@ plugins:
 paginate: 9
 paginate_path: "/page/:num"
 
+include:
+  - _pages
+
 # Third-party services
 # just leave someone empty to disable it
 # google_analytics:

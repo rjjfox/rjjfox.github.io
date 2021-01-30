@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+image: "/assets/img/desertpic.jpeg"
 ---
 
 I'm available for collaborations on projects, contract work and for just talking about data.
