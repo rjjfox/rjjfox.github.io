@@ -2,9 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/img/ryan-cotswolds.jpg
 ---
-
-![Me ><]({{site.baseurl}}/assets/img/desertcircle.png){:height="300px"}
 
 Hi, I'm Ryan Fox, a product data scientist with over 7+ years experience of optimising products through experimentation and AB testing.
 
@@ -27,6 +26,8 @@ Delivering insights and making my colleagues passionate about making improvement
 ### Going in-house at Eurostar
 
 This continued at Eurostar where I led the Experimentation program for the company. In 2015, the job was to build a test-and-learn culture. Building a test-and-learn culture requires changing the way people think. It's ensuring that people think about testing ideas as part of the product design/marketing campaign process. By the end of my first stint at Eurostar, I had demonstrated the value thoroughly with over £15m worth of incremental revenue forecasted annually. Maybe overly fondly, I remember a colleague labelling my team and me the 'Rockstars of Digital' because of the changes we were bringing around with a swiftness that the company had rarely seen thus far. At the start of my nine months there, I was a one man team. By the time I left, we were three.
+
+![Eurostar]({{site.baseurl}}/assets/img/EurostarOneForMany.jpg)
 
 ### Joining the product team
 

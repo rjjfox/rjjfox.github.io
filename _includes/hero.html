@@ -1,7 +1,7 @@
 <!-- begin hero -->
 {% if page.id %}
 {% assign class = 'hero--post' %}
-{% elsif page.path contains '_pages' or page.url contains '404' %}
+{% elsif page.path contains '_pages' or page.url contains 'category' or page.url contains '404' %}
 {% assign class = 'hero--page' %}
 {% else %}
 {% assign class = 'hero--home' %}
@@ -35,7 +35,7 @@
             <h1 class="hero__title">{{ page.title }}</h1>
             <a href="{{site.baseurl}}/about/" class="article__author-link"><span>By</span> {{site.author.name}}</a>
 
-            {% elsif page.path contains '_pages' or page.url contains '404' %}
+            {% elsif page.path contains '_pages' or page.url contains 'category' or page.url contains '404' %}
             <h1 class="hero__title">{{ page.title }}</h1>
 
             {% else %}
@@ -52,7 +52,7 @@
 
           <div class="hero__right">
 
-            {% if page.id or page.path contains '_pages' %}
+            {% if page.id or page.path contains '_pages' or page.url contains 'category' %}
             <div class="hero__image">
               <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{ page.title }}">
             </div>

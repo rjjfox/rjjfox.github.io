@@ -3,6 +3,5 @@ categories: statistics
 permalink: "category/statistics"
 layout: category
 title: "Statistics"
+image: /assets/img/scotland.jpg
 ---
-
-I have always enjoyed the study of statistics and I am fascinated with the subject. Here are some posts which I've tagged under 'statistics'.
