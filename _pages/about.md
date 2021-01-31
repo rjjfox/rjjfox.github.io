@@ -49,6 +49,8 @@ Since 2017, I've been using Python instead of R and relishing the new tech comin
 
 On a non-professional front, I'm a keen traveller having taken a couple of years off work to travel mostly in Latin America from which I came back speaking a good level of Spanish. I've been away three times for long term travel, the first time spending 3 months in SE Asia, the second time spending 10 months in the Americas, 10 incredible days in Antarctica, 3 months in Japan (my favorite country) and then a month in Spain to further study Spanish. The third time I went away, it was to South America for 6 months followed by 6 months in Asia, spending 3 of these month in Thailand, where my mother was born.
 
+![Antarctica]({{site.baseurl}}/assets/img/antarctica-zeplin.jpeg)
+
 I'm also an avid reader, averaging around 2 books a week in 2020. I love to read and read mostly fiction as I discovered when I [analysed my reading activity]({% post_url 2020-07-31-Analysing-my-goodreads-data %}). I enjoy reading books about maths, statistics, data science and software engineering, recommending [The Art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics), [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), [Factfulness](https://www.goodreads.com/book/show/34890015-factfulness) and many many others.
 
 I currently live in Lyon, France with my girlfriend Laura having only moved here recently at the start of 2021. I'm originally from London where I have lived most of my life other than 4 years at university in Sheffield and a few years travelling.
