@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Matplotlib graph: deaths per day in the UK due to Covid-19"
+title: "Matplotlib graph: deaths per day in the UK due to Covid-19"
 categories: [python]
 location: London, UK
 location-link: london
+image: /assets/img/Daily deaths in the UK (larger).png
 ---
 
 Using the wealth of data coming in to play with some of Python's visualisation modules. This graph was created using a dataset readily available [here](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) from the European Centre for Disease Prevention and Control (ECDC).

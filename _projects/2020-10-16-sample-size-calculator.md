@@ -3,6 +3,7 @@ layout: project
 title: "AB test sample size app"
 languages: Python, CLI
 skills: [python, statistics, streamlit, cli, deployment, data viz]
+image: /assets/img/samplesize-demofull.gif
 ---
 
 ![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"}

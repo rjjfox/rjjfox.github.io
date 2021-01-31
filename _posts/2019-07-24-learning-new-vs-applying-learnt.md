@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Learning new vs. applying 'learnt'"
+title: "Learning new vs. applying 'learnt'"
 date: 2019-07-24 18:00:00 +0600
 categories: general
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
+image: https://images.unsplash.com/photo-1599008633840-052c7f756385?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 ---
 
 I'm not sure how much I've 'learnt' in the past week and I think this is because it really depends on what learning something means. Often I find myself preferring to 'learn' a new thing rather than applying something I have supposedly learnt.
@@ -17,11 +18,11 @@ Being on a website such as Codewars or Kaggle does one or two things for me: it 
 
 ## Practical application websites
 
-- [CodeWars](https://www.codewars.com){:target="_blank"} - as mentioned above, short code challenges of increasing difficulty - more programming focused
-- [Analytics Vidya](https://www.analyticsvidhya.com/){:target="_blank"} - not actually used this yet, just seen it mentioned
-- [Kaggle](https://www.kaggle.com/){:target="_blank"} - a data science focused project/competition site where you build kernels to describe your work
-- [DrivenData](https://www.drivendata.org/){:target="_blank"} - like Kaggle but with a focus on projects that can have a positive social impact
-- [HackerRank](https://www.hackerrank.com/){:target="_blank"} - for all programming languages - practice, compete or look for jobs - their 30 days of coding is worth doing
+- [CodeWars](https://www.codewars.com){:target="\_blank"} - as mentioned above, short code challenges of increasing difficulty - more programming focused
+- [Analytics Vidya](https://www.analyticsvidhya.com/){:target="\_blank"} - not actually used this yet, just seen it mentioned
+- [Kaggle](https://www.kaggle.com/){:target="\_blank"} - a data science focused project/competition site where you build kernels to describe your work
+- [DrivenData](https://www.drivendata.org/){:target="\_blank"} - like Kaggle but with a focus on projects that can have a positive social impact
+- [HackerRank](https://www.hackerrank.com/){:target="\_blank"} - for all programming languages - practice, compete or look for jobs - their 30 days of coding is worth doing
 
 ## So are video courses a waste of time in your journey to real knowledge?
 
@@ -43,6 +44,6 @@ I certainly don't regret this and I am lucky enough to have the luxury of time a
 
 ## Aims going forward
 
-- Create a whatsapp chat analyser - this is a fun and seemingly simple way to incorporate dataframes, regex, functions and plots that I've seen a few times on Reddit's [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/){:target="_blank"}
+- Create a whatsapp chat analyser - this is a fun and seemingly simple way to incorporate dataframes, regex, functions and plots that I've seen a few times on Reddit's [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/){:target="\_blank"}
 - Complete first full competition on Kaggle, Analytics Vidya and DrivenData
 - Create a learning strategy to keep me focused on what's relevant

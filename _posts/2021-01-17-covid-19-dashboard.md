@@ -4,6 +4,7 @@ title: "COVID-19 Flask Dashboard to Assess the Situation in the UK and France"
 categories: [python, web-dev]
 location: London, UK
 location-link: london
+image: /assets/img/covid-dashboard.gif
 ---
 
 Like everyone, and maybe more than most, I've been following closely along with news of lockdowns, waves, travel corridors, tier systems and all the other unprecedented stuff. With my girlfriend being in France while I'm here in the UK, I've been particularly interested in what's going on in and between the two countries.

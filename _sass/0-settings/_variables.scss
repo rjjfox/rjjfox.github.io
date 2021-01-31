@@ -1,0 +1,83 @@
+// *****************
+// Global Variables
+// *****************
+
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Inter", Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 400;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+$font-weight-light: 100;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+$light-grey-border: 10px solid #f9f9fc;
+
+$spacing-unit: 30px;
+
+$text-color: #111;
+$background-color: #fdfdfd;
+$link-hover: #0070ff;
+
+$grey-color: #828282;
+$grey-color-light: #b1b1b1;
+$grey-color-dark: darken($grey-color, 25%);
+
+// Width of the content area
+$content-width: 800px;
+
+$on-palm: 550px;
+$on-laptop: 780px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .div {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+// This is what @include media-query translates to
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// *****************
+// Global Variables
+// *****************
+
+// Spaces
+$base-spacing-unit: 15px;
+
+// Border radius
+$global-radius: 3px;
+
+// Transition
+$global-transition: all 0.35s;
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 18px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: "Inter", Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-line-height: 34px;
+
+// Headings
+$heading-font-weight: 700;
+$heading-font-family: "Inter", Helvetica Neue, Helvetica, Arial, sans-serif;
+
+$font-size-h1: 36px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
+$heading-line-height: 1.3;

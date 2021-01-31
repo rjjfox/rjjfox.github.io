@@ -1,20 +1,24 @@
-<footer class="site-footer">
+<!-- begin footer -->
+<footer class="footer">
   <div class="container">
-    <div class="footer small-font">
-      <small class="copyright">
-        &copy; Copyright {{ 'now' | date: "%Y" }}, R Fox Data
-      </small>
-      <small class="social-links">
-        {% if site.email %}
-        {% include icon-email.html email=site.email %}
-        {% endif %}
-        {% if site.linkedin_username %}
-        {% include icon-linkedin.html username=site.linkedin_username %}
-        {% endif %}
-        {% if site.github_username %}
-        {% include icon-github.html username=site.github_username %}
-        {% endif %}
-      </small>
+    <div class="row">
+      <div class="col col-12 col-m-12">
+
+        <div class="footer__inner">
+
+          <div class="footer__head">
+            <div class="row">
+              {% include footer-widgets/widget-recent-posts.html %}
+              {% include footer-widgets/widget-recent-projects.html %}
+            </div>
+          </div>
+        </div>
+
+        {% include social-link.html %}
+
+        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.title}}</a>.</div>
+      </div>
     </div>
   </div>
 </footer>
+<!-- end footer -->

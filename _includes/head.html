@@ -7,9 +7,15 @@
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- evil icon - for github icon and others -->
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- https://evil-icons.io/ -->
   <link rel="stylesheet" href="{{"/assets/evil-icons.min.css" | prepend:site.baseurl }}">
   <script src="{{"/assets/evil-icons.min.js" | prepend:site.baseurl }}"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f19a5aa9cb.js" crossorigin="anonymous"></script>
 
   <!-- favicon for all touchpoints -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/favicon/apple-touch-icon.png">
@@ -22,11 +28,43 @@
   <meta name="msapplication-config" content="{{site.baseurl}}/assets/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  {% include scripts.html %}
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MZQMP2B');
+  </script>
+  <!-- End Google Tag Manager -->
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <style>
+  {% capture include_to_scssify %}
+  {% if site.blog-theme == "light" %}
+    {% include color-scheme/scheme-light.scss %}
+    {% include main.scss %}
+  {% elsif site.blog-theme == "dark" %}
+    {% include color-scheme/scheme-dark.scss %}
+    {% include main.scss %}
+  {% else %}
+    {% include color-scheme/scheme-light.scss %}
+    {% include main.scss %}
+  {% endif %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
 
 </head>

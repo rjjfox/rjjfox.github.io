@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+image: https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2147&q=80
+---
+
+{% include hero.html %}
+
+<div class="container">
+    <a class="anchor" id="top"></a>
+    <div class="row">
+        <div class="col col-12">
+            <div class="contaniner__inner animate">
+                <div class="row">
+                    {% if site.posts.size > 0 %}
+                    {% assign sorted = site.projects | sort: 'date' | reverse %}
+                    {% for post in sorted %}
+                    {% include article-content.html %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

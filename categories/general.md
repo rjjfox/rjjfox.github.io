@@ -3,6 +3,5 @@ categories: general
 permalink: "category/general"
 layout: category
 title: "General"
+image: /assets/img/tokyo.JPG
 ---
-
-Miscellaneous, uncategorisable, other - these are all the posts which slip through the cracks of my meticulous category naming convention.

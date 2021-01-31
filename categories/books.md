@@ -1,22 +1,7 @@
 ---
 categories: books
-permalink: "category/books"
+permalink: "/category/books"
 layout: category
 title: "Books"
+image: https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80
 ---
-
-I love to read, normally reading through one or two books a week, and read for pleasure. I read mostly fiction but also sometimes books on data and statistics.
-
-Under this category, you'll mostly see book reviews.
-
-Below you can see the last six books I've read. If you'd like to see what I'm currently reading and some of my more recent reading activity, check [here]({{site.baseurl}}/reading-activity).
-
-<div class="recent-reading">
-{% include goodreads-widgets/last-6-read.html %}
-<p class="readmore">
-    <a href="{{ "/reading-activity" | prepend: site.baseurl }}"><data data-icon="ei-arrow-right"></data>See more
-    </a>
-</p>
-</div>
-
-Alternatively, continue here to see posts about books.

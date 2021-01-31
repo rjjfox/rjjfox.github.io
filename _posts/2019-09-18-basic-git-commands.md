@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "7 basic git commands to get you started"
+title: "7 basic git commands to get you started"
 date: 2019-09-18 18:00:00 +0700
 categories: general
 location: Huaraz, Peru
 location-link: Huaraz
+image: https://tr3.cbsistatic.com/hub/i/r/2017/10/31/af72d5e4-2f4c-48b5-954c-e4fa24fb0a97/resize/1200x/9f5c03620b98aa0a8d1a3caedded38fe/git-logo.jpg
 ---
 
 ![Git logo >](https://miro.medium.com/max/910/1*-l3Qrum9oPMiiM0yW7v_Ng.png){: height="100px"}
@@ -134,9 +135,9 @@ That's it! These commands will take you far and you'll find them coming to you v
 
 You now know how to:
 
-* Initialise and clone a repository to Github
-* Check the status of your repository
-* Keep your repository updated using add, commit and push
-* Pull the latest version of the repository from Github
+- Initialise and clone a repository to Github
+- Check the status of your repository
+- Keep your repository updated using add, commit and push
+- Pull the latest version of the repository from Github
 
 There's no need to use Github desktop when it's this simple and it looks far more professional to use git from the CLI.

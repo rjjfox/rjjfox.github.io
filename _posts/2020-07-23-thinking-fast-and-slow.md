@@ -4,6 +4,7 @@ title: "Book Review: Thinking Fast and Slow by Daniel Kahneman"
 categories: books
 location: London, UK
 location-link: london
+image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg
 ---
 
 ![Thinking Fast and Slow book cover >](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg){: height="300px"}

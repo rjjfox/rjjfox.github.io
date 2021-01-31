@@ -1,41 +1,68 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
+#-------------------------------
+# General Site Settings
 title: R Fox Data
 email: ryanfox212@gmail.com
 description: A personal data blog for Ryan Fox. # this appears in Google
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rfoxdata.co.uk" # the base hostname & protocol for your site
+blog-theme: light
+
+#-------------------------------
+# Social Settings
 github_username: rjjfox
 linkedin_username: rjjfox
 
-# Build settings
+#-------------------------------
+# Author Settings
+author:
+  name: Ryan Fox
+  image: "/assets/img/desertpic.jpeg"
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hi, I'm <span class="hero__name">Ryan Fox</span>.
+  hero__job: Data Scientist
+  hero__description: I spend a lot of time with numbers
+  hero__button__text: Read about my past
+  hero__button__link: "/about"
+  hero__image: "/assets/img/desertpic.jpeg"
+
+#-------------------------------
+# Social Links (Footer)
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+  - { icon: "fas fa-envelope", link: "mailto:ryanfox212@gmail.com" }
+  - { icon: "fab fa-github", link: "https://github.com/rjjfox" }
+  - { icon: "fab fa-linkedin-in", link: "https://www.linkedin.com/in/rjjfox" }
+
+#-------------------------------
+# Build Settings
 markdown: kramdown
 kramdown:
   input: GFM
   parse_block_html: true
+plugins:
+  - jekyll-paginate
 
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      comments: true
+paginate: 9
+paginate_path: "/page/:num"
+
+include:
+  - _pages
+
+#-------------------------------
+# Collection Settings
+collections:
+  projects:
+    output: true
+    sort_by: date
 
 # Third-party services
-# just leave someone empty to disable it
-# google_analytics:
+# just leave empty to disable it
 disqus_shortname: rfoxdata-co-uk
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
-
-# To enable projects as a new format of posts pages
-collections:
-  projects:
-    output: true

@@ -4,6 +4,7 @@ title: "Reduce your Heroku slug size"
 categories: [web-dev]
 location: Paris, France
 location-link: paris
+image: https://miro.medium.com/max/2400/1*FSkUtK8pYPBSNeaVotU4Ug.png
 ---
 
 Finally built an app on Heroku but it takes forever to load when you share it? It doesn't give the best first impression when people have to wait a while before the page even appears to start loading.

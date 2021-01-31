@@ -1,8 +1,10 @@
 ---
 layout: project
-title:  "Personal blog built through Jekyll"
+title: "Personal blog built through Jekyll"
 languages: HTML, CSS and Liquid
 skills: [html, css, liquid, storytelling]
+image: \assets\img\blog_overview_smaller.jpg
+date: 2019-07-15
 ---
 
 ![Site image >]({{site.baseurl}}\assets\img\blog_overview_smaller.jpg){: width="50%"}
@@ -12,8 +14,6 @@ After running many AB tests on websites and often coding the tests myself, I hav
 To add custom CSS, JS or HTML often required some sort of higher, paid-for subscription, and all of them cost money in one way or another, unless if you want their ads all over your site.
 
 This is why I chose to create a website using [Jekyll](https://jekyllrb.com/), a static site generator that allows you to pick templates if you want or completely create your own.
-
-
 
 <!--description-->
 

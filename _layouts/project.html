@@ -1,33 +1,19 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="article_header">
-        <h1 class="article_title" itemprop="name headline">{{ page.title }}</h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}"
-            itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-        <div class="project_skills">
-        <i class="fas fa-tags"></i>
-        {% for skill in page.skills %}
-        <span>{{ skill }}</span>
-        {% endfor %}
+{% include hero.html %}
+
+<!-- begin post -->
+<div class="container">
+    <article class="post animate">
+
+        <div class="post__content">
+            {{ content }}
         </div>
-    </header>
 
-    <div class="article-content" itemprop="articleBody">
-        {{ page.content }}
-    </div>
+        {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
 
-    <footer class="article-footer">
-
-        <!--<hr/>-->
-
-        <!-- {% include author.html %} -->
-
-    </footer>
-    {% if page.comments %}
-        <!-- {% include dq.html %} -->
-    {% endif %}
-
-</article>
+    </article>
+</div>
+<!-- end post -->

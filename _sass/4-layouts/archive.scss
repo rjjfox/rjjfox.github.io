@@ -1,0 +1,27 @@
+/* Archive or all posts Page
+—————————————————————————————————————————————————— */
+
+.archive_list {
+  margin-left: 5%;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.category-name {
+  margin-top: 3rem;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  h2 {
+    letter-spacing: 0;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+div.post_title {
+  font-size: $base-font-size * 0.9;
+
+  span.date {
+    font-size: 80%;
+    color: $grey-color;
+  }
+}

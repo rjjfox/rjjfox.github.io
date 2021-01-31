@@ -4,6 +4,8 @@ title: "Analysing my Goodreads data"
 languages: Python
 skills:
   [python, data cleaning, feature engineering, storytelling, api, data viz]
+image: \assets\img\goodreads\books_read_year.png
+date: 2020-07-31
 ---
 
 I have been curious to analyse my reading behaviour. For the last 7 years, I have been using Goodreads to rate books I've read and line up future reads by adding books to my 'to-read' shelf. This means that I have 7 years' worth of data on my reading behaviour.
