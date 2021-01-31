@@ -4,13 +4,19 @@
 
 <body
   class="{% if site.blog-theme == 'light' %}light{% elsif site.blog-theme == 'dark' %}dark{% else %}light{% endif %}">
+
   {% include header.html %}
-  <main class="page-content">
-    <div class="wrapper">
+
+  <main class="content" aria-label="Content">
+    <!-- begin wrapper-page -->
+    <div class="wrapper-page">
       {{ content }}
     </div>
+    <!-- end wrapper-page -->
   </main>
+
   {% include footer.html %}
+
   <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 </body>
 
