@@ -111,12 +111,5 @@
 
   .article__date {
     color: $text-color-alt;
-
-    &::before {
-      content: "/";
-      display: inline-block;
-      margin: 0 5px;
-      color: $text-color-alt;
-    }
   }
 }
