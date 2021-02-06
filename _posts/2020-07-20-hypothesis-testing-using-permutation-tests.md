@@ -11,7 +11,8 @@ There are many statistical methods for rejecting or failing to reject a null hyp
 
 A lot of statistical methods require making bold assumptions about the data and knowledge of their parameters. Permutation testing does away with only a couple of simple assumptions necessary and it's non-parametric.
 
-![Assessing statistical significance ><]({{site.baseurl}}/assets/img/Assess-Statistical-Significance.jpg){: height="250px"}
+![Assessing statistical significance ><]({{site.baseurl}}/assets/img/Assess-Statistical-Significance.jpg)
+_Photo from [WikiHow](https://www.wikihow.com/Assess-Statistical-Significance)_
 
 <!--description-->
 
@@ -76,12 +77,9 @@ def permutation_sample(A, B):
     permuted_A, permuted_B
     """
     data = np.concatenate([A, B])
-
     permuted_data = np.random.permutation(data)
-
     permuted_A = permuted_data[:len(A)]
     permuted_B = permuted_data[len(B):]
-
     return permuted_A, permuted_B
 ```
 
@@ -102,15 +100,11 @@ def draw_permutation_replicates(A, B, func, size=1):
 
     Returns: array of permutation replicates
     """
-
     # Initialise an empty numpy array
     perm_replicates = np.empty(size)
-
     for i in range(size):
         perm_A, perm_B = permutation_sample(A, B)
-
         perm_replicates[i] = func(perm_A, perm_B)
-
     return perm_replicates
 ```
 
@@ -119,9 +113,7 @@ _draw_permutation_replicates_ requires a function to produce the permutation rep
 ```python
 def diff_of_means(data_1, data_2):
     """Difference in means of two arrays."""
-
     diff = np.mean(data_1) - np.mean(data_2)
-
     return diff
 ```
 
@@ -130,6 +122,7 @@ def diff_of_means(data_1, data_2):
 We have finally got our permutations. We decided to create 10,000 permutations. With this we can plot the distribution of the permutation replicates for visualisation.
 
 ![Permutation replicate distribution ><]({{site.baseurl}}/assets/img/hypothesisPermutations.png)
+_Distribution of the permutation replicates_
 
 The final step here is to work out how the original difference of the means of 1.78% compares to the permutation replicates. This means calculating the p-value. It's calculated as the percentage of permutations that had a higher difference in their means compared to our empirical difference of the means.
 
@@ -139,20 +132,16 @@ We calculate this with the following code.
 
 ```python
 empirical_diff_means = diff_of_means(data_A, data_B)
-
 perm_replicates = draw_permutation_replicates(data_A, data_B, diff_of_means, 10000)
-
 p = np.sum(perm_replicates >= empirical_diff_means) / len(perm_replicates)
-
 # Print the result
-print('p-value =', p)
+print('p-value =', p) # Output = 0.001
 ```
-
-> p-value = 0.001
 
 This means that from our 10,000 permutations, 10 of them had a difference of means greater than 1.78%. Again, to visualise this graphically, we can plot this to our distribution.
 
 ![Permutation replicate distribution with empirical plotted><]({{site.baseurl}}/assets/img/hypothesisPermutationsWithLine.png)
+_Only a very small percentage of permutations had a result more extreme than the recorded one_
 
 We can see that in graphical terms, the p-value represents the amount of data that sits to the right of the line.
 

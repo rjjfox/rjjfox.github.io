@@ -130,7 +130,6 @@ blockquote {
 pre {
   overflow: auto;
   padding: 15px;
-  margin-bottom: 0;
   font-size: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -145,7 +144,8 @@ img,
 
   & + em {
     display: block;
-    margin-top: 15px;
+    margin-top: -25px;
+    margin-bottom: 50px;
     font-size: 14px;
     line-height: 22px;
     font-style: normal;
