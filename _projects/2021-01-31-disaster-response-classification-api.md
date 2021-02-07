@@ -14,6 +14,7 @@ During a crisis, organisations are overloaded with messages, coming directly, th
 [See it live](https://disaster.rfoxdata.co.uk/).
 
 ![Hero ><]({{site.baseurl}}/assets/img/disaster-hero.jpg)
+_App screenshot_
 
 <!--description-->
 
@@ -46,6 +47,7 @@ I must admit I did start out using XGBoost, because a 2% performance bump is sti
 Choosing a faster model, I was able to spend more time tuning hyperparameters, bringing the model's F1 score to 65%.
 
 ![Label page example ><]({{site.baseurl}}/assets/img/disaster-label-page.jpg){: width=90%}
+_Example message from the training data and the result of the classifier_
 
 ## The Application
 
@@ -56,12 +58,14 @@ I wanted the app to be usable and engaging and used native CSS and HTML mostly, 
 ### Message samples
 
 ![Samples ><]({{site.baseurl}}/assets/img/disaster-response-samples.jpg)
+_The sample messages change on each page load_
 
 Whilst a text form is provided in the main section at the top of the page, I know that it's too much effort to think up a message and write one out. Therefore, on page load, the app pulls out three messages from the training set so that users can see how they're classified.
 
 This coupled with the wordcloud below it also allow users to see what is contained in the training data and is much more effective a visualisation than bar charts (which I also threw in there).
 
 ![Wordcloud ><]({{site.baseurl}}/assets/img/disaster-wordcloud.png){: width=90%}
+_Word cloud from the 30,000 messages in the training data_
 
 I spent some time working on the Flask app because I think it's important to produce something you want to show to people. Without a nice interface, only the hardcore are really going to want to interact with your work.
 

@@ -7,9 +7,9 @@ image: \assets\img\blog_overview_smaller.jpg
 date: 2019-07-15
 ---
 
-![Site image >]({{site.baseurl}}\assets\img\blog_overview_smaller.jpg){: width="50%"}
-
 After running many AB tests on websites and often coding the tests myself, I have picked up a fair amount of web development skills. Although, I had never created a website before, only added improvements to those already made, I was keen not to use a CMS such as Wordpress, Squarespace, Wix, etc. as I felt with each, you are tied into a template that's difficult to manipulate.
+
+![Site image ><]({{site.baseurl}}\assets\img\blog_overview_smaller.jpg)
 
 To add custom CSS, JS or HTML often required some sort of higher, paid-for subscription, and all of them cost money in one way or another, unless if you want their ads all over your site.
 

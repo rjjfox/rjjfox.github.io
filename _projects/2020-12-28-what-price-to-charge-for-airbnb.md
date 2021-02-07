@@ -10,7 +10,8 @@ Maybe you have a place that you're fortunate enough to be able to potentially pu
 
 We'll go through that here, providing an easy guide to get a rough idea for how much to charge if you have a place you can rent out. We'll also look at what are the key factors involved. The data is specific to Boston, however, much of the information in this post will give you a good idea for things to think about for any location.
 
-![Boston loveliness ><](https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2020/10/boston-foliage-social.jpg){: width='90%' style="padding: 10px 0"}
+![Boston loveliness ><](https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2020/10/boston-foliage-social.jpg)
+_Photo via Getty Images/Through the Lens_
 
 Note: Airbnb also gives pricing tips based on much more sophisticated models than I can accomplish here ([more details](https://www.vrmintel.com/inside-airbnbs-algorithm/)). Use this post though for a very rough guide to get you started.
 
@@ -54,6 +55,7 @@ Without any fancy statistical models, some factors stand out as key in pricing y
 _Note: click on the plots to to be able to get a closer look._
 
 ![Four-way plot]({{site.baseurl}}/assets/img/airbnb-pricing/four-way-plot.png)
+_The impact of some of the features on the listed price_
 
 Things we can spot:
 
@@ -64,6 +66,7 @@ Things we can spot:
 - The average nightly price varies by $20 depending on the time of the year with late summer/autumn being the most expensive months
 
 ![Three panel plot]({{site.baseurl}}/assets/img/airbnb-pricing/three-panel-plot.png)
+_Some more features_
 
 Not displayed here to try and keep the post length to a minimum are plots showing the relationship between the descriptions given by hosts about their listings and the price. That's because the plots don't show any relationship at all. There's no evidence that the length of a description about your space, neighbourhood, or transport options impact the price that a listing can be put up for. Of course bear in mind that here we boil a potentially enchanting description down into a character count. In this format, the amount of information you give about the space, transit options, the neigbourhood, house rules and more all have no impact on the price you can put the place up for.
 
@@ -82,6 +85,7 @@ The way to use the graphs below is to go through each of the different features 
 Similar to the trends we saw before, key features are the number of bedrooms, the neighbourhood, type of property and room and the time of the year. Your status as a local or an Airbnb superhost also can have some impact on the sort of prices travellers will pay.
 
 ![lin reg features]({{site.baseurl}}/assets/img/airbnb-pricing/lin-reg-features.png)
+_Use the features and numbers here to calculate a ballpark listing price_
 
 #### An example
 
@@ -110,19 +114,22 @@ Linear regression has provided a sensible way for us to calculate a price. Howev
 
 To pick out any potential non-linear relationships the data, we'll use a couple of tree-based ensemble methods. Tree-based methods give us the flexibility to fit non-linear relationships but they also tend to be very sensitive to small variations in the data. This is why we'll use ensemble methods to reduce this tendency to overfit. Tree-based methods also tell us clearly the key factors in picking a price.
 
-![Tree based ><](https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2314&q=80){: width='90%' style="padding: 10px 0"}
+![Tree based ><](https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2314&q=80)
+_Jason Leem on [Unsplash](https://unsplash.com/photos/50bzI1F6urA)_
 
 Using **Random Forests** and **XGBoost**, two very popular competition winning machine learning methods, using the same factors as before, we can account for over 90% of the variation in the data and make much better predictions. However, their high complexity make it impossible to pass on the model without Python installed on your machine.
 
 It is simple enough however to show the most important factors in pricing your Airbnb according to the data.
 
 ![Ensemble features]({{site.baseurl}}/assets/img/airbnb-pricing/ensemble-features.png)
+_Feature importance of the ensemble methods_
 
 Both ensemble methods are aligned that the number of bedrooms, bathrooms and whether the listing is an entire home/apt or not are the most important features. These features account for 57% of the importance using either of the two ensemble methods, showing just how closely they agree. The rest of the features are each given small weights in adding the total up to 100%.
 
 This supports the earlier model we used and both suggest that it's really the most fundamental features of your home/apartment/loft/etc. that influence the price you should put it up for. All of the models used, simple or complex advise a significant margin for error in making an estimate suggesting that there are factors not captured in our data.
 
-![staircase ><](https://images.unsplash.com/photo-1607585011365-46a906c80798?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80){: width='90%' style="padding: 10px 0"}
+![staircase ><](https://images.unsplash.com/photo-1607585011365-46a906c80798?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+_Yura Lytkin on [Unsplash](https://unsplash.com/photos/p4BzDG-eUxI)_
 
 ## Conclusion
 

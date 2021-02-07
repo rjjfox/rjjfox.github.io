@@ -25,6 +25,7 @@ Goodreads allow you to export your dataset through your account. Among the 31 co
 A key piece of information that I wanted to add to this was the genre or category that the book falls under. After a brief bit of research, it looked like the Google Books API would be the best way to add this information to my data. Even though the categories provided by the Books API are a bit arbitrary and inconsistent, after some cleaning, books were labelled either 'Fiction' or 'Non-fiction.
 
 ![Data sample]({{site.baseurl}}\assets\img\goodreads\goodreads_data_sample.jpg)
+_A random sample of books in the dataset_
 
 <!-- TODO: Google Books API -->
 
@@ -76,16 +77,19 @@ Now onto some visualisations.
 Let's first plot the number of books read per month over time.
 
 ![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read.png)
+_A time series of books read over time by month_
 
 First month of lockdown kicked off with a bang here with me reading 15 books, the highest tally over the past 5 years. There's also a general trend here of reading more and also more non-fiction books being read as time goes on.
 
 This is even clearer if we look at books read on a yearly basis.
 
 ![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read_year.png)
+_A time series of books read over time by year_
 
 I'm certainly reading a greater number of books, however am I picking shorter books up to get my numbers up?
 
-![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read_vs_pages.png){: height='400px'}
+![Books read over time ><]({{site.baseurl}}\assets\img\goodreads\books_read_vs_pages.png)
+_No evidence of reading shorter books as the number of books read increases_
 
 There's a clear correlation here between the number of books read and the number of pages as we expect. If I was actually reading shorter books when reading more of them, we might expect the number of pages to stay fairly level or round off to a certain extent. Instead we have a Pearson R value of 0.86 suggesting a strong positive relationship here.
 
@@ -93,7 +97,8 @@ There's a clear correlation here between the number of books read and the number
 
 We can see from the below plot that a 5 star rating is the single most likely rating given to fiction books but 4 stars is the mode for non-fiction. Whilst a kernal density plot is not necessarily the best way to present discrete distributions, I think it works here as a way to clearly show the difference between the way fiction and non-fiction values have been rated up till now.
 
-![Rating vs genre ><]({{site.baseurl}}\assets\img\goodreads\ratings_vs_genre.png){: height='400px'}
+![Rating vs genre ><]({{site.baseurl}}\assets\img\goodreads\ratings_vs_genre.png)
+_Small differences in rating behaviour based on the genre_
 
 I also like to use the KDE plot as this rules out any complexity around using the correct number of bins that you would have in a histogram, the more typical method for plotting distribution of values.
 
@@ -103,13 +108,15 @@ Goodreads records the date a book was put onto any shelf and further records the
 
 I joined Goodreads in 2012 and started logging my reading activity regularly in 2013. Books added to my account have on average sat around for a year before being read but let's look at the distribution of waiting time.
 
-![Dist of contemplation time ><]({{site.baseurl}}\assets\img\goodreads\kde_contemplation.png){: height='400px'}
+![Dist of contemplation time ><]({{site.baseurl}}\assets\img\goodreads\kde_contemplation.png)
+_Distribution of contemplation time_
 
 How is this influenced by different features of the book? Well, surprisingly, despite my having a higher proportion of non-fiction books on my 'to-read' shelf than my 'read' shelf, the genre of the book has no influence on the time I wait before reading it.
 
 How thick the book is in terms of pages on the other hand, definitely seems to influence the time contemplating whether to read a book or not.
 
-![Contemplation vs book length ><]({{site.baseurl}}\assets\img\goodreads\contemplation_vs_book_length.png){: height='400px'}
+![Contemplation vs book length ><]({{site.baseurl}}\assets\img\goodreads\contemplation_vs_book_length.png)
+_Contemplation time vs. book length_
 
 #### Do books get better with age?
 
@@ -117,7 +124,8 @@ Is it better to be patient and let a book stew for a bit before consuming it. He
 
 In my case, there appears to be no aging benefit for books on my shelf based on the below scatterplot.
 
-![Contemplation vs book length ><]({{site.baseurl}}\assets\img\goodreads\contemplation_vs_rating.png){: height='400px'}
+![Contemplation vs rating ><]({{site.baseurl}}\assets\img\goodreads\contemplation_vs_rating.png)
+_Do books that have sat on my shelf for longer get a better rating?_
 
 There does seem to be a bit of an upside down pyrmid going on here looking at this plot but there is no link here and that is most likely only down to the higher likelihood of me giving a better rating in general.
 
@@ -132,12 +140,14 @@ The threshold before a book is declared a let down is 0. Anything below this is 
 Without further ado, here are the let-downs with a `let_down_score < 0`.
 
 ![Let downs ><]({{site.baseurl}}\assets\img\goodreads\let_downs.jpg)
+_Complete let downs_
 
 'Zen and the Art of Motorcycle Maintenance' was a huge letdown and it tells me the score is working. I was completely baffled by the book and only read it based on a recommendation.
 
 We've so far had only had a small number of let-downs. However, there are books which have sat on my shelf for long time now, meaning they are at risk of falling into the let-down hall of shame.
 
-![Let downs ><]({{site.baseurl}}\assets\img\goodreads\potential_let_downs.jpg)
+![Potential let downs ><]({{site.baseurl}}\assets\img\goodreads\potential_let_downs.jpg)
+_Potential let downs_
 
 5+ years of contemplation! These books better be good. The number of pages for each of these books could be a big factor in why I've spent so long contemplating them.
 

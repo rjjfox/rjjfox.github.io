@@ -6,8 +6,6 @@ skills: [python, statistics, streamlit, cli, deployment, data viz]
 image: /assets/img/samplesize-demofull.gif
 ---
 
-![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"}
-
 Frequently having to calculate sample sizes for AB tests, I decided to create my own application for this, originally in a Jupyter Notebook and later as an app hosted on Heroku and built using the Streamlit framework.
 
 [Try the app out](https://abtestsamplesize.herokuapp.com/).
@@ -28,7 +26,8 @@ More useful to me is understanding what sort of precision I can achieve with my 
 
 Therefore the graphical output I chose displays precision/MDE vs. runtime. Example output:
 
-![Runtimes graph ><]({{site.baseurl}}/assets/img/runtimes_graph.jpg){: width="80%"}
+![Runtimes graph ><]({{site.baseurl}}/assets/img/runtimes_graph.jpg)
+_A plot of runtimes vs the minimum detectable effect (MDE)_
 
 This works for multiple scenarios when testing:
 
@@ -50,4 +49,5 @@ Adding the average value of a conversion outputs a monthly revenue impact based 
 
 In the case of do-no-harm tests, it allowed the team to see the potential revenue loss if the test does have an impact. At a time when traffic levels are low due to less demand for travel during the pandemic, understanding quickly the level of precision achievable and the business impact was key.
 
-![Illustration of business value ><]({{site.baseurl}}/assets/img/runtimes_graph_value.jpg){: width="80%"}
+![Illustration of business value ><]({{site.baseurl}}/assets/img/runtimes_graph_value.jpg)
+_Attaching the business value associated with the different MDEs or runtimes_

@@ -15,7 +15,8 @@ This is one of the "Ten simple rules for effective statistical practice" outline
 
 Being a firm believer in this myself, I decided to create an app myself using Statistical models that I believe in.
 
-![Image demo ><]({{site.baseurl}}/assets/img/testcalculator.gif){: width="75%"}
+![Image demo ><]({{site.baseurl}}/assets/img/testcalculator.gif)
+_An illustration of the app in use_
 
 <!--description-->
 
