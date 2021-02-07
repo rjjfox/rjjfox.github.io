@@ -43,7 +43,9 @@ social:
 markdown: kramdown
 kramdown:
   input: GFM
-  parse_block_html: true
+  # Parsing HTML done when needed using the markdown="1" attribute
+  # ...for TOCs and collapsible blocks
+  # parse_block_html: true
 plugins:
   - jekyll-paginate
 
