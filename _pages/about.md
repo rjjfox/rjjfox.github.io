@@ -28,6 +28,7 @@ Delivering insights and making my colleagues passionate about making improvement
 This continued at Eurostar where I led the Experimentation program for the company. In 2015, the job was to build a test-and-learn culture. Building a test-and-learn culture requires changing the way people think. It's ensuring that people think about testing ideas as part of the product design/marketing campaign process. By the end of my first stint at Eurostar, I had demonstrated the value thoroughly with over £15m worth of incremental revenue forecasted annually. Maybe overly fondly, I remember a colleague labelling my team and me the 'Rockstars of Digital' because of the changes we were bringing around with a swiftness that the company had rarely seen thus far. At the start of my nine months there, I was a one man team. By the time I left, we were three.
 
 ![Eurostar]({{site.baseurl}}/assets/img/EurostarOneForMany.jpg)
+_A fun day taking part in a photoshoot with Eurostar colleagues for a marketing campaign, August 2018_
 
 ### Joining the product team
 
@@ -50,6 +51,7 @@ Since 2017, I've been using Python instead of R and relishing the new tech comin
 On a non-professional front, I'm a keen traveller having taken a couple of years off work to travel mostly in Latin America from which I came back speaking a good level of Spanish. I've been away three times for long term travel, the first time spending 3 months in SE Asia, the second time spending 10 months in the Americas, 10 incredible days in Antarctica, 3 months in Japan (my favorite country) and then a month in Spain to further study Spanish. The third time I went away, it was to South America for 6 months followed by 6 months in Asia, spending 3 of these month in Thailand, where my mother was born.
 
 ![Antarctica]({{site.baseurl}}/assets/img/antarctica-zeplin.jpeg)
+_The Antarctic Peninsula, December 2016_
 
 I'm also an avid reader, averaging around 2 books a week in 2020. I love to read and read mostly fiction as I discovered when I [analysed my reading activity]({% post_url 2020-07-31-Analysing-my-goodreads-data %}). I enjoy reading books about maths, statistics, data science and software engineering, recommending [The Art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics), [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), [Factfulness](https://www.goodreads.com/book/show/34890015-factfulness) and many many others.
 
