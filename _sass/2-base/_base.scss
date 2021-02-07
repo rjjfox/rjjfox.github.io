@@ -58,6 +58,13 @@ h6 {
   letter-spacing: -1px;
 }
 
+.page h1,
+.page h2,
+.post h1,
+.post h2 {
+  margin-top: 50px;
+}
+
 h1 {
   font-size: $font-size-h1;
 }
