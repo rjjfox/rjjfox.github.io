@@ -13,7 +13,8 @@ Knowing whether cases were going up or down allowed me to plan visits to head ov
 
 I created my own dashboard displaying simple trend numbers for the COVID-19 situation so that I had one simple place where I could see everything.
 
-![App in use gif ><]({{site.baseurl}}/assets/img/covid-dashboard.gif){: width="90%"}
+![App in use gif ><]({{site.baseurl}}/assets/img/covid-dashboard.gif)
+_The app in use_
 
 <!--description-->
 

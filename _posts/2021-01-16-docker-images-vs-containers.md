@@ -11,8 +11,6 @@ I used Docker and containers recently as a way to simplify deploying web apps on
 
 I've since dedicated time to really understand what I'm doing with Docker and understanding the terminology. I want to take you through part of the learning process with me and I'll focus this post on the terminology of Docker containers and images. What are they really and how do we use them?
 
-![Docker logo ><](https://pbs.twimg.com/profile_images/1273307847103635465/lfVWBmiW_400x400.png)
-
 <!--description-->
 
 {% include toc.html %}
@@ -29,7 +27,7 @@ Now to explain how it can be true. Doing so should explain what the difference i
 
 This is important for understanding why the above two statements are true. For most of us, images are created from Dockerfiles. With a Dockerfile, we run
 
-```docker
+```shell
 docker build [path-to-Dockerfile]
 ```
 
@@ -39,14 +37,13 @@ This builds an image. This image cannot be edited. We can delete it or duplicate
 
 To create a container, we run an image using
 
-```docker
+```shell
 docker run [image-name]
 ```
 
 This process alone is useful to remember, a **Dockerfile** → _build_ → **Image** → _run →_ **Container**.
 
-![Docker process]({{site.baseurl}}/assets/img/docker-process.png)
-
+![Docker process ><]({{site.baseurl}}/assets/img/docker-process.png)
 _Full image credit goes to [Jake Wright](https://www.youtube.com/user/jaketvee) and his great Youtube video referenced below._
 
 ### Layers
@@ -57,14 +54,10 @@ When we write a Dockerfile, it may look something like this
 
 ```docker
 FROM python:3.9-slim
-
 WORKDIR /usr/src/app
-
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-
 COPY . .
-
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "coviddashboard:app"]
 ```
 

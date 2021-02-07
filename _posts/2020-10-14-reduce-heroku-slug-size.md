@@ -9,8 +9,6 @@ image: https://miro.medium.com/max/2400/1*FSkUtK8pYPBSNeaVotU4Ug.png
 
 Finally built an app on Heroku but it takes forever to load when you share it? It doesn't give the best first impression when people have to wait a while before the page even appears to start loading.
 
-![Slugsize breakdown >](https://blog.behrouze.com/wp-content/uploads/2018/10/heroku-logotype-horizontal-purple.png){: width="50%"}
-
 This was my experience with my first Heroku-hosted app, which [calculates sample sizes for AB tests](https://abtestsamplesize.herokuapp.com/). The app was built through Python using the Streamlit library but before anyone could see the app I'd spent so long creating, testing on local servers, they had to sit through extra page load times unnecessarily.
 
 The problem was the slug size of my Heroku app.
@@ -29,7 +27,7 @@ _Note: this article assumes you have the Heroku CLI installed. If you dont, foll
 
 The first and most simple step in understanding why your slugsize is so large is to check which files are taking up space. We use Heroku bash for this.
 
-```dcl
+```shell
 heroku run bash -a <appname>
 ```
 
@@ -55,7 +53,7 @@ For me, the main issue I had after running the above bash commands was that the 
 
 After ensuring that `venv/` was added to my .gitignore file, I removed the folder from the git cache using
 
-```git
+```bash
 git rm -r --cached venv`
 ```
 

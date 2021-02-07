@@ -8,8 +8,6 @@ location-link: Santa+Cruz+de+la+Sierra
 image: https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/The_Power_of_Habit.jpg/220px-The_Power_of_Habit.jpg
 ---
 
-![book cover >](https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/The_Power_of_Habit.jpg/220px-The_Power_of_Habit.jpg){:height="150px"}
-
 Whilst I have no intention of making this blog about books and their reviews, I do like to read and feel it would be useful to note some things I learned from reading 'The Power of Habit' by Charles Duhigg. I feel these are relevant to my personal development.
 
 In this post are a few things I learnt and will be trying to utilise to create some good habits and get rid of some bad ones.

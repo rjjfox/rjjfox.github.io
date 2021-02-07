@@ -8,8 +8,6 @@ location-link: Huaraz
 image: https://tr3.cbsistatic.com/hub/i/r/2017/10/31/af72d5e4-2f4c-48b5-954c-e4fa24fb0a97/resize/1200x/9f5c03620b98aa0a8d1a3caedded38fe/git-logo.jpg
 ---
 
-![Git logo >](https://miro.medium.com/max/910/1*-l3Qrum9oPMiiM0yW7v_Ng.png){: height="100px"}
-
 Getting started in git takes 10 minutes and provides a quick and simple way to ensure your scripts are saved online and gain version control. It's also makes you feel like a pro using the command line interface (CLI). In this post are the 7 commands you need to manage a simple repository.
 
 <!--description-->

@@ -7,8 +7,6 @@ location-link: london
 image: /assets/img/samplesize-demofull.gif
 ---
 
-![Image demo >]({{site.baseurl}}/assets/img/samplesize-demofull.gif){: width="35%"}
-
 Frequently having to calculate sample sizes for AB tests, I decided to create my own application for this, originally in a Jupyter Notebook and later as an app hosted on Heroku and built using the Streamlit framework.
 
 [Try the app out](https://abtestsamplesize.herokuapp.com/).

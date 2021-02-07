@@ -7,8 +7,6 @@ location-link: london
 image: https://upload.wikimedia.org/wikipedia/commons/1/19/Jakob_Bernoulli.jpg
 ---
 
-![Jacob Bernoulli >](https://upload.wikimedia.org/wikipedia/commons/1/19/Jakob_Bernoulli.jpg){: height='200px'}
-
 Until only recently I believed there were Bernoulli trials and a Binomial distribution and a Bernoulli distribution does not exist. It was my understanding that when simulating a standard AB test with a binary outcome (such as a purchase or subscription), each visitor amounts to a Bernoulli trial and the behaviour for multiple Bernoulli trials is described by the Binomial distribution.
 
 It turns out I was completely right other than in my belief that there is no such thing as a Bernoulli **distribution**.

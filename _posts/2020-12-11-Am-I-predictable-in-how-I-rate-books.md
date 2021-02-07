@@ -7,8 +7,6 @@ location-link: london
 image: https://scribemedia.com/wp-content/uploads/2020/02/Scribe_howtosetupgoodreads_Thumbnail-700x406.jpg
 ---
 
-![Goodreads logo >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}
-
 I've been using Goodreads consistently for the last 8 years to line up future reads and rate books I've read. Recently, I exported these 8 years' worth of data and analysed it to see how my [reading behaviour has changed]({% post_url 2020-07-31-Analysing-my-goodreads-data %}).
 
 As an extension to this, I'm going to see if it's possible to predict how much I will like/dislike a book.

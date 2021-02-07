@@ -7,8 +7,6 @@ location-link: london
 image: https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png
 ---
 
-![Goodreads logo >](https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png){: width="20%"}
-
 I've been curious to analyse my reading behaviour for a while.
 
 Do I read more now than I used to? What's the balance between fiction and non-fiction? Do I read more non-fiction now than before?

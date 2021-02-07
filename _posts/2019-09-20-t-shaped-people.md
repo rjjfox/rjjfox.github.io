@@ -5,7 +5,7 @@ date: 2019-09-20 14:00:00 +0600
 categories: general
 location: London, UK
 location-link: london
-image: https://miro.medium.com/max/1617/1*3jJEfx1B2xX86Uc1_e0r1Q.png
+image: https://collegeinfogeek.com/wp-content/uploads/2017/10/Illustration-of-T-Shaped-Concept.jpg
 ---
 
 A T-shaped person is someone who is capable in many things and an expert in at least one. This is a phrase I learnt about recently and I like to think it justifies the meandering way that I go around in my passion to learn.

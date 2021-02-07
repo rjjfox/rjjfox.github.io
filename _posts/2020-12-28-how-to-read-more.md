@@ -11,7 +11,8 @@ I love talking about reading. I'm not talking about reading specific books but t
 
 The title for this post is a bit of click-bait but I do have six tips that I feel will help anyone to read more books whether you're already an avid reader or someone who hasn't picked up a book in years.
 
-![Unsplash by Susan Yin](https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+![Books stacked on top of each other](https://images.unsplash.com/photo-1492539438225-2666b2a98f93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2106&q=80)
+_Jan Mellström from [Unsplash](https://unsplash.com/photos/tofagMI_UCM)_
 
 <!--description-->
 
@@ -33,7 +34,8 @@ Some people wonder if there's any benefit to reading a fictional book that's not
 
 Classics and non-fiction books are just not always enjoyable to read. I do make an effort to read classics, they have stood the test of time for a reason. But they are rarely an "easy" read. I'd say it's more of a pleasant surprise when they are. It's the same with business/science/technology books. Read for enjoyment, not just to study.
 
-![Read books you enjoy ><]({{site.baseurl}}/assets/img/easy-books.jpg){: width='90%'}
+![Read books you enjoy ><]({{site.baseurl}}/assets/img/easy-books.jpg)
+_A selection of some of the books I've enjoyed recently_
 
 Particularly for those who read maybe one or two books a year or never, **focus on reading books you enjoy to build a habit of reading.**
 
@@ -60,6 +62,7 @@ I give up on maybe 3 or 4 books a year, most often just getting to the last 100 
 **Being able to give up on books takes the stress away from picking books and means that you don't waste any time reading a book that you're not enjoying or getting anything from.**
 
 ![From Unsplash by Jilbert Ebrahimi](https://images.unsplash.com/photo-1456315138460-858d1089ddba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+_Enjoy the books you read, Jilbert Ebrahimi on Unsplash_
 
 ## 4. Keep track of the books you've read or want to read
 
@@ -81,6 +84,7 @@ I wasn't always sold on audiobooks; sometimes I couldn't pay attention to them a
 - **Pick the right genres.** You need to be excited to listen to these books or your mind will wander. I do listen to some non-fiction books but I often end up rewinding the book a lot and it sometimes feels like cheating because I'm not sure I've been listening. Fiction - historical fiction, fantasy, sci-fi - works much better for me. I've also recently listened to a few great autobiographies which were all narrated by the author. Listening to Barack Obama read his memoirs, _A Promised Land_ was one of the best audiobook experiences I've had. Adam Buxton reading his _Ramblebook_ was also great.
 
 ![Recommended Audiobooks ><]({{site.baseurl}}/assets/img/FavouriteAudiobooks.jpg){: width='90%'}
+_Recommended Audiobooks_
 
 ## 6. Use a Kindle for travel
 
@@ -93,6 +97,7 @@ I still love reading physical books but while travelling, I will always use a ki
 People have also talked about how the Kindle can reduce the risk factor associated with buying physical books. With books read on the Kindle, if you don't like a book, you don't have to worry about what to do with the physical version. I struggle to give away a book even if I didn't like it. For books I've read on the Kindle and liked, I'll most likely purchase that book to add its physical version to my shelves.
 
 ![Kindle ><>](https://images.unsplash.com/photo-1520021711115-802d1cdbf0bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80)
+_Masaaki Komori on Unsplash_
 
 ## A Note on Speedreading
 

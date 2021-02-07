@@ -7,9 +7,7 @@ location-link: london
 image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg
 ---
 
-![Thinking Fast and Slow book cover >](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793965l/11468377.jpg){: height="300px"}
-
-5 stars.
+**5 stars.**
 
 This book took me around 4-5 months to finish, yet only because I wanted to ensure I read it when I could absorb the rich content it offered. It is absolutely slammed full of insights into the way we think.
 
