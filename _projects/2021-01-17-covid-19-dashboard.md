@@ -20,7 +20,7 @@ _The app in use_
 
 I wanted to be able to see a moving average to account for reporting inconsistencies. I wanted to be able to zoom in to graphs to be able to see more granularly what's been going on in the last week or month. With most dashboards still presenting data as a year long time-series, it has become a lot harder to see the little bump indicating that the top of a wave might be reached.
 
-See it live [here](https://coviddashboard.rfoxdata.co.uk/).
+[See it live](https://coviddashboard.rfoxdata.co.uk/).
 
 ## Technology Used
 
