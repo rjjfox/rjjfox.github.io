@@ -13,14 +13,14 @@ Knowing whether cases were going up or down allowed me to plan visits to head ov
 
 I created my own dashboard displaying simple trend numbers for the COVID-19 situation so that I had one simple place where I could see everything.
 
+[See it live](https://coviddashboard.rfoxdata.co.uk/).
+
 ![App in use gif ><]({{site.baseurl}}/assets/img/covid-dashboard.gif)
 _The app in use_
 
 <!--description-->
 
 I wanted to be able to see a moving average to account for reporting inconsistencies. I wanted to be able to zoom in to graphs to be able to see more granularly what's been going on in the last week or month. With most dashboards still presenting data as a year long time-series, it has become a lot harder to see the little bump indicating that the top of a wave might be reached.
-
-[See it live](https://coviddashboard.rfoxdata.co.uk/).
 
 ## Technology Used
 

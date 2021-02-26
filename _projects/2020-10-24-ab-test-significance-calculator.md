@@ -14,12 +14,12 @@ This is one of the "Ten simple rules for effective statistical practice" outline
 
 Being a firm believer in this myself, I decided to create an app myself using Statistical models that I believe in.
 
+[Try the app out](https://abtestcalculator.herokuapp.com/){:target="\_blank"}.
+
 ![Image demo ><]({{site.baseurl}}/assets/img/testcalculator.gif)
 _An illustration of the app in use_
 
 <!--description-->
-
-[Try the app out](https://abtestcalculator.herokuapp.com/){:target="\_blank"} or see the gif above.
 
 It is possible to run AB tests without understanding the logic behind it. There are loads of online calculators to tell you if your test result is significant or not. Doing this without an understanding of the assumptions being made and the pitfalls of your testing approach, however could potentially lead to false or misleading results.
 
