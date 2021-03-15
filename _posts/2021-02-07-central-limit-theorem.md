@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Is the Central Limit Theorem?"
+title: "What is the Central Limit Theorem?"
 categories: statistics
 location: London, UK
 location-link: london
