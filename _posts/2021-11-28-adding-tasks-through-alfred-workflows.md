@@ -17,7 +17,7 @@ To keep track of tasks at work and prioritise accordingly, I'm currently trialli
 
 Notion is the tool I use to capture the tasks, however, speed can be an issue with Notion. Opening Notion and navigating to the right area can take a little time and a few clicks. This is where Notion and its amazing workflows comes in. Workflows are only available if you pay for a 'Powerpack' but it opens up an amazing amount of customisation.
 
-![Demo of the workflow]({{site.baseurl}}w/assets/img/alfred-workflow-demo.gif)
+![Demo of the workflow]({{site.baseurl}}/assets/img/alfred-workflow-demo.gif)
 
 Check out the workflow on [Github](https://github.com/rjjfox/notion-new-task-alfred).
 
