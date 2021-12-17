@@ -21,4 +21,44 @@ Notion is the tool I use to capture the tasks, however, speed can be an issue wi
 
 Check out the workflow on [Github](https://github.com/rjjfox/notion-new-task-alfred).
 
-<!-- FIXME:: Get Jekyll working -->
+## A note on doing this with Python
+
+I did initially set out to do this through Python, before realising that I can simplify the process using a bash script instead. Bash means that the workflow is much more transportable than if you add Python as a dependency. Not everyone has Python installed on their machine whereas anyone using Mac OS will be able to run the bash script.
+
+For those interested, here's a peak at the Python required.
+
+```python
+
+import requests, json, sys
+
+# This is the token provided by the integration API
+# https://developers.notion.com/docs/getting-started#step-1-create-an-integration
+token = "[KEY]"
+
+# Found in the URL on the database page
+# https://developers.notion.com/docs/getting-started#step-2-share-a-database-with-your-integration
+databaseId = "[ID]"
+
+headers = {
+    "Authorization": "Bearer " + token,
+    "Content-Type": "application/json",
+    "Notion-Version": "2021-05-13",
+}
+
+
+def addTask(databaseId, headers, name):
+
+    createUrl = "https://api.notion.com/v1/pages"
+
+    newPageData = {
+        "parent": {"database_id": databaseId},
+        "properties": {"Task Name": {"title": [{"text": {"content": name}}]}},
+    }
+
+    data = json.dumps(newPageData)
+    # print(str(uploadData))
+
+    res = requests.request("POST", createUrl, headers=headers, data=data)
+
+
+```
