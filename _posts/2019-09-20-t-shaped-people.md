@@ -2,7 +2,7 @@
 layout: post
 title: "T-shaped people"
 date: 2019-09-20 14:00:00 +0600
-categories: general
+tags: [general]
 location: London, UK
 location-link: london
 image: https://collegeinfogeek.com/wp-content/uploads/2017/10/Illustration-of-T-Shaped-Concept.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disaster Response Classification API"
-categories: [python, web-dev, machine-learning]
+tags: [python, machine-learning]
 location: London, UK
 location-link: london
 image: [/assets/img/disaster-hero.jpg]

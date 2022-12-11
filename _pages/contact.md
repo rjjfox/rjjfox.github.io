@@ -5,12 +5,27 @@ permalink: /contact/
 image: "/assets/img/desertpic.jpeg"
 ---
 
-I'm available for collaborations on projects, contract work and for just talking about data.
-
-Feel free to contact me.
-
-<div align="center" markdown="1">
-<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](mailto:ryanfox212@gmail.com) | <i class="fas fa-phone"></i> +447706794177
-<br>
-<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
+<div class="form-box">
+  <div class="contact-head">
+    {% if site.data.settings.contact.description %}
+    <p class="form-description">{{site.data.settings.contact.description}}</p>
+    {% endif %}
+  </div>
+  <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-name">Your Name</label>
+      <input class="form__input" id="form-name" type="text" name="name" placeholder="Name..." required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-email">Your Email</label>
+      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email..." required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-text">Your Message</label>
+      <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message..." required></textarea>
+    </div>
+    <div class="form__group">
+      <button class="button button--rounded" type="submit">Send Message</button>
+    </div>
+  </form>
 </div>

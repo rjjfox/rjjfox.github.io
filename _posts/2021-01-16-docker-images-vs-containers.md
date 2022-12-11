@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker images vs. containers - how I explained it to myself"
-categories: [web-dev]
+tags: [web-dev]
 location: London, UK
 location-link: london
 image: https://hdwallpaperim.com/wp-content/uploads/2017/08/25/461265-docker-containers-748x421.jpg

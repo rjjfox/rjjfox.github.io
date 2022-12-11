@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Creating an AB test sample size app"
-categories: [statistics, python, web-dev]
+tags: [statistics, python, web-dev]
 location: London, UK
 location-link: london
 image: /assets/img/samplesize-demofull.gif
+featured: true
 ---
 
 Frequently having to calculate sample sizes for AB tests, I decided to create my own application for this, originally in a Jupyter Notebook and later as an app hosted on Heroku and built using the Streamlit framework.

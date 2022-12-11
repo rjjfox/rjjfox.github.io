@@ -2,7 +2,7 @@
 layout: post
 title: "Book Review: The Power of Habit by Charles Duhigg"
 date: 2019-07-04 15:00:00 +0600
-categories: books
+tags: [books]
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 image: https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/The_Power_of_Habit.jpg/220px-The_Power_of_Habit.jpg

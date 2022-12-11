@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The difference between Binomial and Bernoulli distributions"
-categories: statistics
+tags: [statistics]
 location: London, UK
 location-link: london
 image: https://upload.wikimedia.org/wikipedia/commons/1/19/Jakob_Bernoulli.jpg

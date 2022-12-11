@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Hypothesis testing using permutation tests"
-categories: [statistics]
+tags: [statistics]
 location: London, UK
 location-link: london
 image: /assets/img/Assess-Statistical-Significance.jpg
+featured: true
 ---
 
 There are many statistical methods for rejecting or failing to reject a null hypothesis. I want to run through **Permutation tests** and when you might use this method.

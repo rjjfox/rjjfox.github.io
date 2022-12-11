@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is the Central Limit Theorem?"
-categories: statistics
+tags: [statistics]
 location: London, UK
 location-link: london
 image: /assets/img/CLT_plots.png

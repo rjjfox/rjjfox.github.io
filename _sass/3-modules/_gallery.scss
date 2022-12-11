@@ -1,28 +1,9 @@
 /* Gallery */
 .gallery-box {
-  margin: 40px 0;
+  margin: 30px 0;
 
   &.gallery-footer {
     margin: 0;
-  }
-
-  em {
-    display: block;
-    margin-top: 15px;
-    font-size: 14px;
-    line-height: 22px;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    color: $heading-font-color;
-
-    a {
-      border-bottom: 1px solid $heading-font-color;
-      &:hover {
-        color: $link-color-hover;
-        border-color: $brand-color;
-      }
-    }
   }
 }
 
@@ -32,15 +13,22 @@
   justify-content: center;
   align-content: center;
   grid-gap: 10px;
+
   .gallery__image {
-    background: $background-color;
+    user-select: none;
+    background: var(--background-color);
 
     img {
       display: block;
       width: 100%;
       height: auto;
+      border-radius: 8px;
+      overflow: hidden;
       object-fit: cover;
+
+      &.lightense-open {
+        border-radius: 0;
+      }
     }
   }
-
 }

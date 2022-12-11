@@ -2,7 +2,7 @@
 layout: post
 title: "A Basic Command Line Application"
 date: 2019-07-12 16:00:00 +0600
-categories: python
+tags: [python]
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 image: /assets/img/ColourLookup.gif

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding tasks quickly through Notion"
-categories: general
+tags: [general]
 location: London, UK
 location-link: london
 image: https://images.ctfassets.net/lzny33ho1g45/alfred-p-img/71663bbc6930f55fab6b7967399d53fb/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760

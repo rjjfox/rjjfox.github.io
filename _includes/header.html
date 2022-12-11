@@ -6,47 +6,72 @@
 
         <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
-            {%if site.logo %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+            {% if site.data.settings.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}"
+              alt="{{ site.data.settings.title }}">
             {% else %}
-            {{ site.title }}
+            {{ site.data.settings.title }}
             {% endif %}
           </a>
         </div>
 
-        <nav class="main-nav" id="main-nav">
+        <div class="hamburger">
+          <div></div>
+        </div>
+
+        <nav class="main-nav">
           <div class="main-nav__box">
-            <div class="nav__icon-close" onclick="openMenu()">
-              <i class="fas fa-times"></i>
-            </div>
-            <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
+
+              {% for item in site.data.settings.menu__settings.menu__items %}
+              {% if item.submenu %}
+              <li class="nav__item dropdown">
+                <span class="nav__link dropdown-toggle">{{ item.title }} <i
+                    class="ion ion-ios-arrow-down arrow-down"></i></span>
+                <div class="dropdown-menu">
+                  {% for submenu-item in item.submenu %}
+                  <a href="{{ submenu-item.url }}"
+                    class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                  {% endfor %}
+                </div>
               </li>
+              {% else %}
               <li class="nav__item">
-                <a href="{{ "/all-posts" | prepend: site.baseurl }}" class="nav__link">All posts</a>
+                <a href="{{ item.url | relative_url }}"
+                  class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
               </li>
-              <li class="nav__item">
-                <a href="{{ "/projects" | prepend: site.baseurl }}" class="nav__link">Projects</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ "/about" | prepend: site.baseurl }}" class="nav__link">About</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ "/contact" | prepend: site.baseurl }}" class="nav__link">Contact</a>
-              </li>
+              {% endif %}
+              {% endfor %}
+
             </ul>
+          </div>
+
+          <div class="nav-buttons">
+            {% if site.data.settings.color_scheme == "auto" %}
+            <div class="toggle-theme">
+              <div class="toggle-moon" title="Enable dark mode" aria-hidden="true"><i class="ion ion-ios-moon"></i>
+              </div>
+              <div class="toggle-sun" title="Enable light mode" aria-hidden="true"><i class="ion ion-ios-sunny"></i>
+              </div>
+            </div>
+            {% elsif site.data.settings.color_scheme == "light" or site.data.settings.color_scheme == "dark" %}
+            {% else %}
+            <div class="toggle-theme">
+              <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon" aria-hidden="true"></i>
+              </div>
+              <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny" aria-hidden="true"></i>
+              </div>
+            </div>
+            {% endif %}
+            <i class="nav__icon icon__search ion ion-md-search"></i>
           </div>
         </nav>
 
-        <div class="nav-buttons" onclick="openMenu()">
-          <i class="nav__icon nav__icon-menu fas fa-bars"></i>
-        </div>
 
       </div>
     </div>
   </div>
-  <div class=" header__overlay" id="header__overlay" onclick="openMenu()"></div>
 </header>
 <!-- end header -->
+
+{% include search.html %}

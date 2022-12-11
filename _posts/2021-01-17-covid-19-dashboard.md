@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "COVID-19 Flask dashboard to assess the situation in the UK and France"
-categories: [python, web-dev]
+tags: [python, web-dev]
 location: London, UK
 location-link: london
 image: /assets/img/covid-dashboard.gif

@@ -8,42 +8,38 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  border: 10px solid $background-color;
-  color: $heading-font-color;
-  background-color: $background-color;
+  border: 10px solid var(--background-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &.dark {
-    .footer__head {
-      background: $background-color;
-
-      @media only screen and (max-width: $tablet) {
-        padding: 40px;
-      }
-
-      @media only screen and (max-width: $mobile) {
-        padding: 30px;
-      }
-    }
-
-    .subscribe-form {
-      .subscribe-email {
-        background: $background-color-alt;
-      }
-    }
+  &.search-is-visible {
+    overflow: hidden;
+    -webkit-overflow-scrolling: auto;
   }
 
-  @media only screen and (max-width: $mobile) {
-    font-size: 16px;
-    line-height: 29px;
-    border-width: 5px;
+  &.disable-animation {
+
+    *,
+    *::after,
+    *::before {
+      transition: none !important;
+    }
+  }
+}
+
+.global-wrap {
+  &.is-active {
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 }
 
 *::selection {
-  color: $white;
-  background-color: rgba($brand-color, 0.8);
+  color: var(--white);
+  background-color: var(--brand-color);
 }
 
 h1,
@@ -55,20 +51,8 @@ h6 {
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
-  letter-spacing: -1px;
-}
-
-.page h1,
-.post h1,
-.page h2,
-.post h2,
-.page h3,
-.post h3,
-.page h4,
-.post h4,
-.page h5,
-.post h5 {
-  margin-top: 50px;
+  letter-spacing: $heading-letter-spacing;
+  color: var(--heading-font-color);
 }
 
 h1 {
@@ -101,39 +85,42 @@ blockquote {
   padding: 25px 25px 15px 60px;
   font-size: 30px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
+  color: var(--heading-font-color);
 
   &::before {
-    content: "\201C";
+    content: '\201C';
     position: absolute;
     top: 0.35em;
     left: 0.05em;
     font-size: 3.5em;
-    color: $brand-color;
+    color: var(--brand-color);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 
   cite {
     display: inline-block;
-    margin-top: 7px;
     font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
     font-style: normal;
-    color: $text-color-alt;
+    color: var(--heading-font-color);
+
     &:before {
-      content: "\2014""\00a0";
+      content: '\2014' '\00a0';
     }
   }
 
-  @media only screen and (max-width: $desktop) {
+  @media (max-width: $desktop) {
     font-size: 24px;
     line-height: 37px;
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media (max-width: $mobile) {
     padding: 38px 0 15px 35px;
     font-size: 21px;
     line-height: 31px;
@@ -143,85 +130,140 @@ blockquote {
 pre {
   overflow: auto;
   padding: 15px;
+  margin-bottom: 0;
   font-size: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+  color: var(--heading-font-color);
 }
 
 img,
-.zoom-img-wrap {
+.lightense-wrap {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
 
-  & + em {
+img,
+.lightense-wrap,
+.gallery {
+  &+em {
     display: block;
-    margin-top: -25px;
-    margin-bottom: 50px;
-    font-size: 14px;
-    line-height: 22px;
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 1;
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    color: $heading-font-color;
+    color: var(--heading-font-color);
 
     a {
-      border-bottom: 1px solid $heading-font-color;
+      font-weight: 500;
+      border-bottom: 1px solid var(--border-color);
+      transition: $global-transition;
+
       &:hover {
-        color: $link-color-hover;
-        border-color: $brand-color;
+        color: var(--link-color);
+        border-color: var(--link-color);
       }
+    }
+
+    @media (max-width: $mobile) {
+      margin-top: 12px;
     }
   }
 }
 
 a {
   text-decoration: none;
-  color: $link-color;
+  color: var(--link-color);
   transition: $global-transition;
+
   &:hover {
-    color: $link-color-hover;
+    color: var(--link-color);
   }
 }
 
 hr {
-  display: block;
+  position: relative;
   height: 1px;
-  width: 100px;
   margin: 50px 0;
   border: 0;
-  background: $hr-color;
+
+  &::before {
+    content: ". . .";
+    position: absolute;
+    top: -5px;
+    line-height: 0;
+    color: var(--heading-font-color);
+  }
 }
 
-.wrapper-page {
-  margin-bottom: 70px;
+.table-container {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
 
-  @media only screen and (max-width: $tablet) {
-    margin-bottom: 60px;
-  }
+table {
+  font-size: 12px;
+  color: var(--dark);
+  width: 100%;
+  border-width: 1px;
+  border-collapse: collapse;
+  color: var(--heading-font-color);
+}
 
-  @media only screen and (max-width: $mobile) {
-    margin-bottom: 40px;
+table th {
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid var(--th-color);
+  color: var(--heading-font-color);
+  font-weight: 700;
+}
+
+table tr {
+  background-color: var(--tr-color);
+  transition: all .3s ease;
+
+  &:nth-child(even) {
+    background-color: transparent;
   }
+}
+
+table td {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid var(--th-color);
 }
 
 .button {
   display: inline-block;
-  height: 45px;
+  height: 50px;
   padding: 0 20px;
   font-size: 15px;
   font-weight: 700;
   border: none;
   outline: none;
-  color: $button-color;
-  background: $button-background-color;
-  transition: all 0.35s;
+  color: var(--button-color);
+  background: var(--button-background-color);
+  transition: $global-transition;
   cursor: pointer;
 
   &:hover {
-    color: $white;
-    background: $button-background-hover;
+    color: var(--white);
+    background: var(--button-background-hover);
+  }
+
+  &--rounded {
+    border-radius: 40px;
+  }
+
+  &--big {
+    display: block;
+    width: 100%;
   }
 }
 
@@ -230,6 +272,19 @@ hr {
   transition: 0.3s;
 
   &.loaded {
-    opacity: 1;
+    opacity: 1
   }
+}
+
+.lazy {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy.loaded {
+  opacity: 1;
+}
+
+.lightense-backdrop {
+  background-color: var(--background-color) !important;
 }

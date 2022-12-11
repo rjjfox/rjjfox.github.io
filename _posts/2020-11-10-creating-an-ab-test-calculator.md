@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Creating an AB test calculator with both Frequentist and Bayesian approaches"
-categories: [python, statistics, web-dev]
+tags: [python, statistics, web-dev]
 location: London, UK
 location-link: london
 image: /assets/img/testcalculator.gif
+featured: true
 ---
 
 > Statistical analysis is more than a set of computations

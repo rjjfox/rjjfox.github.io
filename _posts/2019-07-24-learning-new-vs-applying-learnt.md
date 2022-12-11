@@ -2,7 +2,7 @@
 layout: post
 title: "Learning new vs. applying 'learnt'"
 date: 2019-07-24 18:00:00 +0600
-categories: general
+tags: [general]
 location: Santa Cruz de la Sierra, Bolivia
 location-link: Santa+Cruz+de+la+Sierra
 image: https://images.unsplash.com/photo-1599008633840-052c7f756385?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80

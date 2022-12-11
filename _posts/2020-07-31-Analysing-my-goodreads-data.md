@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analysing my Goodreads data"
-categories: [books, python]
+tags: [books, python]
 location: London, UK
 location-link: london
 image: https://cdn0.iconfinder.com/data/icons/socicons-3/512/Goodreads-512.png

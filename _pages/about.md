@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 image: /assets/img/ryan-cotswolds.jpg
@@ -8,12 +8,6 @@ image: /assets/img/ryan-cotswolds.jpg
 Hi, I'm Ryan Fox, a product data scientist with over 7+ years experience of optimising products through experimentation and AB testing.
 
 I'm passionate about finding insights in data and driving real change. Experimentation programs that I've led have been forecasted to deliver millions of pounds worth of incremental revenue.
-
-<div align="center" markdown="1">
-<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](mailto:ryanfox212@gmail.com) | <i class="fas fa-phone"></i> +447706794177
-<br>
-<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
-</div>
 
 ## My background
 
@@ -53,16 +47,8 @@ On a non-professional front, I'm a keen traveller having taken a couple of years
 ![Antarctica]({{site.baseurl}}/assets/img/antarctica-zeplin.jpeg)
 _The Antarctic Peninsula, December 2016_
 
-I'm also an avid reader, averaging around 2 books a week in 2020. I love to read and read mostly fiction as I discovered when I [analysed my reading activity]({% post_url 2020-07-31-Analysing-my-goodreads-data %}). I enjoy reading books about maths, statistics, data science and software engineering, recommending [The Art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics), [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), [Factfulness](https://www.goodreads.com/book/show/34890015-factfulness) and many many others.
+I'm also an avid reader, averaging 1 to 2 books a week. I love to read and read mostly fiction as I discovered when I [analysed my reading activity]({% post_url 2020-07-31-Analysing-my-goodreads-data %}). I enjoy reading books about maths, statistics, data science and software engineering, recommending [The Art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics), [Thinking Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow), [Factfulness](https://www.goodreads.com/book/show/34890015-factfulness) and many many others.
 
-I currently live in Lyon, France with my girlfriend Laura having only moved here recently at the start of 2021. I'm originally from London where I have lived most of my life other than 4 years at university in Sheffield and a few years travelling.
+## Work with me
 
-## What are you working on now?
-
-I'm currently looking for a data science position in product analytics. While looking, I'm improving my Data Engineering knowledge which I see as one of the gaps in my knowledge currently. I'm also working as a Digital Consultant for Saint Francis Hospice to help them get more donations through their site during the Covid-19 pandemic.
-
-<div align="center" markdown="1">
-<i class="fas fa-envelope-square"></i> [ryanfox212@gmail.com](mailto:ryanfox212@gmail.com) | <i class="fas fa-phone"></i> +447706794177
-<br>
-<i class="fab fa-linkedin-in"></i> [LinkedIn](https://www.linkedin.com/in/rjjfox/) | <i class="fab fa-github"></i> [Github](https://github.com/rjjfox) | <i class="fas fa-user"></i> [My CV]({{site.baseurl}}/assets/RyanFoxCV.pdf)
-</div>
+I'm currently looking for a data science position in product analytics. I'm also working as a Digital Consultant for Saint Francis Hospice to help them get more donations through their site during the Covid-19 pandemic.

@@ -48,6 +48,7 @@ kramdown:
   # parse_block_html: true
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 9
 paginate_path: "/page/:num"

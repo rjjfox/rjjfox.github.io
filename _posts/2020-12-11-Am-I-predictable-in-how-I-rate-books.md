@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Am I predictable in how I rate books?"
-categories: [books, python, machine-learning]
+tags: [books, python, machine-learning]
 location: London, UK
 location-link: london
 image: https://scribemedia.com/wp-content/uploads/2020/02/Scribe_howtosetupgoodreads_Thumbnail-700x406.jpg

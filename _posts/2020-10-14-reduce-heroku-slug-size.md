@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reduce your Heroku slug size"
-categories: [web-dev]
+tags: [web-dev]
 location: Paris, France
 location-link: paris
 image: https://miro.medium.com/max/2400/1*FSkUtK8pYPBSNeaVotU4Ug.png
