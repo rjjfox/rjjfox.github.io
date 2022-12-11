@@ -4,7 +4,7 @@ title: "Adding tasks quickly through Notion"
 categories: general
 location: London, UK
 location-link: london
-image: http://yummygum.s3.amazonaws.com/tumblr/posts/img/how-alfred-app-can-make-you-a-more-efficient-and-productive-designer/how-alfred-app-can-make-you-a-more-efficient-and-productive-designer-header.png
+image: https://images.ctfassets.net/lzny33ho1g45/alfred-p-img/71663bbc6930f55fab6b7967399d53fb/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760
 ---
 
 One of my favourite apps for productivity on the Mac is [Alfred](https://www.alfredapp.com/). It's a suped up version of Spotlight or for the windows comparison it's like the Windows search function. I use Alfred around close to 100 times a day to launch apps, search for files, do Google searches, grab items off the clipboard history and more.
