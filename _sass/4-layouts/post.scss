@@ -4,6 +4,17 @@
   max-width: 850px;
   margin: 0 auto;
   color: $heading-font-color;
+
+  img[src$="#wide"] {
+    display: block;
+    width: 100vw;
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0;
+    pointer-events: none;
+    user-select: none;
+  }
 }
 
 .post__content a,
