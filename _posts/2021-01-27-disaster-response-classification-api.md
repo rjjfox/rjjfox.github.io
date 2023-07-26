@@ -11,7 +11,7 @@ Taking a dataset from Appen containing 30,000 messages received during disasters
 
 During a crisis, organisations are overloaded with messages, coming directly, through the news or on on social media. Filtering through masses of data in the midst of a crisis is not what we want disaster response organisations to be worrying about. Using the API, organisations can filter out irrelevant messages.
 
-[See it live](https://disaster.rfoxdata.co.uk/).
+[See it live](https://ryanfox212.pythonanywhere.com/).
 
 ![Hero ><]({{site.baseurl}}/assets/img/disaster-hero.jpg)
 _App screenshot_
@@ -75,6 +75,6 @@ With more time, I would have liked to dive into dealing with imbalanced data a b
 
 ## Links
 
-- [Live App](https://disaster.rfoxdata.co.uk/)
+- [Live App](https://ryanfox212.pythonanywhere.com/)
 - [Github Repository](https://github.com/rjjfox/disaster-response-classification)
 - [Dataset](https://appen.com/datasets/combined-disaster-response-data/)
