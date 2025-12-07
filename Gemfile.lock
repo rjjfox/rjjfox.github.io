@@ -63,6 +63,7 @@ GEM
 PLATFORMS
   universal-darwin-21
   universal-darwin-22
+  universal-darwin-25
 
 DEPENDENCIES
   jekyll-feed (~> 0.12)
