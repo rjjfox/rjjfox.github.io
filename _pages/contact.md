@@ -11,7 +11,9 @@ image: "/assets/img/desertpic.jpeg"
     <p class="form-description">{{site.data.settings.contact.description}}</p>
     {% endif %}
   </div>
-  <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+  <!-- modify this form HTML and place wherever you want your form -->
+
+  <form class="form" action="https://formspree.io/f/xeoyleel" method="POST">
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
       <input class="form__input" id="form-name" type="text" name="name" placeholder="Name..." required>
@@ -28,4 +30,5 @@ image: "/assets/img/desertpic.jpeg"
       <button class="button button--rounded" type="submit">Send Message</button>
     </div>
   </form>
+
 </div>

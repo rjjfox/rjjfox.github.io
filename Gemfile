@@ -29,3 +29,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 git_source(:github) {"https://github.com/rjjfox/rjjfox.github.io" }
+
+# Adding some stuff manually :/
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate' 
